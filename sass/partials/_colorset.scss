@@ -1,0 +1,39 @@
+// palette http://colorschemedesigner.com/#0h51TK-hWpBpB
+$red           : #8F0000;
+$redShadow1    : #721717;
+$redShadow2    : #670000;
+$redLight1     : #BC2626;
+$redLight2     : #BC4444;
+$yellow        : #8F5F00;
+$yellowShadow1 : #725417;
+$yellowShadow2 : #674500;
+$yellowLight1  : #BC8A26;
+$yellowLight2  : #BC9444;
+$blue          : #005656;
+$blueShadow1   : #0E4545;
+$blueShadow2   : #003E3E;
+$blueLight1    : #1F9999;
+$blueLight2    : #379999;
+$brown         : #8F4100;
+$brownShadow1  : #724017;
+$brownShadow2  : #672F00;
+$brownLight1   : #BC6A26;
+$brownLight2   : #BC7A44;
+
+* {
+  color: white;
+}
+#header, #footer {
+  background: $brown; }
+.dev-header {
+  background: $red; }
+.dev-content {
+  background: $redLight1; }
+.eng-header {
+  background: $yellow; }
+.eng-content {
+  background: $yellowLight1; }
+.exp-header {
+  background: $blue; }
+.exp-content {
+  background: $blueLight1; }
