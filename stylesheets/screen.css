@@ -72,14 +72,21 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -142px;
+  margin: 0 auto -200px;
   /* the bottom margin is the negative value of the footer's height */
 }
 
 /* line 13, ../sass/partials/_stickyfooter.scss */
 .footer, .push {
-  height: 142px;
+  height: 200px;
   /* .push must be the same height as .footer */
+}
+
+/* line 16, ../sass/partials/_stickyfooter.scss */
+.footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*
@@ -93,39 +100,54 @@ http://ryanfait.com/
   color: white;
 }
 
-/* line 26, ../sass/partials/_colorset.scss */
-#header, #footer {
-  background: #8f4100;
+/* line 25, ../sass/partials/_colorset.scss */
+body {
+  background-color: #bc7a44;
 }
 
-/* line 28, ../sass/partials/_colorset.scss */
-.dev-header {
-  background: #8f0000;
+/* line 27, ../sass/partials/_colorset.scss */
+#header, #footer {
+  background: #8f4100;
+  border-color: #672f00;
 }
 
 /* line 30, ../sass/partials/_colorset.scss */
-.dev-content {
-  background: #bc2626;
+#footer, .dev .header, .eng .header, .exp .header {
+  border-style: solid;
+  border-width: 1px 0 0;
 }
 
-/* line 32, ../sass/partials/_colorset.scss */
-.eng-header {
-  background: #8f5f00;
-}
-
-/* line 34, ../sass/partials/_colorset.scss */
-.eng-content {
-  background: #bc8a26;
+/* line 33, ../sass/partials/_colorset.scss */
+.dev .header {
+  background: #8f0000;
+  border-color: #670000;
 }
 
 /* line 36, ../sass/partials/_colorset.scss */
-.exp-header {
-  background: #005656;
+.dev .body {
+  background: #bc4444;
 }
 
 /* line 38, ../sass/partials/_colorset.scss */
-.exp-content {
-  background: #1f9999;
+.eng .header {
+  background: #8f5f00;
+  border-color: #674500;
+}
+
+/* line 41, ../sass/partials/_colorset.scss */
+.eng .body {
+  background: #bc9444;
+}
+
+/* line 43, ../sass/partials/_colorset.scss */
+.exp .header {
+  background: #005656;
+  border-color: #003e3e;
+}
+
+/* line 46, ../sass/partials/_colorset.scss */
+.exp .body {
+  background: #379999;
 }
 
 /* line 25, ../sass/screen.scss */
@@ -564,15 +586,36 @@ form.bp form.inline p {
   margin-bottom: 0;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
+body.one-col {
+  font-size: 12px;
+}
+/* line 41, ../sass/screen.scss */
+body.one-col #header {
+  line-height: 50px;
+}
+/* line 43, ../sass/screen.scss */
+body.one-col .feature .header {
+  line-height: 100px;
+}
+/* line 45, ../sass/screen.scss */
+body.one-col .article .header {
+  line-height: 75px;
+}
+/* line 47, ../sass/screen.scss */
+body.one-col .article .body {
+  padding: 32px 0;
+  /* (75px line-height - 12px text-height) / 2 */
+}
+/* line 49, ../sass/screen.scss */
 body.one-col .container {
   width: 1000px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 42, ../sass/screen.scss */
-body.one-col .container > .content {
+/* line 51, ../sass/screen.scss */
+body.one-col .container .content {
   padding-left: 202px;
   display: inline;
   float: left;
@@ -581,15 +624,15 @@ body.one-col .container > .content {
   padding-right: 202px;
 }
 /* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container > .content {
+* html body.one-col .container .content {
   overflow-x: hidden;
 }
-/* line 46, ../sass/screen.scss */
-body.one-col .container > .content.has-icon {
+/* line 56, ../sass/screen.scss */
+body.one-col .container .content.has-icon {
   padding-left: 101px;
 }
-/* line 48, ../sass/screen.scss */
-body.one-col .container > .content.has-icon .icon {
+/* line 58, ../sass/screen.scss */
+body.one-col .container .content.has-icon .icon {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -597,10 +640,10 @@ body.one-col .container > .content.has-icon .icon {
   text-align: right;
 }
 /* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container > .content.has-icon .icon {
+* html body.one-col .container .content.has-icon .icon {
   overflow-x: hidden;
 }
-/* line 51, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 body.one-col .ten-columns {
   display: inline;
   float: left;
@@ -611,7 +654,7 @@ body.one-col .ten-columns {
 * html body.one-col .ten-columns {
   overflow-x: hidden;
 }
-/* line 53, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 body.one-col .ten-columns.last {
   display: inline;
   float: left;

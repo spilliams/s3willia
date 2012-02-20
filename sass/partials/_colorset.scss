@@ -21,19 +21,27 @@ $brownLight1   : #BC6A26;
 $brownLight2   : #BC7A44;
 
 * {
-  color: white;
-}
+  color: white; }
+body {
+  background-color: $brownLight2; }
 #header, #footer {
-  background: $brown; }
-.dev-header {
-  background: $red; }
-.dev-content {
-  background: $redLight1; }
-.eng-header {
-  background: $yellow; }
-.eng-content {
-  background: $yellowLight1; }
-.exp-header {
-  background: $blue; }
-.exp-content {
-  background: $blueLight1; }
+  background: $brown; 
+  border-color: $brownShadow2; }
+#footer, .dev .header, .eng .header, .exp .header {
+  border-style: solid;
+  border-width: 1px 0 0; }
+.dev .header {
+  background: $red;
+  border-color: $redShadow2; }
+.dev .body {
+  background: $redLight2; }
+.eng .header {
+  background: $yellow;
+  border-color: $yellowShadow2; }
+.eng .body {
+  background: $yellowLight2; }
+.exp .header {
+  background: $blue;
+  border-color: $blueShadow2; }
+.exp .body {
+  background: $blueLight2; }
