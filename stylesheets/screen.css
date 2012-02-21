@@ -168,54 +168,67 @@ body {
   filter: dropshadow(color=#003e3e, offx=0, offy=0);
 }
 
-/* line 73, ../sass/partials/_colorset.scss */
-.dev .header, .eng .header, .exp .header {
-  color: white;
+/* line 72, ../sass/partials/_colorset.scss */
+.feature .header {
   border-style: solid;
   border-width: 1px 0 0;
 }
+
 /* line 77, ../sass/partials/_colorset.scss */
+.dev .header, .dev .body, .eng .header, .eng .body, .exp .header, .exp .body {
+  border-style: solid;
+}
+/* line 78, ../sass/partials/_colorset.scss */
+.dev .header, .eng .header, .exp .header {
+  color: white;
+  border-width: 1px 0 0;
+}
+/* line 81, ../sass/partials/_colorset.scss */
 .dev .body, .eng .body, .exp .body {
   color: black;
+  border-width: 0 0 1px;
 }
 
-/* line 79, ../sass/partials/_colorset.scss */
+/* line 84, ../sass/partials/_colorset.scss */
 .header {
   background: #8f4100;
   border-color: #672f00;
 }
 
-/* line 82, ../sass/partials/_colorset.scss */
+/* line 87, ../sass/partials/_colorset.scss */
 .dev .header {
   background: #8f0000;
   border-color: #670000;
 }
 
-/* line 85, ../sass/partials/_colorset.scss */
+/* line 90, ../sass/partials/_colorset.scss */
 .dev .body {
   background: #bc4444;
+  border-color: #bc2626;
 }
 
-/* line 87, ../sass/partials/_colorset.scss */
+/* line 93, ../sass/partials/_colorset.scss */
 .eng .header {
   background: #8f5f00;
   border-color: #674500;
 }
 
-/* line 90, ../sass/partials/_colorset.scss */
+/* line 96, ../sass/partials/_colorset.scss */
 .eng .body {
   background: #bc9444;
+  border-color: #bc8a26;
 }
 
-/* line 92, ../sass/partials/_colorset.scss */
+/* line 99, ../sass/partials/_colorset.scss */
 .exp .header {
   background: #005656;
   border-color: #003e3e;
 }
 
-/* line 95, ../sass/partials/_colorset.scss */
+/* line 102, ../sass/partials/_colorset.scss */
 .exp .body {
   background: #379999;
+  border-color: #1f9999;
 }
 
 @font-face {

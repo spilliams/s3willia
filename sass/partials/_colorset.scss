@@ -69,13 +69,18 @@ body {
       @include text-shadow($blueShadow2); } } }
 
 
+.feature .header {
+  border-style: solid;
+  border-width: 1px 0 0;
+}
 .dev, .eng, .exp {
+  .header, .body { border-style: solid; }
   .header {
     color: white;
-    border-style: solid;
     border-width: 1px 0 0; }
   .body { 
-    color: black; } }
+    color: black;
+    border-width: 0 0 1px; } }
 .header {
   background: $brown;
   border-color: $brownShadow2; }
@@ -83,14 +88,17 @@ body {
   background: $red;
   border-color: $redShadow2; }
 .dev .body {
-  background: $redLight2; }
+  background: $redLight2;
+  border-color: $redLight1; }
 .eng .header {
   background: $yellow;
   border-color: $yellowShadow2; }
 .eng .body {
-  background: $yellowLight2; }
+  background: $yellowLight2;
+  border-color: $yellowLight1; }
 .exp .header {
   background: $blue;
   border-color: $blueShadow2; }
 .exp .body {
-  background: $blueLight2; }
+  background: $blueLight2;
+  border-color: $blueLight1; }
