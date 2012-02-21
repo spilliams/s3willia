@@ -125,13 +125,13 @@ body {
 }
 /* line 46, ../sass/partials/_colorset.scss */
 #header .dev a:hover {
-  color: #bc2626;
+  color: #bc4444 !important;
   text-shadow: 0px 0px 4px #670000;
   filter: dropshadow(color=#670000, offx=0, offy=0);
 }
 /* line 49, ../sass/partials/_colorset.scss */
 #header .dev a.active {
-  color: #bc4444;
+  color: #bc2626;
   text-shadow: 0px 0px 4px #670000;
   filter: dropshadow(color=#670000, offx=0, offy=0);
 }
@@ -141,13 +141,13 @@ body {
 }
 /* line 55, ../sass/partials/_colorset.scss */
 #header .eng a:hover {
-  color: #bc8a26;
+  color: #bc9444 !important;
   text-shadow: 0px 0px 4px #674500;
   filter: dropshadow(color=#674500, offx=0, offy=0);
 }
 /* line 58, ../sass/partials/_colorset.scss */
 #header .eng a.active {
-  color: #bc9444;
+  color: #bc8a26;
   text-shadow: 0px 0px 4px #674500;
   filter: dropshadow(color=#674500, offx=0, offy=0);
 }
@@ -157,13 +157,13 @@ body {
 }
 /* line 64, ../sass/partials/_colorset.scss */
 #header .exp a:hover {
-  color: #1f9999;
+  color: #379999 !important;
   text-shadow: 0px 0px 4px #003e3e;
   filter: dropshadow(color=#003e3e, offx=0, offy=0);
 }
 /* line 67, ../sass/partials/_colorset.scss */
 #header .exp a.active {
-  color: #379999;
+  color: #1f9999;
   text-shadow: 0px 0px 4px #003e3e;
   filter: dropshadow(color=#003e3e, offx=0, offy=0);
 }

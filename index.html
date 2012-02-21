@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>spencerenglish.com</title>
+    <script type='text/javascript' src='javascripts/jquery-1.7.1.js'></script>
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if lt IE 8]>
@@ -19,9 +20,9 @@
           <span style='float:right'>
             <div id='nav'>
               i am a
-              <span class='dev'><a href='javascript:void(0)' class='dev active'>developer</a></span>,
-              <span class='eng'><a href='javascript:void(0)' class='eng active'>engineer</a></span> and
-              <span class='exp'><a href='javascript:void(0)' class='exp active'>explorer</a></span>
+              <span class='dev'><a href='javascript:void(0)' class='dev active' onclick="$(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');return false;">developer</a></span>,
+              <span class='eng'><a href='javascript:void(0)' class='eng active' onclick="$(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');return false;">engineer</a></span> and
+              <span class='exp'><a href='javascript:void(0)' class='exp active' onclick="$(this).hasClass('active') ? $(this).removeClass('active') : $(this).addClass('active');return false;">explorer</a></span>
             </span>
           </div>
         </div>

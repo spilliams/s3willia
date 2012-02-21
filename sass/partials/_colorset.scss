@@ -44,28 +44,28 @@ body {
     a {
       color: $red; }
     a:hover {
-      color: $redLight1;
+      color: $redLight2 !important;
       @include text-shadow($redShadow2); }
     a.active {
-      color: $redLight2;
+      color: $redLight1;
       @include text-shadow($redShadow2); } }
   .eng {
     a {
       color: $yellow; }
     a:hover {
-      color: $yellowLight1;
+      color: $yellowLight2 !important;
       @include text-shadow($yellowShadow2); }
     a.active {
-      color: $yellowLight2;
+      color: $yellowLight1;
       @include text-shadow($yellowShadow2); } }
   .exp {
     a {
       color: $blue; }
     a:hover {
-      color: $blueLight1;
+      color: $blueLight2 !important;
       @include text-shadow($blueShadow2); }
     a.active {
-      color: $blueLight2;
+      color: $blueLight1;
       @include text-shadow($blueShadow2); } } }
 
 
