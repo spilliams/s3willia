@@ -15,6 +15,12 @@
 // Import the colorset
 @import "partials/colorset";
 
+// Import the typeset
+@import "partials/typeset";
+
+// Import the grid
+@import "partials/grid";
+
 // To generate css equivalent to the blueprint css but with your
 // configuration applied, uncomment:
 // @include blueprint
@@ -22,8 +28,8 @@
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
 // what pages use blueprint when stylesheets are concatenated together.
+// @include blueprint-typography(true);
 body.bp {
-  @include blueprint-typography(true);
   @include blueprint-utilities;
   @include blueprint-debug;
   @include blueprint-interaction;
@@ -36,30 +42,8 @@ form.bp {
   // You'll probably want to remove the scaffolding once you start styling your site.
   @include blueprint-scaffolding; }
 
-body.one-col {
-  font-size: 12px;
-  #header {
-    line-height: 50px; }
-  .feature .header {
-    line-height: 100px; }
-  .article .header {
-    line-height: 75px; }
-  .article .body {
-    padding: 32px 0; /* (75px line-height - 12px text-height) / 2 */ }
-  .container {
-    @include container;
-    .content {
-      @include prepend(4);
-      @include column(12);
-      @include append(4);
-    }
-    .content.has-icon {
-      @include prepend(2);
-      .icon {
-        @include column(2);
-        text-align: right; } } }
-  .ten-columns {
-    @include column(10); }
-  .ten-columns.last {
-    @include column(10, true);
-    text-align: right; } }
+// what is this i don't even
+
+a {
+  text-decoration: none;
+}

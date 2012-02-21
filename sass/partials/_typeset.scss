@@ -1,0 +1,53 @@
+// see below for Usage
+// Cantarell, from Google Web Fonts
+
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Cantarell Regular'),
+    local('Cantarell-Regular'),
+    url('http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff') format('woff'); }
+
+// Museo Slab, from My Fonts
+
+@font-face {
+  font-family: 'MuseoSlab-500';
+  src: url('/typefaces/202288_0_0.eot');
+  src:
+    url('/typefaces/202288_0_0.eot?#iefix') format('embedded-opentype'),
+    url('/typefaces/202288_0_0.woff') format('woff'),
+    url('/typefaces/202288_0_0.ttf') format('truetype'); }
+
+@font-face {
+  font-family: 'MuseoSlab-500Italic';
+  src: url('/typefaces/202288_1_0.eot');
+  src:
+    url('/typefaces/202288_1_0.eot?#iefix') format('embedded-opentype'),
+    url('/typefaces/202288_1_0.woff') format('woff'),
+    url('/typefaces/202288_1_0.ttf') format('truetype'); }
+
+// Usage of typefaces
+body {
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+}
+
+#header a, .title {
+  font-family: 'MuseoSlab-500' !important; }
+
+// font=size and things like that
+body {
+  font-size: 20px;
+  #header {
+    font-size: 15px;
+    line-height: 75px;
+    a {
+      line-height: 50px;
+      font-size: 35px; } }
+  .title {
+    font-size: 35px; }
+  .feature .header {
+    line-height: 100px; }
+  .article .header {
+    line-height: 75px; } }

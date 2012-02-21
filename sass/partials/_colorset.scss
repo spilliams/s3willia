@@ -20,16 +20,65 @@ $brownShadow2  : #672F00;
 $brownLight1   : #BC6A26;
 $brownLight2   : #BC7A44;
 
-* {
-  color: white; }
+@mixin text-shadow($color) {
+  text-shadow: 0px 0px 4px $color;
+  filter: dropshadow(color=$color, offx=0, offy=0);
+}
+
 body {
   background-color: $brownLight2; }
 #header, #footer {
+  color: white;
   background: $brown; 
   border-color: $brownShadow2; }
-#footer, .dev .header, .eng .header, .exp .header {
+#footer {
   border-style: solid;
   border-width: 1px 0 0; }
+
+
+#header {
+  a {
+    color: $brownLight2;
+    @include text-shadow($brownShadow2); }
+  .dev {
+    a {
+      color: $red; }
+    a:hover {
+      color: $redLight1;
+      @include text-shadow($redShadow2); }
+    a.active {
+      color: $redLight2;
+      @include text-shadow($redShadow2); } }
+  .eng {
+    a {
+      color: $yellow; }
+    a:hover {
+      color: $yellowLight1;
+      @include text-shadow($yellowShadow2); }
+    a.active {
+      color: $yellowLight2;
+      @include text-shadow($yellowShadow2); } }
+  .exp {
+    a {
+      color: $blue; }
+    a:hover {
+      color: $blueLight1;
+      @include text-shadow($blueShadow2); }
+    a.active {
+      color: $blueLight2;
+      @include text-shadow($blueShadow2); } } }
+
+
+.dev, .eng, .exp {
+  .header {
+    color: white;
+    border-style: solid;
+    border-width: 1px 0 0; }
+  .body { 
+    color: black; } }
+.header {
+  background: $brown;
+  border-color: $brownShadow2; }
 .dev .header {
   background: $red;
   border-color: $redShadow2; }
