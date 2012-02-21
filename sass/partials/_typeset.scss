@@ -20,14 +20,6 @@
     url('/typefaces/202288_0_0.woff') format('woff'),
     url('/typefaces/202288_0_0.ttf') format('truetype'); }
 
-@font-face {
-  font-family: 'MuseoSlab-500Italic';
-  src: url('/typefaces/202288_1_0.eot');
-  src:
-    url('/typefaces/202288_1_0.eot?#iefix') format('embedded-opentype'),
-    url('/typefaces/202288_1_0.woff') format('woff'),
-    url('/typefaces/202288_1_0.ttf') format('truetype'); }
-
 // Usage of typefaces
 body {
   font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
