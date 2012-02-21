@@ -22,21 +22,21 @@
 
 // Usage of typefaces
 body {
-  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'MuseoSlab-500';
 }
 
 #header a, .title {
-  font-family: 'MuseoSlab-500' !important; }
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+ }
 
 // font=size and things like that
 body {
   font-size: 20px;
   #header {
-    font-size: 15px;
     line-height: 75px;
     a {
       line-height: 50px;
-      font-size: 35px; } }
+      font-size: 30px; } }
   .title {
     font-size: 35px; }
   .feature .header {

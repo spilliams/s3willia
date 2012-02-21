@@ -233,27 +233,26 @@ body {
 
 /* line 24, ../sass/partials/_typeset.scss */
 body {
-  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'MuseoSlab-500';
 }
 
 /* line 28, ../sass/partials/_typeset.scss */
 #header a, .title {
-  font-family: 'MuseoSlab-500' !important;
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
 }
 
-/* line 32, ../sass/partials/_typeset.scss */
+/* line 33, ../sass/partials/_typeset.scss */
 body {
   font-size: 20px;
 }
-/* line 34, ../sass/partials/_typeset.scss */
+/* line 35, ../sass/partials/_typeset.scss */
 body #header {
-  font-size: 15px;
   line-height: 75px;
 }
 /* line 37, ../sass/partials/_typeset.scss */
 body #header a {
   line-height: 50px;
-  font-size: 35px;
+  font-size: 30px;
 }
 /* line 40, ../sass/partials/_typeset.scss */
 body .title {
