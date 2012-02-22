@@ -14,32 +14,21 @@
 
 @font-face {
   font-family: 'MuseoSlab-500';
-  src: url('/typefaces/202288_0_0.eot');
+  src: url('../typefaces/202288_0_0.eot');
   src:
-    url('/typefaces/202288_0_0.eot?#iefix') format('embedded-opentype'),
-    url('/typefaces/202288_0_0.woff') format('woff'),
-    url('/typefaces/202288_0_0.ttf') format('truetype'); }
+    url('../typefaces/202288_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../typefaces/202288_0_0.woff') format('woff'),
+    url('../typefaces/202288_0_0.ttf') format('truetype'); }
 
 // Usage of typefaces
+// serif
 body {
-    font-family: 'MuseoSlab-500';
-}
+    font-family: 'MuseoSlab-500'; }
 
+// sans-serif
 #header a, .title {
-  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
- }
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif; }
 
-// font=size and things like that
-body {
-  font-size: 20px;
-  #header {
-    line-height: 75px;
-    a {
-      line-height: 50px;
-      font-size: 30px; } }
-  .title {
-    font-size: 35px; }
-  .feature .header {
-    line-height: 100px; }
-  .article .header {
-    line-height: 75px; } }
+// monospace/special
+code, pre {
+  font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace; }

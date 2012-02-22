@@ -45,5 +45,20 @@ form.bp {
 // what is this i don't even
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
+// for the fancy js stuff
+
+.article .body {
+  display: none; }
+.article .header, .preview {
+  cursor: pointer; }
+
+// images
+
+.preview img {
+  float: left;
+  margin-top: 6px; }
+.article .body img.thumb {
+  float: left;
+  padding-right: 10px; }

@@ -38,8 +38,10 @@ body {
 
 #header {
   a {
-    color: $brownLight2;
+    color: $brownLight1;
     @include text-shadow($brownShadow2); }
+  a:hover {
+    color: $brownLight2; }
   .dev {
     a {
       color: $red; }
