@@ -1,4 +1,6 @@
 This is my new website. It uses [Compass](http://compass-style.org/) and [Blueprint](http://blueprintcss.org/).
+Design resources: [Color Scheme Designer](http://colorschemedesigner.com/) and [Subtle Patterns](http://subtlepatterns.com/).
+
 
 ###TODO
 
@@ -11,3 +13,4 @@ This is my new website. It uses [Compass](http://compass-style.org/) and [Bluepr
 - footer content
 - "looking for my blog" or "about me" user stories
 - put Germany photos on flickr
+- <strike>make it look more fabulous</strike>

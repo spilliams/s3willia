@@ -20,11 +20,14 @@ $brownShadow2  : #672F00;
 $brownLight1   : #BC6A26;
 $brownLight2   : #BC7A44;
 $grey          : rgba(0,0,0,0.4);
+$clearWhite    : rgba(255,255,255,0.1);
 $texture       : #575757 url('../images/furley_bg.png');
 
-@mixin text-shadow($color) {
-  text-shadow: 0px 0px 4px $color;
-  filter: dropshadow(color=$color, offx=0, offy=0); }
+@mixin text-glow($color) {
+  text-shadow: 0px 0px 4px $color; }
+@mixin text-inset {
+  text-shadow: 0px -1px 0px $grey, 0px 1px 0px $clearWhite;
+  }
 @mixin box-shadow($s) {
   -webkit-box-shadow: $s;
   -moz-box-shadow: $s;
@@ -39,24 +42,23 @@ body {
 #header, #footer {
   color: white;
   background: $texture repeat scroll 0 0;
-  @include text-shadow($grey); }
+  @include text-glow($grey); }
 #footer {
   @include box-shadow(inset 0px 2px 2px $grey); }
 
 
 code, pre {
   background: $texture repeat scroll 0 0;
-  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 rgba(255,255,255,0.1)});
+  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
   @include round(3px);
-  padding: 3px;
-}
+  padding: 3px; }
 
 
 #header {
   @include box-shadow(inset 0px 0px 2px $grey);
   a {
     color: $brownLight1;
-    @include text-shadow($brownShadow2); }
+    @include text-glow($brownShadow2); }
   a:hover {
     color: $brownLight2; }
   .dev {
@@ -64,29 +66,35 @@ code, pre {
       color: $red; }
     a:hover {
       color: $redLight2 !important;
-      @include text-shadow($redShadow2); }
+      @include text-glow($redShadow2); }
     a.active {
       color: $redLight1;
-      @include text-shadow($redShadow2); } }
+      @include text-glow($redShadow2); } }
   .eng {
     a {
       color: $yellow; }
     a:hover {
       color: $yellowLight2 !important;
-      @include text-shadow($yellowShadow2); }
+      @include text-glow($yellowShadow2); }
     a.active {
       color: $yellowLight1;
-      @include text-shadow($yellowShadow2); } }
+      @include text-glow($yellowShadow2); } }
   .exp {
     a {
       color: $blue; }
     a:hover {
       color: $blueLight2 !important;
-      @include text-shadow($blueShadow2); }
+      @include text-glow($blueShadow2); }
     a.active {
       color: $blueLight1;
-      @include text-shadow($blueShadow2); } } }
+      @include text-glow($blueShadow2); } } }
 
+
+.header .title, .header .meta, .social {
+  @include text-inset; }
+
+.social a {
+  color: black; }
 
 .feature .header {
   border-style: solid;
@@ -94,35 +102,43 @@ code, pre {
   border-color: $brownShadow2; }
 
 .dev, .eng, .exp {
+  &.article {
+    border-style: solid;
+    border-width: 0 0 1px; }
   .header, .body { border-style: solid; }
   .header {
     color: white;
     border-width: 1px 0 0; }
   .body { 
-    color: black;
-    border-width: 0 0 1px; } }
+    color: black; } }
 
 .header {
   background: $brown;
   border-color: $brownShadow2; }
-.dev .header {
-  background: $red;
-  border-color: $redShadow2; }
-.dev .body {
-  background: $redLight2;
-  border-color: $redLight1; }
-.eng .header {
-  background: $yellow;
-  border-color: $yellowShadow2; }
-.eng .body {
-  background: $yellowLight2;
-  border-color: $yellowLight1; }
-.exp .header {
-  background: $blue;
-  border-color: $blueShadow2; }
-.exp .body {
-  background: $blueLight2;
-  border-color: $blueLight1; }
+.dev {
+  &.article {
+    border-color: $redShadow1; }
+  .header {
+    background: $red;
+    border-color: $redShadow2; }
+  .body {
+    background: $redLight2; } }
+.eng {
+  &.article {
+    border-color: $yellowShadow1; }
+  .header {
+    background: $yellow;
+    border-color: $yellowShadow2; }
+  .body {
+    background: $yellowLight2; } }
+.exp {
+  &.article {
+    border-color: $blueShadow1; }
+  .header {
+    background: $blue;
+    border-color: $blueShadow2; }
+  .body {
+    background: $blueLight2; } }
 
 .eng, .exp { &.feature .header {
   border-style: none;

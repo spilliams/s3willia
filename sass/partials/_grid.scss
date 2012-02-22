@@ -8,12 +8,12 @@ body.one-col {
       @include prepend(4);
       @include column(12);
       @include append(4); }
-    .no-icon {
-      @include prepend(4); }
     .icon {
       @include prepend(2);
       @include column(2);
       text-align: right; }
+    .social {
+      text-align: center; }
     .title {
       @include column(10); }
     .meta {
@@ -28,6 +28,8 @@ body.one-col {
       @include column(3); }
     .fourth-columns.last {
       @include column(3,true); } } }
+.article .title {
+  @include prepend(4); }
 
 // horizontal grid
 body.one-col {
