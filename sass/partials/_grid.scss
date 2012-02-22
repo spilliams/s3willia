@@ -17,6 +17,7 @@ body.one-col {
     .title {
       @include column(10); }
     .meta {
+      text-align: right;
       @include column(2,true); }
     .half-columns {
       @include column(10); }

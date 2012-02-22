@@ -318,6 +318,7 @@ body.one-col .container .title {
 }
 /* line 19, ../sass/partials/_grid.scss */
 body.one-col .container .meta {
+  text-align: right;
   display: inline;
   float: left;
   margin-right: 0;
@@ -327,7 +328,7 @@ body.one-col .container .meta {
 * html body.one-col .container .meta {
   overflow-x: hidden;
 }
-/* line 21, ../sass/partials/_grid.scss */
+/* line 22, ../sass/partials/_grid.scss */
 body.one-col .container .half-columns {
   display: inline;
   float: left;
@@ -338,7 +339,7 @@ body.one-col .container .half-columns {
 * html body.one-col .container .half-columns {
   overflow-x: hidden;
 }
-/* line 23, ../sass/partials/_grid.scss */
+/* line 24, ../sass/partials/_grid.scss */
 body.one-col .container .half-columns.last {
   display: inline;
   float: left;
@@ -350,7 +351,7 @@ body.one-col .container .half-columns.last {
 * html body.one-col .container .half-columns.last {
   overflow-x: hidden;
 }
-/* line 26, ../sass/partials/_grid.scss */
+/* line 27, ../sass/partials/_grid.scss */
 body.one-col .container .fourth-columns {
   display: inline;
   float: left;
@@ -361,7 +362,7 @@ body.one-col .container .fourth-columns {
 * html body.one-col .container .fourth-columns {
   overflow-x: hidden;
 }
-/* line 28, ../sass/partials/_grid.scss */
+/* line 29, ../sass/partials/_grid.scss */
 body.one-col .container .fourth-columns.last {
   display: inline;
   float: left;
@@ -373,33 +374,33 @@ body.one-col .container .fourth-columns.last {
   overflow-x: hidden;
 }
 
-/* line 32, ../sass/partials/_grid.scss */
+/* line 33, ../sass/partials/_grid.scss */
 body.one-col {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 35, ../sass/partials/_grid.scss */
+/* line 36, ../sass/partials/_grid.scss */
 body.one-col #header {
   line-height: 75px;
 }
-/* line 37, ../sass/partials/_grid.scss */
+/* line 38, ../sass/partials/_grid.scss */
 body.one-col #header a {
   line-height: 50px;
   font-size: 30px;
 }
-/* line 40, ../sass/partials/_grid.scss */
+/* line 41, ../sass/partials/_grid.scss */
 body.one-col .title {
   font-size: 30px;
 }
-/* line 42, ../sass/partials/_grid.scss */
+/* line 43, ../sass/partials/_grid.scss */
 body.one-col .meta {
   font-size: 14px;
 }
-/* line 44, ../sass/partials/_grid.scss */
+/* line 45, ../sass/partials/_grid.scss */
 body.one-col .feature .header {
   line-height: 100px;
 }
-/* line 46, ../sass/partials/_grid.scss */
+/* line 47, ../sass/partials/_grid.scss */
 body.one-col .article .header {
   line-height: 75px;
 }
