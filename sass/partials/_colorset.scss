@@ -19,24 +19,41 @@ $brownShadow1  : #724017;
 $brownShadow2  : #672F00;
 $brownLight1   : #BC6A26;
 $brownLight2   : #BC7A44;
+$grey          : rgba(0,0,0,0.4);
+$texture       : #575757 url('../images/furley_bg.png');
 
 @mixin text-shadow($color) {
   text-shadow: 0px 0px 4px $color;
-  filter: dropshadow(color=$color, offx=0, offy=0);
-}
+  filter: dropshadow(color=$color, offx=0, offy=0); }
+@mixin box-shadow($s) {
+  -webkit-box-shadow: $s;
+  -moz-box-shadow: $s;
+  box-shadow: $s; }
+@mixin round($r) {
+  -webkit-border-radius: $r;
+  -mox-border-radius: $r;
+  border-radius: $r; }
 
 body {
   background-color: $brownLight2; }
 #header, #footer {
   color: white;
-  background: $brown; 
-  border-color: $brownShadow2; }
+  background: $texture repeat scroll 0 0;
+  @include text-shadow($grey); }
 #footer {
-  border-style: solid;
-  border-width: 1px 0 0; }
+  @include box-shadow(inset 0px 2px 2px $grey); }
+
+
+code, pre {
+  background: $texture repeat scroll 0 0;
+  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 rgba(255,255,255,0.1)});
+  @include round(3px);
+  padding: 3px;
+}
 
 
 #header {
+  @include box-shadow(inset 0px 0px 2px $grey);
   a {
     color: $brownLight1;
     @include text-shadow($brownShadow2); }
@@ -73,8 +90,9 @@ body {
 
 .feature .header {
   border-style: solid;
-  border-width: 1px 0 0;
-}
+  border-width: 0 0 1px;
+  border-color: $brownShadow2; }
+
 .dev, .eng, .exp {
   .header, .body { border-style: solid; }
   .header {
@@ -83,6 +101,7 @@ body {
   .body { 
     color: black;
     border-width: 0 0 1px; } }
+
 .header {
   background: $brown;
   border-color: $brownShadow2; }
@@ -104,3 +123,7 @@ body {
 .exp .body {
   background: $blueLight2;
   border-color: $blueLight1; }
+
+.eng, .exp { &.feature .header {
+  border-style: none;
+  border-width: 0; } }

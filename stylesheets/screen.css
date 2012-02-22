@@ -95,144 +95,171 @@ Sticky Footer by Ryan Fait
 http://ryanfait.com/
 
 */
-/* line 28, ../sass/partials/_colorset.scss */
+/* line 37, ../sass/partials/_colorset.scss */
 body {
   background-color: #bc7a44;
 }
 
-/* line 30, ../sass/partials/_colorset.scss */
+/* line 39, ../sass/partials/_colorset.scss */
 #header, #footer {
   color: white;
-  background: #8f4100;
-  border-color: #672f00;
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  filter: dropshadow(color=rgba(0, 0, 0, 0.4), offx=0, offy=0);
 }
 
-/* line 34, ../sass/partials/_colorset.scss */
+/* line 43, ../sass/partials/_colorset.scss */
 #footer {
-  border-style: solid;
-  border-width: 1px 0 0;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 40, ../sass/partials/_colorset.scss */
+/* line 47, ../sass/partials/_colorset.scss */
+code, pre {
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 3px;
+  -mox-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+/* line 55, ../sass/partials/_colorset.scss */
+#header {
+  -webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 57, ../sass/partials/_colorset.scss */
 #header a {
   color: #bc6a26;
   text-shadow: 0px 0px 4px #672f00;
   filter: dropshadow(color=#672f00, offx=0, offy=0);
 }
-/* line 43, ../sass/partials/_colorset.scss */
+/* line 60, ../sass/partials/_colorset.scss */
 #header a:hover {
   color: #bc7a44;
 }
-/* line 46, ../sass/partials/_colorset.scss */
+/* line 63, ../sass/partials/_colorset.scss */
 #header .dev a {
   color: #8f0000;
 }
-/* line 48, ../sass/partials/_colorset.scss */
+/* line 65, ../sass/partials/_colorset.scss */
 #header .dev a:hover {
   color: #bc4444 !important;
   text-shadow: 0px 0px 4px #670000;
   filter: dropshadow(color=#670000, offx=0, offy=0);
 }
-/* line 51, ../sass/partials/_colorset.scss */
+/* line 68, ../sass/partials/_colorset.scss */
 #header .dev a.active {
   color: #bc2626;
   text-shadow: 0px 0px 4px #670000;
   filter: dropshadow(color=#670000, offx=0, offy=0);
 }
-/* line 55, ../sass/partials/_colorset.scss */
+/* line 72, ../sass/partials/_colorset.scss */
 #header .eng a {
   color: #8f5f00;
 }
-/* line 57, ../sass/partials/_colorset.scss */
+/* line 74, ../sass/partials/_colorset.scss */
 #header .eng a:hover {
   color: #bc9444 !important;
   text-shadow: 0px 0px 4px #674500;
   filter: dropshadow(color=#674500, offx=0, offy=0);
 }
-/* line 60, ../sass/partials/_colorset.scss */
+/* line 77, ../sass/partials/_colorset.scss */
 #header .eng a.active {
   color: #bc8a26;
   text-shadow: 0px 0px 4px #674500;
   filter: dropshadow(color=#674500, offx=0, offy=0);
 }
-/* line 64, ../sass/partials/_colorset.scss */
+/* line 81, ../sass/partials/_colorset.scss */
 #header .exp a {
   color: #005656;
 }
-/* line 66, ../sass/partials/_colorset.scss */
+/* line 83, ../sass/partials/_colorset.scss */
 #header .exp a:hover {
   color: #379999 !important;
   text-shadow: 0px 0px 4px #003e3e;
   filter: dropshadow(color=#003e3e, offx=0, offy=0);
 }
-/* line 69, ../sass/partials/_colorset.scss */
+/* line 86, ../sass/partials/_colorset.scss */
 #header .exp a.active {
   color: #1f9999;
   text-shadow: 0px 0px 4px #003e3e;
   filter: dropshadow(color=#003e3e, offx=0, offy=0);
 }
 
-/* line 74, ../sass/partials/_colorset.scss */
+/* line 91, ../sass/partials/_colorset.scss */
 .feature .header {
   border-style: solid;
-  border-width: 1px 0 0;
+  border-width: 0 0 1px;
+  border-color: #672f00;
 }
 
-/* line 79, ../sass/partials/_colorset.scss */
+/* line 97, ../sass/partials/_colorset.scss */
 .dev .header, .dev .body, .eng .header, .eng .body, .exp .header, .exp .body {
   border-style: solid;
 }
-/* line 80, ../sass/partials/_colorset.scss */
+/* line 98, ../sass/partials/_colorset.scss */
 .dev .header, .eng .header, .exp .header {
   color: white;
   border-width: 1px 0 0;
 }
-/* line 83, ../sass/partials/_colorset.scss */
+/* line 101, ../sass/partials/_colorset.scss */
 .dev .body, .eng .body, .exp .body {
   color: black;
   border-width: 0 0 1px;
 }
 
-/* line 86, ../sass/partials/_colorset.scss */
+/* line 105, ../sass/partials/_colorset.scss */
 .header {
   background: #8f4100;
   border-color: #672f00;
 }
 
-/* line 89, ../sass/partials/_colorset.scss */
+/* line 108, ../sass/partials/_colorset.scss */
 .dev .header {
   background: #8f0000;
   border-color: #670000;
 }
 
-/* line 92, ../sass/partials/_colorset.scss */
+/* line 111, ../sass/partials/_colorset.scss */
 .dev .body {
   background: #bc4444;
   border-color: #bc2626;
 }
 
-/* line 95, ../sass/partials/_colorset.scss */
+/* line 114, ../sass/partials/_colorset.scss */
 .eng .header {
   background: #8f5f00;
   border-color: #674500;
 }
 
-/* line 98, ../sass/partials/_colorset.scss */
+/* line 117, ../sass/partials/_colorset.scss */
 .eng .body {
   background: #bc9444;
   border-color: #bc8a26;
 }
 
-/* line 101, ../sass/partials/_colorset.scss */
+/* line 120, ../sass/partials/_colorset.scss */
 .exp .header {
   background: #005656;
   border-color: #003e3e;
 }
 
-/* line 104, ../sass/partials/_colorset.scss */
+/* line 123, ../sass/partials/_colorset.scss */
 .exp .body {
   background: #379999;
   border-color: #1f9999;
+}
+
+/* line 127, ../sass/partials/_colorset.scss */
+.eng.feature .header, .exp.feature .header {
+  border-style: none;
+  border-width: 0;
 }
 
 @font-face {

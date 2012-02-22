@@ -17,13 +17,15 @@ $(document).ready(function(){
   })
   
   $("#nav a").click(function(){
+    closeAll()
     if ($(this).hasClass('active')) {
       $(this).removeClass('active');
       c = $(this).attr('class');
-      $("."+c+".article").slideUp();
+      
+      $("."+c+".article, ."+c+".feature").slideUp();
     } else {
       c = $(this).attr('class');
-      $("."+c+".article").slideDown();
+      $("."+c+".article, ."+c+".feature").slideDown();
       $(this).addClass('active');
     }
   })
