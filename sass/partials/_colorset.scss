@@ -24,6 +24,7 @@ $grey          : rgba(0,0,0,0.4);
 $texture       : #575757 url('../images/furley_bg.png');
 $clearWhite    : rgba(255,255,255,0.1);
 $white         : #dddddd;
+$whiter        : #eeeeee;
 $black         : #222222;
 
 @mixin text-glow($color) {
@@ -150,7 +151,7 @@ body {
 // article body stuff
 
 a {
-  color: $white;
+  color: $whiter;
   @include text-inset; }
 code, pre {
   background: $texture repeat scroll 0 0;
