@@ -48,3 +48,16 @@ body.one-col {
     line-height: 100px; }
   .article .header {
     line-height: 75px; } }
+
+// images
+.preview img, img.thumb {
+  padding: 4px; }
+.preview img {
+  float: left;
+  @include column(2);
+  margin-top: 20px;
+  height: 50px; }
+.article .body img.thumb {
+  float: left;
+  @include column(3);
+  height: 75px; }

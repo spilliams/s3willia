@@ -55,20 +55,3 @@ a {
   display: none; }
 .article .header, .preview {
   cursor: pointer; }
-
-// images
-
-.preview img, img.thumb {
-  padding: 4px;
-  background: #eee;
-  border: 1px outset #ddd; }
-.preview img {
-  float: left;
-  margin: 20px;
-  width: 90px;
-  height: 50px; }
-.article .body img.thumb {
-  float: left;
-  width: 135px;
-  height: 75px;
-  margin-right: 10px; }

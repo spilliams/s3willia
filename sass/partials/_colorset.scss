@@ -161,3 +161,6 @@ code, pre {
   padding: 3px; }
 img {
   @include box-glow($grey); }
+.preview img, img.thumb {
+  background: #eee;
+  border: 1px outset $white; }
