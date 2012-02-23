@@ -57,6 +57,493 @@ a img {
   border: none;
 }
 
+/* line 49, ../sass/partials/_colorset.scss */
+body {
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+}
+
+/* line 51, ../sass/partials/_colorset.scss */
+#header, #footer {
+  color: #dddddd;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* line 55, ../sass/partials/_colorset.scss */
+#header {
+  -webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 57, ../sass/partials/_colorset.scss */
+#header a {
+  color: #bc6a26;
+  text-shadow: 0px 0px 4px #672f00;
+}
+/* line 60, ../sass/partials/_colorset.scss */
+#header a:hover {
+  color: #bc7a44;
+}
+/* line 63, ../sass/partials/_colorset.scss */
+#header .dev a {
+  color: #8f0000;
+}
+/* line 65, ../sass/partials/_colorset.scss */
+#header .dev a:hover {
+  color: #bc4444 !important;
+  text-shadow: 0px 0px 4px #670000;
+}
+/* line 68, ../sass/partials/_colorset.scss */
+#header .dev a.active {
+  color: #bc2626;
+  text-shadow: 0px 0px 4px #670000;
+}
+/* line 72, ../sass/partials/_colorset.scss */
+#header .eng a {
+  color: #8f5f00;
+}
+/* line 74, ../sass/partials/_colorset.scss */
+#header .eng a:hover {
+  color: #bc9444 !important;
+  text-shadow: 0px 0px 4px #674500;
+}
+/* line 77, ../sass/partials/_colorset.scss */
+#header .eng a.active {
+  color: #bc8a26;
+  text-shadow: 0px 0px 4px #674500;
+}
+/* line 81, ../sass/partials/_colorset.scss */
+#header .exp a {
+  color: #005656;
+}
+/* line 83, ../sass/partials/_colorset.scss */
+#header .exp a:hover {
+  color: #379999 !important;
+  text-shadow: 0px 0px 4px #003e3e;
+}
+/* line 86, ../sass/partials/_colorset.scss */
+#header .exp a.active {
+  color: #1f9999;
+  text-shadow: 0px 0px 4px #003e3e;
+}
+
+/* line 92, ../sass/partials/_colorset.scss */
+body {
+  color: #222222;
+}
+
+/* line 95, ../sass/partials/_colorset.scss */
+.header .title, .header .meta, .social {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+/* line 98, ../sass/partials/_colorset.scss */
+.social a {
+  color: #222222;
+}
+
+/* line 101, ../sass/partials/_colorset.scss */
+.header {
+  background: #8f4100;
+  border-color: #672f00;
+}
+
+/* line 105, ../sass/partials/_colorset.scss */
+.feature .header {
+  border-style: solid;
+  border-width: 0 0 1px;
+  border-color: #672f00;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* line 113, ../sass/partials/_colorset.scss */
+#spilliams .header {
+  border-top: 1px solid #672f00;
+}
+
+/* line 118, ../sass/partials/_colorset.scss */
+.dev.article, .eng.article, .exp.article {
+  border-bottom: 1px solid #8f4100;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 121, ../sass/partials/_colorset.scss */
+.dev .header, .dev .body, .eng .header, .eng .body, .exp .header, .exp .body {
+  border-style: solid;
+}
+/* line 122, ../sass/partials/_colorset.scss */
+.dev .header, .eng .header, .exp .header {
+  color: #dddddd;
+  border-width: 1px 0 0;
+}
+
+/* line 127, ../sass/partials/_colorset.scss */
+.dev.article {
+  border-color: #721717;
+}
+/* line 129, ../sass/partials/_colorset.scss */
+.dev .header {
+  background: #8f0000;
+  border-color: #670000;
+}
+/* line 132, ../sass/partials/_colorset.scss */
+.dev .body {
+  background: #bc4444;
+}
+
+/* line 135, ../sass/partials/_colorset.scss */
+.eng.article {
+  border-color: #725417;
+}
+/* line 137, ../sass/partials/_colorset.scss */
+.eng .header {
+  background: #8f5f00;
+  border-color: #674500;
+}
+/* line 140, ../sass/partials/_colorset.scss */
+.eng .body {
+  background: #bc9444;
+}
+
+/* line 143, ../sass/partials/_colorset.scss */
+.exp.article {
+  border-color: #0e4545;
+}
+/* line 145, ../sass/partials/_colorset.scss */
+.exp .header {
+  background: #005656;
+  border-color: #003e3e;
+}
+/* line 148, ../sass/partials/_colorset.scss */
+.exp .body {
+  background: #379999;
+}
+
+/* line 153, ../sass/partials/_colorset.scss */
+a {
+  color: #eeeeee;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+/* line 156, ../sass/partials/_colorset.scss */
+code, pre {
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 3px;
+  -mox-border-radius: 3px;
+  border-radius: 3px;
+  color: #dddddd;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  padding: 3px;
+}
+
+/* line 163, ../sass/partials/_colorset.scss */
+img {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  background: #eee;
+  border: 1px outset #dddddd;
+}
+
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cantarell Regular"), local("Cantarell-Regular"), url("http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'MuseoSlab-500';
+  src: url("../typefaces/202288_0_0.eot");
+  src: url("../typefaces/202288_0_0.eot?#iefix") format("embedded-opentype"), url("../typefaces/202288_0_0.woff") format("woff"), url("../typefaces/202288_0_0.ttf") format("truetype");
+}
+
+/* line 25, ../sass/partials/_typeset.scss */
+body {
+  font-family: 'MuseoSlab-500';
+}
+
+/* line 29, ../sass/partials/_typeset.scss */
+#header a, .title {
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* line 33, ../sass/partials/_typeset.scss */
+code, pre {
+  font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
+}
+
+/* line 8, ../sass/partials/_grid.scss */
+body.one-col .article .body {
+  padding: 32px 0;
+  /* (75px line-height - 12px text-height) / 2 */
+}
+/* line 10, ../sass/partials/_grid.scss */
+body.one-col .container {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 12, ../sass/partials/_grid.scss */
+body.one-col .container .content {
+  padding-left: 200px;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 590px;
+  padding-right: 200px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .content {
+  overflow-x: hidden;
+}
+/* line 16, ../sass/partials/_grid.scss */
+body.one-col .container .icon {
+  padding-left: 100px;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 90px;
+  text-align: right;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .icon {
+  overflow-x: hidden;
+}
+/* line 20, ../sass/partials/_grid.scss */
+body.one-col .container .social {
+  text-align: center;
+}
+/* line 22, ../sass/partials/_grid.scss */
+body.one-col .container .title {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 490px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .title {
+  overflow-x: hidden;
+}
+/* line 24, ../sass/partials/_grid.scss */
+body.one-col .container .meta {
+  text-align: right;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 90px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .meta {
+  overflow-x: hidden;
+}
+/* line 28, ../sass/partials/_grid.scss */
+body.one-col .container .two-thirds-columns {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 390px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .two-thirds-columns {
+  overflow-x: hidden;
+}
+/* line 30, ../sass/partials/_grid.scss */
+body.one-col .container .half-columns {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 490px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .half-columns {
+  overflow-x: hidden;
+}
+/* line 32, ../sass/partials/_grid.scss */
+body.one-col .container .half-columns.last {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 490px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .half-columns.last {
+  overflow-x: hidden;
+}
+/* line 34, ../sass/partials/_grid.scss */
+body.one-col .container .third-columns {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 190px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .third-columns {
+  overflow-x: hidden;
+}
+/* line 36, ../sass/partials/_grid.scss */
+body.one-col .container .third-columns.last {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .third-columns.last {
+  overflow-x: hidden;
+}
+/* line 38, ../sass/partials/_grid.scss */
+body.one-col .container .fourth-columns {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 140px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .fourth-columns {
+  overflow-x: hidden;
+}
+/* line 40, ../sass/partials/_grid.scss */
+body.one-col .container .fourth-columns.last {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 140px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body.one-col .container .fourth-columns.last {
+  overflow-x: hidden;
+}
+
+/* line 42, ../sass/partials/_grid.scss */
+.article .title {
+  padding-left: 200px;
+}
+
+/* line 46, ../sass/partials/_grid.scss */
+body.one-col {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* line 49, ../sass/partials/_grid.scss */
+body.one-col #header {
+  line-height: 75px;
+}
+/* line 51, ../sass/partials/_grid.scss */
+body.one-col #header a {
+  line-height: 50px;
+  font-size: 30px;
+}
+/* line 54, ../sass/partials/_grid.scss */
+body.one-col .title {
+  font-size: 30px;
+}
+/* line 56, ../sass/partials/_grid.scss */
+body.one-col .meta {
+  font-size: 14px;
+}
+/* line 58, ../sass/partials/_grid.scss */
+body.one-col .feature .header {
+  line-height: 100px;
+}
+/* line 60, ../sass/partials/_grid.scss */
+body.one-col .article .header {
+  line-height: 75px;
+}
+/* line 62, ../sass/partials/_grid.scss */
+body.one-col #footer .container div {
+  height: 200px;
+}
+
+/* line 66, ../sass/partials/_grid.scss */
+img {
+  padding: 4px;
+}
+
+/* line 68, ../sass/partials/_grid.scss */
+.preview img {
+  float: left;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 90px;
+  margin: 20px;
+  height: 50px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .preview img {
+  overflow-x: hidden;
+}
+
+/* line 73, ../sass/partials/_grid.scss */
+.article .body img.thumb {
+  float: left;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 140px;
+  height: 75px;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .article .body img.thumb {
+  overflow-x: hidden;
+}
+
+/* line 77, ../sass/partials/_grid.scss */
+#footer img {
+  height: 140px;
+  margin: 0 20px 0;
+}
+
+/* line 80, ../sass/partials/_grid.scss */
+#footer .two-thirds-columns, #footer .third-columns {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+@font-face {
+  font-family: Collegiate;
+  src: url("../typefaces/Collegiate.ttf");
+}
+
+/* line 5, ../sass/partials/_github.scss */
+#fork-outside {
+  line-height: 20px;
+  font-family: Collegiate;
+  background: #8f0000;
+  position: fixed;
+  top: 40px;
+  right: -60px;
+  padding: 3px 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  z-index: 1;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* line 20, ../sass/partials/_github.scss */
+#fork-inside {
+  font-size: 15px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 1px 0;
+  display: inline-block;
+  color: #dddddd;
+  text-decoration: none;
+  padding: 0 60px;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
 /* line 1, ../sass/partials/_stickyfooter.scss */
 * {
   margin: 0;
@@ -95,359 +582,6 @@ Sticky Footer by Ryan Fait
 http://ryanfait.com/
 
 */
-/* line 45, ../sass/partials/_colorset.scss */
-body {
-  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
-}
-
-/* line 47, ../sass/partials/_colorset.scss */
-#header, #footer {
-  color: white;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
-}
-
-/* line 51, ../sass/partials/_colorset.scss */
-#header {
-  -webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
-}
-/* line 53, ../sass/partials/_colorset.scss */
-#header a {
-  color: #bc6a26;
-  text-shadow: 0px 0px 4px #672f00;
-}
-/* line 56, ../sass/partials/_colorset.scss */
-#header a:hover {
-  color: #bc7a44;
-}
-/* line 59, ../sass/partials/_colorset.scss */
-#header .dev a {
-  color: #8f0000;
-}
-/* line 61, ../sass/partials/_colorset.scss */
-#header .dev a:hover {
-  color: #bc4444 !important;
-  text-shadow: 0px 0px 4px #670000;
-}
-/* line 64, ../sass/partials/_colorset.scss */
-#header .dev a.active {
-  color: #bc2626;
-  text-shadow: 0px 0px 4px #670000;
-}
-/* line 68, ../sass/partials/_colorset.scss */
-#header .eng a {
-  color: #8f5f00;
-}
-/* line 70, ../sass/partials/_colorset.scss */
-#header .eng a:hover {
-  color: #bc9444 !important;
-  text-shadow: 0px 0px 4px #674500;
-}
-/* line 73, ../sass/partials/_colorset.scss */
-#header .eng a.active {
-  color: #bc8a26;
-  text-shadow: 0px 0px 4px #674500;
-}
-/* line 77, ../sass/partials/_colorset.scss */
-#header .exp a {
-  color: #005656;
-}
-/* line 79, ../sass/partials/_colorset.scss */
-#header .exp a:hover {
-  color: #379999 !important;
-  text-shadow: 0px 0px 4px #003e3e;
-}
-/* line 82, ../sass/partials/_colorset.scss */
-#header .exp a.active {
-  color: #1f9999;
-  text-shadow: 0px 0px 4px #003e3e;
-}
-
-/* line 88, ../sass/partials/_colorset.scss */
-.header .title, .header .meta, .social {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.1);
-}
-
-/* line 91, ../sass/partials/_colorset.scss */
-.social a {
-  color: black;
-}
-
-/* line 94, ../sass/partials/_colorset.scss */
-.header {
-  background: #8f4100;
-  border-color: #672f00;
-}
-
-/* line 98, ../sass/partials/_colorset.scss */
-.feature .header {
-  border-style: solid;
-  border-width: 0 0 1px;
-  border-color: #672f00;
-  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-}
-
-/* line 107, ../sass/partials/_colorset.scss */
-.dev.article, .eng.article, .exp.article {
-  border-style: solid;
-  border-width: 0 0 1px;
-  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
-}
-/* line 111, ../sass/partials/_colorset.scss */
-.dev .header, .dev .body, .eng .header, .eng .body, .exp .header, .exp .body {
-  border-style: solid;
-}
-/* line 112, ../sass/partials/_colorset.scss */
-.dev .header, .eng .header, .exp .header {
-  color: white;
-  border-width: 1px 0 0;
-}
-/* line 115, ../sass/partials/_colorset.scss */
-.dev .body, .eng .body, .exp .body {
-  color: black;
-}
-
-/* line 119, ../sass/partials/_colorset.scss */
-.dev.article {
-  border-color: #721717;
-}
-/* line 121, ../sass/partials/_colorset.scss */
-.dev .header {
-  background: #8f0000;
-  border-color: #670000;
-}
-/* line 124, ../sass/partials/_colorset.scss */
-.dev .body {
-  background: #bc4444;
-}
-
-/* line 127, ../sass/partials/_colorset.scss */
-.eng.article {
-  border-color: #725417;
-}
-/* line 129, ../sass/partials/_colorset.scss */
-.eng .header {
-  background: #8f5f00;
-  border-color: #674500;
-}
-/* line 132, ../sass/partials/_colorset.scss */
-.eng .body {
-  background: #bc9444;
-}
-
-/* line 135, ../sass/partials/_colorset.scss */
-.exp.article {
-  border-color: #0e4545;
-}
-/* line 137, ../sass/partials/_colorset.scss */
-.exp .header {
-  background: #005656;
-  border-color: #003e3e;
-}
-/* line 140, ../sass/partials/_colorset.scss */
-.exp .body {
-  background: #379999;
-}
-
-/* line 145, ../sass/partials/_colorset.scss */
-code, pre {
-  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
-  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  -webkit-border-radius: 3px;
-  -mox-border-radius: 3px;
-  border-radius: 3px;
-  padding: 3px;
-}
-
-/* line 150, ../sass/partials/_colorset.scss */
-img {
-  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
-}
-
-@font-face {
-  font-family: 'Cantarell';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Cantarell Regular"), local("Cantarell-Regular"), url("http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'MuseoSlab-500';
-  src: url("../typefaces/202288_0_0.eot");
-  src: url("../typefaces/202288_0_0.eot?#iefix") format("embedded-opentype"), url("../typefaces/202288_0_0.woff") format("woff"), url("../typefaces/202288_0_0.ttf") format("truetype");
-}
-
-/* line 25, ../sass/partials/_typeset.scss */
-body {
-  font-family: 'MuseoSlab-500';
-}
-
-/* line 29, ../sass/partials/_typeset.scss */
-#header a, .title {
-  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
-}
-
-/* line 33, ../sass/partials/_typeset.scss */
-code, pre {
-  font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
-}
-
-/* line 3, ../sass/partials/_grid.scss */
-body.one-col .article .body {
-  padding: 32px 0;
-  /* (75px line-height - 12px text-height) / 2 */
-}
-/* line 5, ../sass/partials/_grid.scss */
-body.one-col .container {
-  width: 1000px;
-  margin: 0 auto;
-  overflow: hidden;
-  *zoom: 1;
-}
-/* line 7, ../sass/partials/_grid.scss */
-body.one-col .container .content {
-  padding-left: 202px;
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 596px;
-  padding-right: 202px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .content {
-  overflow-x: hidden;
-}
-/* line 11, ../sass/partials/_grid.scss */
-body.one-col .container .icon {
-  padding-left: 101px;
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 91px;
-  text-align: right;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .icon {
-  overflow-x: hidden;
-}
-/* line 15, ../sass/partials/_grid.scss */
-body.one-col .container .social {
-  text-align: center;
-}
-/* line 17, ../sass/partials/_grid.scss */
-body.one-col .container .title {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 495px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .title {
-  overflow-x: hidden;
-}
-/* line 19, ../sass/partials/_grid.scss */
-body.one-col .container .meta {
-  text-align: right;
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 91px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .meta {
-  overflow-x: hidden;
-}
-/* line 22, ../sass/partials/_grid.scss */
-body.one-col .container .half-columns {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 495px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .half-columns {
-  overflow-x: hidden;
-}
-/* line 24, ../sass/partials/_grid.scss */
-body.one-col .container .half-columns.last {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 495px;
-  text-align: right;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .half-columns.last {
-  overflow-x: hidden;
-}
-/* line 27, ../sass/partials/_grid.scss */
-body.one-col .container .fourth-columns {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 141.5px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .fourth-columns {
-  overflow-x: hidden;
-}
-/* line 29, ../sass/partials/_grid.scss */
-body.one-col .container .fourth-columns.last {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 141.5px;
-}
-/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.one-col .container .fourth-columns.last {
-  overflow-x: hidden;
-}
-
-/* line 31, ../sass/partials/_grid.scss */
-.article .title {
-  padding-left: 202px;
-}
-
-/* line 35, ../sass/partials/_grid.scss */
-body.one-col {
-  font-size: 20px;
-  line-height: 30px;
-}
-/* line 38, ../sass/partials/_grid.scss */
-body.one-col #header {
-  line-height: 75px;
-}
-/* line 40, ../sass/partials/_grid.scss */
-body.one-col #header a {
-  line-height: 50px;
-  font-size: 30px;
-}
-/* line 43, ../sass/partials/_grid.scss */
-body.one-col .title {
-  font-size: 30px;
-}
-/* line 45, ../sass/partials/_grid.scss */
-body.one-col .meta {
-  font-size: 14px;
-}
-/* line 47, ../sass/partials/_grid.scss */
-body.one-col .feature .header {
-  line-height: 100px;
-}
-/* line 49, ../sass/partials/_grid.scss */
-body.one-col .article .header {
-  line-height: 75px;
-}
-
 /* line 9, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
 body.bp .clear {
   clear: both;
@@ -495,12 +629,12 @@ body.bp .bottom {
 }
 /* line 25, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.7/frameworks/blueprint/stylesheets/blueprint/_debug.scss */
 body.bp .showgrid {
-  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 1010 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4.01%, rgba(100, 100, 225, 0.25)), color-stop(4.01%, rgba(0, 0, 0, 0)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(5%, rgba(100, 100, 225, 0.25)), color-stop(9.01%, rgba(100, 100, 225, 0.25)), color-stop(9.01%, rgba(0, 0, 0, 0)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(10%, rgba(100, 100, 225, 0.25)), color-stop(14.01%, rgba(100, 100, 225, 0.25)), color-stop(14.01%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(100, 100, 225, 0.25)), color-stop(19.01%, rgba(100, 100, 225, 0.25)), color-stop(19.01%, rgba(0, 0, 0, 0)), color-stop(20%, rgba(0, 0, 0, 0)), color-stop(20%, rgba(100, 100, 225, 0.25)), color-stop(24.01%, rgba(100, 100, 225, 0.25)), color-stop(24.01%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(29.01%, rgba(100, 100, 225, 0.25)), color-stop(29.01%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(34.01%, rgba(100, 100, 225, 0.25)), color-stop(34.01%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(100, 100, 225, 0.25)), color-stop(39.01%, rgba(100, 100, 225, 0.25)), color-stop(39.01%, rgba(0, 0, 0, 0)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(40%, rgba(100, 100, 225, 0.25)), color-stop(44.01%, rgba(100, 100, 225, 0.25)), color-stop(44.01%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(100, 100, 225, 0.25)), color-stop(49.01%, rgba(100, 100, 225, 0.25)), color-stop(49.01%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(54.01%, rgba(100, 100, 225, 0.25)), color-stop(54.01%, rgba(0, 0, 0, 0)), color-stop(55.0%, rgba(0, 0, 0, 0)), color-stop(55.0%, rgba(100, 100, 225, 0.25)), color-stop(59.01%, rgba(100, 100, 225, 0.25)), color-stop(59.01%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(100, 100, 225, 0.25)), color-stop(64.01%, rgba(100, 100, 225, 0.25)), color-stop(64.01%, rgba(0, 0, 0, 0)), color-stop(65%, rgba(0, 0, 0, 0)), color-stop(65%, rgba(100, 100, 225, 0.25)), color-stop(69.01%, rgba(100, 100, 225, 0.25)), color-stop(69.01%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(74.01%, rgba(100, 100, 225, 0.25)), color-stop(74.01%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(79.01%, rgba(100, 100, 225, 0.25)), color-stop(79.01%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(100, 100, 225, 0.25)), color-stop(84.01%, rgba(100, 100, 225, 0.25)), color-stop(84.01%, rgba(0, 0, 0, 0)), color-stop(85%, rgba(0, 0, 0, 0)), color-stop(85%, rgba(100, 100, 225, 0.25)), color-stop(89.01%, rgba(100, 100, 225, 0.25)), color-stop(89.01%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(100, 100, 225, 0.25)), color-stop(94.01%, rgba(100, 100, 225, 0.25)), color-stop(94.01%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(100, 100, 225, 0.25)), color-stop(99.01%, rgba(100, 100, 225, 0.25)), color-stop(99.01%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40.5px, rgba(0, 0, 0, 0) 40.5px, rgba(0, 0, 0, 0) 50.5px, rgba(100, 100, 225, 0.25) 50.5px, rgba(100, 100, 225, 0.25) 91px, rgba(0, 0, 0, 0) 91px, rgba(0, 0, 0, 0) 101px, rgba(100, 100, 225, 0.25) 101px, rgba(100, 100, 225, 0.25) 141.5px, rgba(0, 0, 0, 0) 141.5px, rgba(0, 0, 0, 0) 151.5px, rgba(100, 100, 225, 0.25) 151.5px, rgba(100, 100, 225, 0.25) 192px, rgba(0, 0, 0, 0) 192px, rgba(0, 0, 0, 0) 202px, rgba(100, 100, 225, 0.25) 202px, rgba(100, 100, 225, 0.25) 242.5px, rgba(0, 0, 0, 0) 242.5px, rgba(0, 0, 0, 0) 252.5px, rgba(100, 100, 225, 0.25) 252.5px, rgba(100, 100, 225, 0.25) 293px, rgba(0, 0, 0, 0) 293px, rgba(0, 0, 0, 0) 303px, rgba(100, 100, 225, 0.25) 303px, rgba(100, 100, 225, 0.25) 343.5px, rgba(0, 0, 0, 0) 343.5px, rgba(0, 0, 0, 0) 353.5px, rgba(100, 100, 225, 0.25) 353.5px, rgba(100, 100, 225, 0.25) 394px, rgba(0, 0, 0, 0) 394px, rgba(0, 0, 0, 0) 404px, rgba(100, 100, 225, 0.25) 404px, rgba(100, 100, 225, 0.25) 444.5px, rgba(0, 0, 0, 0) 444.5px, rgba(0, 0, 0, 0) 454.5px, rgba(100, 100, 225, 0.25) 454.5px, rgba(100, 100, 225, 0.25) 495px, rgba(0, 0, 0, 0) 495px, rgba(0, 0, 0, 0) 505px, rgba(100, 100, 225, 0.25) 505px, rgba(100, 100, 225, 0.25) 545.5px, rgba(0, 0, 0, 0) 545.5px, rgba(0, 0, 0, 0) 555.5px, rgba(100, 100, 225, 0.25) 555.5px, rgba(100, 100, 225, 0.25) 596px, rgba(0, 0, 0, 0) 596px, rgba(0, 0, 0, 0) 606px, rgba(100, 100, 225, 0.25) 606px, rgba(100, 100, 225, 0.25) 646.5px, rgba(0, 0, 0, 0) 646.5px, rgba(0, 0, 0, 0) 656.5px, rgba(100, 100, 225, 0.25) 656.5px, rgba(100, 100, 225, 0.25) 697px, rgba(0, 0, 0, 0) 697px, rgba(0, 0, 0, 0) 707px, rgba(100, 100, 225, 0.25) 707px, rgba(100, 100, 225, 0.25) 747.5px, rgba(0, 0, 0, 0) 747.5px, rgba(0, 0, 0, 0) 757.5px, rgba(100, 100, 225, 0.25) 757.5px, rgba(100, 100, 225, 0.25) 798px, rgba(0, 0, 0, 0) 798px, rgba(0, 0, 0, 0) 808px, rgba(100, 100, 225, 0.25) 808px, rgba(100, 100, 225, 0.25) 848.5px, rgba(0, 0, 0, 0) 848.5px, rgba(0, 0, 0, 0) 858.5px, rgba(100, 100, 225, 0.25) 858.5px, rgba(100, 100, 225, 0.25) 899px, rgba(0, 0, 0, 0) 899px, rgba(0, 0, 0, 0) 909px, rgba(100, 100, 225, 0.25) 909px, rgba(100, 100, 225, 0.25) 949.5px, rgba(0, 0, 0, 0) 949.5px, rgba(0, 0, 0, 0) 959.5px, rgba(100, 100, 225, 0.25) 959.5px, rgba(100, 100, 225, 0.25) 1000px, rgba(0, 0, 0, 0) 1000px, rgba(0, 0, 0, 0) 1010px);
-  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40.5px, rgba(0, 0, 0, 0) 40.5px, rgba(0, 0, 0, 0) 50.5px, rgba(100, 100, 225, 0.25) 50.5px, rgba(100, 100, 225, 0.25) 91px, rgba(0, 0, 0, 0) 91px, rgba(0, 0, 0, 0) 101px, rgba(100, 100, 225, 0.25) 101px, rgba(100, 100, 225, 0.25) 141.5px, rgba(0, 0, 0, 0) 141.5px, rgba(0, 0, 0, 0) 151.5px, rgba(100, 100, 225, 0.25) 151.5px, rgba(100, 100, 225, 0.25) 192px, rgba(0, 0, 0, 0) 192px, rgba(0, 0, 0, 0) 202px, rgba(100, 100, 225, 0.25) 202px, rgba(100, 100, 225, 0.25) 242.5px, rgba(0, 0, 0, 0) 242.5px, rgba(0, 0, 0, 0) 252.5px, rgba(100, 100, 225, 0.25) 252.5px, rgba(100, 100, 225, 0.25) 293px, rgba(0, 0, 0, 0) 293px, rgba(0, 0, 0, 0) 303px, rgba(100, 100, 225, 0.25) 303px, rgba(100, 100, 225, 0.25) 343.5px, rgba(0, 0, 0, 0) 343.5px, rgba(0, 0, 0, 0) 353.5px, rgba(100, 100, 225, 0.25) 353.5px, rgba(100, 100, 225, 0.25) 394px, rgba(0, 0, 0, 0) 394px, rgba(0, 0, 0, 0) 404px, rgba(100, 100, 225, 0.25) 404px, rgba(100, 100, 225, 0.25) 444.5px, rgba(0, 0, 0, 0) 444.5px, rgba(0, 0, 0, 0) 454.5px, rgba(100, 100, 225, 0.25) 454.5px, rgba(100, 100, 225, 0.25) 495px, rgba(0, 0, 0, 0) 495px, rgba(0, 0, 0, 0) 505px, rgba(100, 100, 225, 0.25) 505px, rgba(100, 100, 225, 0.25) 545.5px, rgba(0, 0, 0, 0) 545.5px, rgba(0, 0, 0, 0) 555.5px, rgba(100, 100, 225, 0.25) 555.5px, rgba(100, 100, 225, 0.25) 596px, rgba(0, 0, 0, 0) 596px, rgba(0, 0, 0, 0) 606px, rgba(100, 100, 225, 0.25) 606px, rgba(100, 100, 225, 0.25) 646.5px, rgba(0, 0, 0, 0) 646.5px, rgba(0, 0, 0, 0) 656.5px, rgba(100, 100, 225, 0.25) 656.5px, rgba(100, 100, 225, 0.25) 697px, rgba(0, 0, 0, 0) 697px, rgba(0, 0, 0, 0) 707px, rgba(100, 100, 225, 0.25) 707px, rgba(100, 100, 225, 0.25) 747.5px, rgba(0, 0, 0, 0) 747.5px, rgba(0, 0, 0, 0) 757.5px, rgba(100, 100, 225, 0.25) 757.5px, rgba(100, 100, 225, 0.25) 798px, rgba(0, 0, 0, 0) 798px, rgba(0, 0, 0, 0) 808px, rgba(100, 100, 225, 0.25) 808px, rgba(100, 100, 225, 0.25) 848.5px, rgba(0, 0, 0, 0) 848.5px, rgba(0, 0, 0, 0) 858.5px, rgba(100, 100, 225, 0.25) 858.5px, rgba(100, 100, 225, 0.25) 899px, rgba(0, 0, 0, 0) 899px, rgba(0, 0, 0, 0) 909px, rgba(100, 100, 225, 0.25) 909px, rgba(100, 100, 225, 0.25) 949.5px, rgba(0, 0, 0, 0) 949.5px, rgba(0, 0, 0, 0) 959.5px, rgba(100, 100, 225, 0.25) 959.5px, rgba(100, 100, 225, 0.25) 1000px, rgba(0, 0, 0, 0) 1000px, rgba(0, 0, 0, 0) 1010px);
-  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40.5px, rgba(0, 0, 0, 0) 40.5px, rgba(0, 0, 0, 0) 50.5px, rgba(100, 100, 225, 0.25) 50.5px, rgba(100, 100, 225, 0.25) 91px, rgba(0, 0, 0, 0) 91px, rgba(0, 0, 0, 0) 101px, rgba(100, 100, 225, 0.25) 101px, rgba(100, 100, 225, 0.25) 141.5px, rgba(0, 0, 0, 0) 141.5px, rgba(0, 0, 0, 0) 151.5px, rgba(100, 100, 225, 0.25) 151.5px, rgba(100, 100, 225, 0.25) 192px, rgba(0, 0, 0, 0) 192px, rgba(0, 0, 0, 0) 202px, rgba(100, 100, 225, 0.25) 202px, rgba(100, 100, 225, 0.25) 242.5px, rgba(0, 0, 0, 0) 242.5px, rgba(0, 0, 0, 0) 252.5px, rgba(100, 100, 225, 0.25) 252.5px, rgba(100, 100, 225, 0.25) 293px, rgba(0, 0, 0, 0) 293px, rgba(0, 0, 0, 0) 303px, rgba(100, 100, 225, 0.25) 303px, rgba(100, 100, 225, 0.25) 343.5px, rgba(0, 0, 0, 0) 343.5px, rgba(0, 0, 0, 0) 353.5px, rgba(100, 100, 225, 0.25) 353.5px, rgba(100, 100, 225, 0.25) 394px, rgba(0, 0, 0, 0) 394px, rgba(0, 0, 0, 0) 404px, rgba(100, 100, 225, 0.25) 404px, rgba(100, 100, 225, 0.25) 444.5px, rgba(0, 0, 0, 0) 444.5px, rgba(0, 0, 0, 0) 454.5px, rgba(100, 100, 225, 0.25) 454.5px, rgba(100, 100, 225, 0.25) 495px, rgba(0, 0, 0, 0) 495px, rgba(0, 0, 0, 0) 505px, rgba(100, 100, 225, 0.25) 505px, rgba(100, 100, 225, 0.25) 545.5px, rgba(0, 0, 0, 0) 545.5px, rgba(0, 0, 0, 0) 555.5px, rgba(100, 100, 225, 0.25) 555.5px, rgba(100, 100, 225, 0.25) 596px, rgba(0, 0, 0, 0) 596px, rgba(0, 0, 0, 0) 606px, rgba(100, 100, 225, 0.25) 606px, rgba(100, 100, 225, 0.25) 646.5px, rgba(0, 0, 0, 0) 646.5px, rgba(0, 0, 0, 0) 656.5px, rgba(100, 100, 225, 0.25) 656.5px, rgba(100, 100, 225, 0.25) 697px, rgba(0, 0, 0, 0) 697px, rgba(0, 0, 0, 0) 707px, rgba(100, 100, 225, 0.25) 707px, rgba(100, 100, 225, 0.25) 747.5px, rgba(0, 0, 0, 0) 747.5px, rgba(0, 0, 0, 0) 757.5px, rgba(100, 100, 225, 0.25) 757.5px, rgba(100, 100, 225, 0.25) 798px, rgba(0, 0, 0, 0) 798px, rgba(0, 0, 0, 0) 808px, rgba(100, 100, 225, 0.25) 808px, rgba(100, 100, 225, 0.25) 848.5px, rgba(0, 0, 0, 0) 848.5px, rgba(0, 0, 0, 0) 858.5px, rgba(100, 100, 225, 0.25) 858.5px, rgba(100, 100, 225, 0.25) 899px, rgba(0, 0, 0, 0) 899px, rgba(0, 0, 0, 0) 909px, rgba(100, 100, 225, 0.25) 909px, rgba(100, 100, 225, 0.25) 949.5px, rgba(0, 0, 0, 0) 949.5px, rgba(0, 0, 0, 0) 959.5px, rgba(100, 100, 225, 0.25) 959.5px, rgba(100, 100, 225, 0.25) 1000px, rgba(0, 0, 0, 0) 1000px, rgba(0, 0, 0, 0) 1010px);
-  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40.5px, rgba(0, 0, 0, 0) 40.5px, rgba(0, 0, 0, 0) 50.5px, rgba(100, 100, 225, 0.25) 50.5px, rgba(100, 100, 225, 0.25) 91px, rgba(0, 0, 0, 0) 91px, rgba(0, 0, 0, 0) 101px, rgba(100, 100, 225, 0.25) 101px, rgba(100, 100, 225, 0.25) 141.5px, rgba(0, 0, 0, 0) 141.5px, rgba(0, 0, 0, 0) 151.5px, rgba(100, 100, 225, 0.25) 151.5px, rgba(100, 100, 225, 0.25) 192px, rgba(0, 0, 0, 0) 192px, rgba(0, 0, 0, 0) 202px, rgba(100, 100, 225, 0.25) 202px, rgba(100, 100, 225, 0.25) 242.5px, rgba(0, 0, 0, 0) 242.5px, rgba(0, 0, 0, 0) 252.5px, rgba(100, 100, 225, 0.25) 252.5px, rgba(100, 100, 225, 0.25) 293px, rgba(0, 0, 0, 0) 293px, rgba(0, 0, 0, 0) 303px, rgba(100, 100, 225, 0.25) 303px, rgba(100, 100, 225, 0.25) 343.5px, rgba(0, 0, 0, 0) 343.5px, rgba(0, 0, 0, 0) 353.5px, rgba(100, 100, 225, 0.25) 353.5px, rgba(100, 100, 225, 0.25) 394px, rgba(0, 0, 0, 0) 394px, rgba(0, 0, 0, 0) 404px, rgba(100, 100, 225, 0.25) 404px, rgba(100, 100, 225, 0.25) 444.5px, rgba(0, 0, 0, 0) 444.5px, rgba(0, 0, 0, 0) 454.5px, rgba(100, 100, 225, 0.25) 454.5px, rgba(100, 100, 225, 0.25) 495px, rgba(0, 0, 0, 0) 495px, rgba(0, 0, 0, 0) 505px, rgba(100, 100, 225, 0.25) 505px, rgba(100, 100, 225, 0.25) 545.5px, rgba(0, 0, 0, 0) 545.5px, rgba(0, 0, 0, 0) 555.5px, rgba(100, 100, 225, 0.25) 555.5px, rgba(100, 100, 225, 0.25) 596px, rgba(0, 0, 0, 0) 596px, rgba(0, 0, 0, 0) 606px, rgba(100, 100, 225, 0.25) 606px, rgba(100, 100, 225, 0.25) 646.5px, rgba(0, 0, 0, 0) 646.5px, rgba(0, 0, 0, 0) 656.5px, rgba(100, 100, 225, 0.25) 656.5px, rgba(100, 100, 225, 0.25) 697px, rgba(0, 0, 0, 0) 697px, rgba(0, 0, 0, 0) 707px, rgba(100, 100, 225, 0.25) 707px, rgba(100, 100, 225, 0.25) 747.5px, rgba(0, 0, 0, 0) 747.5px, rgba(0, 0, 0, 0) 757.5px, rgba(100, 100, 225, 0.25) 757.5px, rgba(100, 100, 225, 0.25) 798px, rgba(0, 0, 0, 0) 798px, rgba(0, 0, 0, 0) 808px, rgba(100, 100, 225, 0.25) 808px, rgba(100, 100, 225, 0.25) 848.5px, rgba(0, 0, 0, 0) 848.5px, rgba(0, 0, 0, 0) 858.5px, rgba(100, 100, 225, 0.25) 858.5px, rgba(100, 100, 225, 0.25) 899px, rgba(0, 0, 0, 0) 899px, rgba(0, 0, 0, 0) 909px, rgba(100, 100, 225, 0.25) 909px, rgba(100, 100, 225, 0.25) 949.5px, rgba(0, 0, 0, 0) 949.5px, rgba(0, 0, 0, 0) 959.5px, rgba(100, 100, 225, 0.25) 959.5px, rgba(100, 100, 225, 0.25) 1000px, rgba(0, 0, 0, 0) 1000px, rgba(0, 0, 0, 0) 1010px);
-  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40.5px, rgba(0, 0, 0, 0) 40.5px, rgba(0, 0, 0, 0) 50.5px, rgba(100, 100, 225, 0.25) 50.5px, rgba(100, 100, 225, 0.25) 91px, rgba(0, 0, 0, 0) 91px, rgba(0, 0, 0, 0) 101px, rgba(100, 100, 225, 0.25) 101px, rgba(100, 100, 225, 0.25) 141.5px, rgba(0, 0, 0, 0) 141.5px, rgba(0, 0, 0, 0) 151.5px, rgba(100, 100, 225, 0.25) 151.5px, rgba(100, 100, 225, 0.25) 192px, rgba(0, 0, 0, 0) 192px, rgba(0, 0, 0, 0) 202px, rgba(100, 100, 225, 0.25) 202px, rgba(100, 100, 225, 0.25) 242.5px, rgba(0, 0, 0, 0) 242.5px, rgba(0, 0, 0, 0) 252.5px, rgba(100, 100, 225, 0.25) 252.5px, rgba(100, 100, 225, 0.25) 293px, rgba(0, 0, 0, 0) 293px, rgba(0, 0, 0, 0) 303px, rgba(100, 100, 225, 0.25) 303px, rgba(100, 100, 225, 0.25) 343.5px, rgba(0, 0, 0, 0) 343.5px, rgba(0, 0, 0, 0) 353.5px, rgba(100, 100, 225, 0.25) 353.5px, rgba(100, 100, 225, 0.25) 394px, rgba(0, 0, 0, 0) 394px, rgba(0, 0, 0, 0) 404px, rgba(100, 100, 225, 0.25) 404px, rgba(100, 100, 225, 0.25) 444.5px, rgba(0, 0, 0, 0) 444.5px, rgba(0, 0, 0, 0) 454.5px, rgba(100, 100, 225, 0.25) 454.5px, rgba(100, 100, 225, 0.25) 495px, rgba(0, 0, 0, 0) 495px, rgba(0, 0, 0, 0) 505px, rgba(100, 100, 225, 0.25) 505px, rgba(100, 100, 225, 0.25) 545.5px, rgba(0, 0, 0, 0) 545.5px, rgba(0, 0, 0, 0) 555.5px, rgba(100, 100, 225, 0.25) 555.5px, rgba(100, 100, 225, 0.25) 596px, rgba(0, 0, 0, 0) 596px, rgba(0, 0, 0, 0) 606px, rgba(100, 100, 225, 0.25) 606px, rgba(100, 100, 225, 0.25) 646.5px, rgba(0, 0, 0, 0) 646.5px, rgba(0, 0, 0, 0) 656.5px, rgba(100, 100, 225, 0.25) 656.5px, rgba(100, 100, 225, 0.25) 697px, rgba(0, 0, 0, 0) 697px, rgba(0, 0, 0, 0) 707px, rgba(100, 100, 225, 0.25) 707px, rgba(100, 100, 225, 0.25) 747.5px, rgba(0, 0, 0, 0) 747.5px, rgba(0, 0, 0, 0) 757.5px, rgba(100, 100, 225, 0.25) 757.5px, rgba(100, 100, 225, 0.25) 798px, rgba(0, 0, 0, 0) 798px, rgba(0, 0, 0, 0) 808px, rgba(100, 100, 225, 0.25) 808px, rgba(100, 100, 225, 0.25) 848.5px, rgba(0, 0, 0, 0) 848.5px, rgba(0, 0, 0, 0) 858.5px, rgba(100, 100, 225, 0.25) 858.5px, rgba(100, 100, 225, 0.25) 899px, rgba(0, 0, 0, 0) 899px, rgba(0, 0, 0, 0) 909px, rgba(100, 100, 225, 0.25) 909px, rgba(100, 100, 225, 0.25) 949.5px, rgba(0, 0, 0, 0) 949.5px, rgba(0, 0, 0, 0) 959.5px, rgba(100, 100, 225, 0.25) 959.5px, rgba(100, 100, 225, 0.25) 1000px, rgba(0, 0, 0, 0) 1000px, rgba(0, 0, 0, 0) 1010px);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 1000 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(4%, rgba(100, 100, 225, 0.25)), color-stop(4%, rgba(0, 0, 0, 0)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(5%, rgba(100, 100, 225, 0.25)), color-stop(9%, rgba(100, 100, 225, 0.25)), color-stop(9%, rgba(0, 0, 0, 0)), color-stop(10%, rgba(0, 0, 0, 0)), color-stop(10%, rgba(100, 100, 225, 0.25)), color-stop(14.0%, rgba(100, 100, 225, 0.25)), color-stop(14.0%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(0, 0, 0, 0)), color-stop(15%, rgba(100, 100, 225, 0.25)), color-stop(19%, rgba(100, 100, 225, 0.25)), color-stop(19%, rgba(0, 0, 0, 0)), color-stop(20%, rgba(0, 0, 0, 0)), color-stop(20%, rgba(100, 100, 225, 0.25)), color-stop(24%, rgba(100, 100, 225, 0.25)), color-stop(24%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(29.0%, rgba(100, 100, 225, 0.25)), color-stop(29.0%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0)), color-stop(30%, rgba(100, 100, 225, 0.25)), color-stop(34%, rgba(100, 100, 225, 0.25)), color-stop(34%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(0, 0, 0, 0)), color-stop(35%, rgba(100, 100, 225, 0.25)), color-stop(39%, rgba(100, 100, 225, 0.25)), color-stop(39%, rgba(0, 0, 0, 0)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(40%, rgba(100, 100, 225, 0.25)), color-stop(44%, rgba(100, 100, 225, 0.25)), color-stop(44%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(0, 0, 0, 0)), color-stop(45%, rgba(100, 100, 225, 0.25)), color-stop(49%, rgba(100, 100, 225, 0.25)), color-stop(49%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(54%, rgba(100, 100, 225, 0.25)), color-stop(54%, rgba(0, 0, 0, 0)), color-stop(55.0%, rgba(0, 0, 0, 0)), color-stop(55.0%, rgba(100, 100, 225, 0.25)), color-stop(59%, rgba(100, 100, 225, 0.25)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(0, 0, 0, 0)), color-stop(60%, rgba(100, 100, 225, 0.25)), color-stop(64%, rgba(100, 100, 225, 0.25)), color-stop(64%, rgba(0, 0, 0, 0)), color-stop(65%, rgba(0, 0, 0, 0)), color-stop(65%, rgba(100, 100, 225, 0.25)), color-stop(69%, rgba(100, 100, 225, 0.25)), color-stop(69%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(70%, rgba(100, 100, 225, 0.25)), color-stop(74%, rgba(100, 100, 225, 0.25)), color-stop(74%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(79%, rgba(100, 100, 225, 0.25)), color-stop(79%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(100, 100, 225, 0.25)), color-stop(84%, rgba(100, 100, 225, 0.25)), color-stop(84%, rgba(0, 0, 0, 0)), color-stop(85%, rgba(0, 0, 0, 0)), color-stop(85%, rgba(100, 100, 225, 0.25)), color-stop(89%, rgba(100, 100, 225, 0.25)), color-stop(89%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0)), color-stop(90%, rgba(100, 100, 225, 0.25)), color-stop(94%, rgba(100, 100, 225, 0.25)), color-stop(94%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(100, 100, 225, 0.25)), color-stop(99%, rgba(100, 100, 225, 0.25)), color-stop(99%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40px, rgba(0, 0, 0, 0) 40px, rgba(0, 0, 0, 0) 50px, rgba(100, 100, 225, 0.25) 50px, rgba(100, 100, 225, 0.25) 90px, rgba(0, 0, 0, 0) 90px, rgba(0, 0, 0, 0) 100px, rgba(100, 100, 225, 0.25) 100px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 150px, rgba(100, 100, 225, 0.25) 150px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 240px, rgba(0, 0, 0, 0) 240px, rgba(0, 0, 0, 0) 250px, rgba(100, 100, 225, 0.25) 250px, rgba(100, 100, 225, 0.25) 290px, rgba(0, 0, 0, 0) 290px, rgba(0, 0, 0, 0) 300px, rgba(100, 100, 225, 0.25) 300px, rgba(100, 100, 225, 0.25) 340px, rgba(0, 0, 0, 0) 340px, rgba(0, 0, 0, 0) 350px, rgba(100, 100, 225, 0.25) 350px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 450px, rgba(100, 100, 225, 0.25) 450px, rgba(100, 100, 225, 0.25) 490px, rgba(0, 0, 0, 0) 490px, rgba(0, 0, 0, 0) 500px, rgba(100, 100, 225, 0.25) 500px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 550px, rgba(100, 100, 225, 0.25) 550px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 640px, rgba(0, 0, 0, 0) 640px, rgba(0, 0, 0, 0) 650px, rgba(100, 100, 225, 0.25) 650px, rgba(100, 100, 225, 0.25) 690px, rgba(0, 0, 0, 0) 690px, rgba(0, 0, 0, 0) 700px, rgba(100, 100, 225, 0.25) 700px, rgba(100, 100, 225, 0.25) 740px, rgba(0, 0, 0, 0) 740px, rgba(0, 0, 0, 0) 750px, rgba(100, 100, 225, 0.25) 750px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 840px, rgba(0, 0, 0, 0) 840px, rgba(0, 0, 0, 0) 850px, rgba(100, 100, 225, 0.25) 850px, rgba(100, 100, 225, 0.25) 890px, rgba(0, 0, 0, 0) 890px, rgba(0, 0, 0, 0) 900px, rgba(100, 100, 225, 0.25) 900px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 950px, rgba(100, 100, 225, 0.25) 950px, rgba(100, 100, 225, 0.25) 990px, rgba(0, 0, 0, 0) 990px, rgba(0, 0, 0, 0) 1000px);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40px, rgba(0, 0, 0, 0) 40px, rgba(0, 0, 0, 0) 50px, rgba(100, 100, 225, 0.25) 50px, rgba(100, 100, 225, 0.25) 90px, rgba(0, 0, 0, 0) 90px, rgba(0, 0, 0, 0) 100px, rgba(100, 100, 225, 0.25) 100px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 150px, rgba(100, 100, 225, 0.25) 150px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 240px, rgba(0, 0, 0, 0) 240px, rgba(0, 0, 0, 0) 250px, rgba(100, 100, 225, 0.25) 250px, rgba(100, 100, 225, 0.25) 290px, rgba(0, 0, 0, 0) 290px, rgba(0, 0, 0, 0) 300px, rgba(100, 100, 225, 0.25) 300px, rgba(100, 100, 225, 0.25) 340px, rgba(0, 0, 0, 0) 340px, rgba(0, 0, 0, 0) 350px, rgba(100, 100, 225, 0.25) 350px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 450px, rgba(100, 100, 225, 0.25) 450px, rgba(100, 100, 225, 0.25) 490px, rgba(0, 0, 0, 0) 490px, rgba(0, 0, 0, 0) 500px, rgba(100, 100, 225, 0.25) 500px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 550px, rgba(100, 100, 225, 0.25) 550px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 640px, rgba(0, 0, 0, 0) 640px, rgba(0, 0, 0, 0) 650px, rgba(100, 100, 225, 0.25) 650px, rgba(100, 100, 225, 0.25) 690px, rgba(0, 0, 0, 0) 690px, rgba(0, 0, 0, 0) 700px, rgba(100, 100, 225, 0.25) 700px, rgba(100, 100, 225, 0.25) 740px, rgba(0, 0, 0, 0) 740px, rgba(0, 0, 0, 0) 750px, rgba(100, 100, 225, 0.25) 750px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 840px, rgba(0, 0, 0, 0) 840px, rgba(0, 0, 0, 0) 850px, rgba(100, 100, 225, 0.25) 850px, rgba(100, 100, 225, 0.25) 890px, rgba(0, 0, 0, 0) 890px, rgba(0, 0, 0, 0) 900px, rgba(100, 100, 225, 0.25) 900px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 950px, rgba(100, 100, 225, 0.25) 950px, rgba(100, 100, 225, 0.25) 990px, rgba(0, 0, 0, 0) 990px, rgba(0, 0, 0, 0) 1000px);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40px, rgba(0, 0, 0, 0) 40px, rgba(0, 0, 0, 0) 50px, rgba(100, 100, 225, 0.25) 50px, rgba(100, 100, 225, 0.25) 90px, rgba(0, 0, 0, 0) 90px, rgba(0, 0, 0, 0) 100px, rgba(100, 100, 225, 0.25) 100px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 150px, rgba(100, 100, 225, 0.25) 150px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 240px, rgba(0, 0, 0, 0) 240px, rgba(0, 0, 0, 0) 250px, rgba(100, 100, 225, 0.25) 250px, rgba(100, 100, 225, 0.25) 290px, rgba(0, 0, 0, 0) 290px, rgba(0, 0, 0, 0) 300px, rgba(100, 100, 225, 0.25) 300px, rgba(100, 100, 225, 0.25) 340px, rgba(0, 0, 0, 0) 340px, rgba(0, 0, 0, 0) 350px, rgba(100, 100, 225, 0.25) 350px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 450px, rgba(100, 100, 225, 0.25) 450px, rgba(100, 100, 225, 0.25) 490px, rgba(0, 0, 0, 0) 490px, rgba(0, 0, 0, 0) 500px, rgba(100, 100, 225, 0.25) 500px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 550px, rgba(100, 100, 225, 0.25) 550px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 640px, rgba(0, 0, 0, 0) 640px, rgba(0, 0, 0, 0) 650px, rgba(100, 100, 225, 0.25) 650px, rgba(100, 100, 225, 0.25) 690px, rgba(0, 0, 0, 0) 690px, rgba(0, 0, 0, 0) 700px, rgba(100, 100, 225, 0.25) 700px, rgba(100, 100, 225, 0.25) 740px, rgba(0, 0, 0, 0) 740px, rgba(0, 0, 0, 0) 750px, rgba(100, 100, 225, 0.25) 750px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 840px, rgba(0, 0, 0, 0) 840px, rgba(0, 0, 0, 0) 850px, rgba(100, 100, 225, 0.25) 850px, rgba(100, 100, 225, 0.25) 890px, rgba(0, 0, 0, 0) 890px, rgba(0, 0, 0, 0) 900px, rgba(100, 100, 225, 0.25) 900px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 950px, rgba(100, 100, 225, 0.25) 950px, rgba(100, 100, 225, 0.25) 990px, rgba(0, 0, 0, 0) 990px, rgba(0, 0, 0, 0) 1000px);
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40px, rgba(0, 0, 0, 0) 40px, rgba(0, 0, 0, 0) 50px, rgba(100, 100, 225, 0.25) 50px, rgba(100, 100, 225, 0.25) 90px, rgba(0, 0, 0, 0) 90px, rgba(0, 0, 0, 0) 100px, rgba(100, 100, 225, 0.25) 100px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 150px, rgba(100, 100, 225, 0.25) 150px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 240px, rgba(0, 0, 0, 0) 240px, rgba(0, 0, 0, 0) 250px, rgba(100, 100, 225, 0.25) 250px, rgba(100, 100, 225, 0.25) 290px, rgba(0, 0, 0, 0) 290px, rgba(0, 0, 0, 0) 300px, rgba(100, 100, 225, 0.25) 300px, rgba(100, 100, 225, 0.25) 340px, rgba(0, 0, 0, 0) 340px, rgba(0, 0, 0, 0) 350px, rgba(100, 100, 225, 0.25) 350px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 450px, rgba(100, 100, 225, 0.25) 450px, rgba(100, 100, 225, 0.25) 490px, rgba(0, 0, 0, 0) 490px, rgba(0, 0, 0, 0) 500px, rgba(100, 100, 225, 0.25) 500px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 550px, rgba(100, 100, 225, 0.25) 550px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 640px, rgba(0, 0, 0, 0) 640px, rgba(0, 0, 0, 0) 650px, rgba(100, 100, 225, 0.25) 650px, rgba(100, 100, 225, 0.25) 690px, rgba(0, 0, 0, 0) 690px, rgba(0, 0, 0, 0) 700px, rgba(100, 100, 225, 0.25) 700px, rgba(100, 100, 225, 0.25) 740px, rgba(0, 0, 0, 0) 740px, rgba(0, 0, 0, 0) 750px, rgba(100, 100, 225, 0.25) 750px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 840px, rgba(0, 0, 0, 0) 840px, rgba(0, 0, 0, 0) 850px, rgba(100, 100, 225, 0.25) 850px, rgba(100, 100, 225, 0.25) 890px, rgba(0, 0, 0, 0) 890px, rgba(0, 0, 0, 0) 900px, rgba(100, 100, 225, 0.25) 900px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 950px, rgba(100, 100, 225, 0.25) 950px, rgba(100, 100, 225, 0.25) 990px, rgba(0, 0, 0, 0) 990px, rgba(0, 0, 0, 0) 1000px);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 40px, rgba(0, 0, 0, 0) 40px, rgba(0, 0, 0, 0) 50px, rgba(100, 100, 225, 0.25) 50px, rgba(100, 100, 225, 0.25) 90px, rgba(0, 0, 0, 0) 90px, rgba(0, 0, 0, 0) 100px, rgba(100, 100, 225, 0.25) 100px, rgba(100, 100, 225, 0.25) 140px, rgba(0, 0, 0, 0) 140px, rgba(0, 0, 0, 0) 150px, rgba(100, 100, 225, 0.25) 150px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 240px, rgba(0, 0, 0, 0) 240px, rgba(0, 0, 0, 0) 250px, rgba(100, 100, 225, 0.25) 250px, rgba(100, 100, 225, 0.25) 290px, rgba(0, 0, 0, 0) 290px, rgba(0, 0, 0, 0) 300px, rgba(100, 100, 225, 0.25) 300px, rgba(100, 100, 225, 0.25) 340px, rgba(0, 0, 0, 0) 340px, rgba(0, 0, 0, 0) 350px, rgba(100, 100, 225, 0.25) 350px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 440px, rgba(0, 0, 0, 0) 440px, rgba(0, 0, 0, 0) 450px, rgba(100, 100, 225, 0.25) 450px, rgba(100, 100, 225, 0.25) 490px, rgba(0, 0, 0, 0) 490px, rgba(0, 0, 0, 0) 500px, rgba(100, 100, 225, 0.25) 500px, rgba(100, 100, 225, 0.25) 540px, rgba(0, 0, 0, 0) 540px, rgba(0, 0, 0, 0) 550px, rgba(100, 100, 225, 0.25) 550px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 640px, rgba(0, 0, 0, 0) 640px, rgba(0, 0, 0, 0) 650px, rgba(100, 100, 225, 0.25) 650px, rgba(100, 100, 225, 0.25) 690px, rgba(0, 0, 0, 0) 690px, rgba(0, 0, 0, 0) 700px, rgba(100, 100, 225, 0.25) 700px, rgba(100, 100, 225, 0.25) 740px, rgba(0, 0, 0, 0) 740px, rgba(0, 0, 0, 0) 750px, rgba(100, 100, 225, 0.25) 750px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 840px, rgba(0, 0, 0, 0) 840px, rgba(0, 0, 0, 0) 850px, rgba(100, 100, 225, 0.25) 850px, rgba(100, 100, 225, 0.25) 890px, rgba(0, 0, 0, 0) 890px, rgba(0, 0, 0, 0) 900px, rgba(100, 100, 225, 0.25) 900px, rgba(100, 100, 225, 0.25) 940px, rgba(0, 0, 0, 0) 940px, rgba(0, 0, 0, 0) 950px, rgba(100, 100, 225, 0.25) 950px, rgba(100, 100, 225, 0.25) 990px, rgba(0, 0, 0, 0) 990px, rgba(0, 0, 0, 0) 1000px);
   -moz-background-size: 100% 18px, auto;
   -webkit-background-size: 100% 18px, auto;
   -o-background-size: 100% 18px, auto;
@@ -687,40 +821,22 @@ form.bp form.inline p {
   margin-bottom: 0;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
+body {
+  overflow-y: scroll;
+}
+
+/* line 52, ../sass/screen.scss */
 a {
   text-decoration: none;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .article .body {
   display: none;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .article .header, .preview {
   cursor: pointer;
-}
-
-/* line 59, ../sass/screen.scss */
-.preview img, img.thumb {
-  padding: 4px;
-  background: #eee;
-  border: 1px outset #ddd;
-}
-
-/* line 63, ../sass/screen.scss */
-.preview img {
-  float: left;
-  margin: 20px;
-  width: 90px;
-  height: 50px;
-}
-
-/* line 68, ../sass/screen.scss */
-.article .body img.thumb {
-  float: left;
-  width: 135px;
-  height: 75px;
-  margin-right: 10px;
 }
