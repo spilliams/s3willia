@@ -19,9 +19,12 @@ $brownShadow1  : #724017;
 $brownShadow2  : #672F00;
 $brownLight1   : #BC6A26;
 $brownLight2   : #BC7A44;
+
 $grey          : rgba(0,0,0,0.4);
-$clearWhite    : rgba(255,255,255,0.1);
 $texture       : #575757 url('../images/furley_bg.png');
+$clearWhite    : rgba(255,255,255,0.1);
+$white         : #dddddd;
+$black         : #222222;
 
 @mixin text-glow($color) {
   text-shadow: 0px 0px 4px $color; }
@@ -45,7 +48,7 @@ $texture       : #575757 url('../images/furley_bg.png');
 body {
   background: $texture repeat scroll 0 0; }
 #header, #footer {
-  color: white;
+  color: $white;
   @include text-glow($grey); }
 
 #header {
@@ -85,11 +88,14 @@ body {
 
 // general view
 
+body {
+  color: $black; }
+
 .header .title, .header .meta, .social {
   @include text-inset; }
 
 .social a {
-  color: black; }
+  color: $black; }
 
 .header {
   background: $brown;
@@ -113,10 +119,8 @@ body {
     @include box-shadow(0px 2px 2px $grey); }
   .header, .body { border-style: solid; }
   .header {
-    color: white;
-    border-width: 1px 0 0; }
-  .body { 
-    color: black; } }
+    color: $white;
+    border-width: 1px 0 0; } }
 
 .dev {
   &.article {
@@ -145,10 +149,15 @@ body {
 
 // article body stuff
 
+a {
+  color: $white;
+  @include text-inset; }
 code, pre {
   background: $texture repeat scroll 0 0;
   @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
   @include round(3px);
+  color: $white;
+  @include text-glow($grey);
   padding: 3px; }
 img {
   @include box-glow($grey); }
