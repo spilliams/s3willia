@@ -95,135 +95,121 @@ Sticky Footer by Ryan Fait
 http://ryanfait.com/
 
 */
-/* line 40, ../sass/partials/_colorset.scss */
+/* line 45, ../sass/partials/_colorset.scss */
 body {
-  background-color: #bc7a44;
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
 }
 
-/* line 42, ../sass/partials/_colorset.scss */
+/* line 47, ../sass/partials/_colorset.scss */
 #header, #footer {
   color: white;
-  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 
-/* line 46, ../sass/partials/_colorset.scss */
-#footer {
-  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4);
-}
-
-/* line 50, ../sass/partials/_colorset.scss */
-code, pre {
-  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
-  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
-  -webkit-border-radius: 3px;
-  -mox-border-radius: 3px;
-  border-radius: 3px;
-  padding: 3px;
-}
-
-/* line 57, ../sass/partials/_colorset.scss */
+/* line 51, ../sass/partials/_colorset.scss */
 #header {
   -webkit-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
-/* line 59, ../sass/partials/_colorset.scss */
+/* line 53, ../sass/partials/_colorset.scss */
 #header a {
   color: #bc6a26;
   text-shadow: 0px 0px 4px #672f00;
 }
-/* line 62, ../sass/partials/_colorset.scss */
+/* line 56, ../sass/partials/_colorset.scss */
 #header a:hover {
   color: #bc7a44;
 }
-/* line 65, ../sass/partials/_colorset.scss */
+/* line 59, ../sass/partials/_colorset.scss */
 #header .dev a {
   color: #8f0000;
 }
-/* line 67, ../sass/partials/_colorset.scss */
+/* line 61, ../sass/partials/_colorset.scss */
 #header .dev a:hover {
   color: #bc4444 !important;
   text-shadow: 0px 0px 4px #670000;
 }
-/* line 70, ../sass/partials/_colorset.scss */
+/* line 64, ../sass/partials/_colorset.scss */
 #header .dev a.active {
   color: #bc2626;
   text-shadow: 0px 0px 4px #670000;
 }
-/* line 74, ../sass/partials/_colorset.scss */
+/* line 68, ../sass/partials/_colorset.scss */
 #header .eng a {
   color: #8f5f00;
 }
-/* line 76, ../sass/partials/_colorset.scss */
+/* line 70, ../sass/partials/_colorset.scss */
 #header .eng a:hover {
   color: #bc9444 !important;
   text-shadow: 0px 0px 4px #674500;
 }
-/* line 79, ../sass/partials/_colorset.scss */
+/* line 73, ../sass/partials/_colorset.scss */
 #header .eng a.active {
   color: #bc8a26;
   text-shadow: 0px 0px 4px #674500;
 }
-/* line 83, ../sass/partials/_colorset.scss */
+/* line 77, ../sass/partials/_colorset.scss */
 #header .exp a {
   color: #005656;
 }
-/* line 85, ../sass/partials/_colorset.scss */
+/* line 79, ../sass/partials/_colorset.scss */
 #header .exp a:hover {
   color: #379999 !important;
   text-shadow: 0px 0px 4px #003e3e;
 }
-/* line 88, ../sass/partials/_colorset.scss */
+/* line 82, ../sass/partials/_colorset.scss */
 #header .exp a.active {
   color: #1f9999;
   text-shadow: 0px 0px 4px #003e3e;
 }
 
-/* line 93, ../sass/partials/_colorset.scss */
+/* line 88, ../sass/partials/_colorset.scss */
 .header .title, .header .meta, .social {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
-/* line 96, ../sass/partials/_colorset.scss */
+/* line 91, ../sass/partials/_colorset.scss */
 .social a {
   color: black;
 }
 
-/* line 99, ../sass/partials/_colorset.scss */
+/* line 94, ../sass/partials/_colorset.scss */
+.header {
+  background: #8f4100;
+  border-color: #672f00;
+}
+
+/* line 98, ../sass/partials/_colorset.scss */
 .feature .header {
   border-style: solid;
   border-width: 0 0 1px;
   border-color: #672f00;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 105, ../sass/partials/_colorset.scss */
+/* line 107, ../sass/partials/_colorset.scss */
 .dev.article, .eng.article, .exp.article {
   border-style: solid;
   border-width: 0 0 1px;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
-/* line 108, ../sass/partials/_colorset.scss */
+/* line 111, ../sass/partials/_colorset.scss */
 .dev .header, .dev .body, .eng .header, .eng .body, .exp .header, .exp .body {
   border-style: solid;
 }
-/* line 109, ../sass/partials/_colorset.scss */
+/* line 112, ../sass/partials/_colorset.scss */
 .dev .header, .eng .header, .exp .header {
   color: white;
   border-width: 1px 0 0;
 }
-/* line 112, ../sass/partials/_colorset.scss */
+/* line 115, ../sass/partials/_colorset.scss */
 .dev .body, .eng .body, .exp .body {
   color: black;
-}
-
-/* line 115, ../sass/partials/_colorset.scss */
-.header {
-  background: #8f4100;
-  border-color: #672f00;
 }
 
 /* line 119, ../sass/partials/_colorset.scss */
@@ -268,10 +254,23 @@ code, pre {
   background: #379999;
 }
 
-/* line 143, ../sass/partials/_colorset.scss */
-.eng.feature .header, .exp.feature .header {
-  border-style: none;
-  border-width: 0;
+/* line 145, ../sass/partials/_colorset.scss */
+code, pre {
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 3px;
+  -mox-border-radius: 3px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+/* line 150, ../sass/partials/_colorset.scss */
+img {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
 }
 
 @font-face {
@@ -704,13 +703,24 @@ a {
 }
 
 /* line 59, ../sass/screen.scss */
-.preview img {
-  float: left;
-  margin-top: 6px;
+.preview img, img.thumb {
+  padding: 4px;
+  background: #eee;
+  border: 1px outset #ddd;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
+.preview img {
+  float: left;
+  margin: 20px;
+  width: 90px;
+  height: 50px;
+}
+
+/* line 68, ../sass/screen.scss */
 .article .body img.thumb {
   float: left;
-  padding-right: 10px;
+  width: 135px;
+  height: 75px;
+  margin-right: 10px;
 }

@@ -40,14 +40,13 @@ $texture       : #575757 url('../images/furley_bg.png');
   -mox-border-radius: $r;
   border-radius: $r; }
 
+// high-level layout
+
 body {
-  background-color: $brownLight2; }
+  background: $texture repeat scroll 0 0; }
 #header, #footer {
   color: white;
-  background: $texture repeat scroll 0 0;
   @include text-glow($grey); }
-#footer {
-  @include box-shadow(inset 0px 2px 2px $grey); }
 
 #header {
   @include box-shadow(inset 0px 0px 2px $grey);
@@ -99,14 +98,16 @@ body {
 .feature .header {
   border-style: solid;
   border-width: 0 0 1px;
-  border-color: $brownShadow2; }
+  border-color: $brownShadow2;
+  @include box-shadow(0px 2px 2px $grey); }
 
 // topic-specific view
 
 .dev, .eng, .exp {
   &.article {
     border-style: solid;
-    border-width: 0 0 1px; }
+    border-width: 0 0 1px;
+    @include box-shadow(0px 2px 2px $grey); }
   .header, .body { border-style: solid; }
   .header {
     color: white;
