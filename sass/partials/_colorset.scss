@@ -103,10 +103,13 @@ body {
 
 // topic-specific view
 
+#spilliams .header {
+  border-top: 1px solid $brownShadow2;
+}
+
 .dev, .eng, .exp {
   &.article {
-    border-style: solid;
-    border-width: 0 0 1px;
+    border-bottom: 1px solid $brown;
     @include box-shadow(0px 2px 2px $grey); }
   .header, .body { border-style: solid; }
   .header {
