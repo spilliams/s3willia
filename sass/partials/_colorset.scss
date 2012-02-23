@@ -26,8 +26,11 @@ $texture       : #575757 url('../images/furley_bg.png');
 @mixin text-glow($color) {
   text-shadow: 0px 0px 4px $color; }
 @mixin text-inset {
-  text-shadow: 0px -1px 0px $grey, 0px 1px 0px $clearWhite;
-  }
+  text-shadow: 0px -1px 0px $grey, 0px 1px 0px $clearWhite; }
+@mixin box-glow($color) {
+  -webkit-box-shadow: 0px 0px 4px 0px $color;
+  -moz-box-shadow: 0px 0px 4px 0px $color;
+  box-shadow: 0px 0px 4px 0px $color; }
 @mixin box-shadow($s) {
   -webkit-box-shadow: $s;
   -moz-box-shadow: $s;
@@ -45,14 +48,6 @@ body {
   @include text-glow($grey); }
 #footer {
   @include box-shadow(inset 0px 2px 2px $grey); }
-
-
-code, pre {
-  background: $texture repeat scroll 0 0;
-  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
-  @include round(3px);
-  padding: 3px; }
-
 
 #header {
   @include box-shadow(inset 0px 0px 2px $grey);
@@ -89,6 +84,7 @@ code, pre {
       color: $blueLight1;
       @include text-glow($blueShadow2); } } }
 
+// general view
 
 .header .title, .header .meta, .social {
   @include text-inset; }
@@ -96,10 +92,16 @@ code, pre {
 .social a {
   color: black; }
 
+.header {
+  background: $brown;
+  border-color: $brownShadow2; }
+
 .feature .header {
   border-style: solid;
   border-width: 0 0 1px;
   border-color: $brownShadow2; }
+
+// topic-specific view
 
 .dev, .eng, .exp {
   &.article {
@@ -112,9 +114,6 @@ code, pre {
   .body { 
     color: black; } }
 
-.header {
-  background: $brown;
-  border-color: $brownShadow2; }
 .dev {
   &.article {
     border-color: $redShadow1; }
@@ -140,6 +139,12 @@ code, pre {
   .body {
     background: $blueLight2; } }
 
-.eng, .exp { &.feature .header {
-  border-style: none;
-  border-width: 0; } }
+// article body stuff
+
+code, pre {
+  background: $texture repeat scroll 0 0;
+  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
+  @include round(3px);
+  padding: 3px; }
+img {
+  @include box-glow($grey); }

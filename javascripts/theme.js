@@ -5,15 +5,16 @@ $(document).ready(function(){
     $($(this).attr('rel')).click();
   });
   $(".article .header").click(function(){
-    body = $(this).parent().find(".body")
+    body = $(this).parent().find(".body");
     if (body.css('display') == "none") {
-      closeAll()
-      body.slideDown('fast')
+      closeAll();
+      body.slideDown('fast');
       if ("#"+$(this)[0].id != jQuery(location).attr('hash'))
-        jQuery(location).attr('hash',$(this)[0].id)
+        jQuery(location).attr('hash',$(this)[0].id);
       scrolly($(this).offset().top);
-    } else
-      body.slideUp('fast')
+    } else {
+      body.slideUp('fast');
+    }
   })
   
   $("#nav a").click(function(){
@@ -30,8 +31,8 @@ $(document).ready(function(){
     }
   })
   
-  h = jQuery(location).attr('hash');
-  if (h) $(h).click()
+  h = $(location).attr('hash');
+  if (h) $(h).click();
   
 });
 
