@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Collegiate;
+  src: url("../typefaces/Collegiate.ttf");
+}
+#fork-outside {
+  line-height: 20px;
+  font-family: Collegiate;
+  background: #A80A2A;
+  position: fixed;
+  top: 40px;
+  right: -60px;
+  padding: 3px 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  z-index: 1;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+#fork-inside {
+  font-size: 15px;
+  border-style: solid;
+  border-color: #fbfbfb;
+  border-width: 1px 0;
+  display: inline-block;
+  color: #fbfbfb;
+  text-decoration: none;
+  padding: 0 60px;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
