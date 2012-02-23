@@ -4,6 +4,11 @@ $(document).ready(function(){
   $(".preview").click(function(){
     $($(this).attr('rel')).click();
   });
+  
+  $(".banner").click(function(){
+    scrolly($("#footer").offset().top);
+  })
+  
   $(".article .header").click(function(){
     body = $(this).parent().find(".body");
     if (body.css('display') == "none") {
