@@ -68,7 +68,7 @@ img {
 .preview img {
   float: left;
   @include column(2);
-  margin-top: 20px;
+  margin: 20px;
   height: 50px; }
 .article .body img.thumb {
   float: left;
