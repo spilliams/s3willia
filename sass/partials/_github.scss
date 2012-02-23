@@ -5,7 +5,7 @@
 #fork-outside {
   line-height: 20px;
   font-family: Collegiate;
-  background: #A80A2A;
+  background: $red;
   position: fixed;
   top: 40px;
   right: -60px;
@@ -20,10 +20,10 @@
 #fork-inside {
   font-size: 15px;
   border-style: solid;
-  border-color: #fbfbfb;
+  border-color: $white;
   border-width: 1px 0;
   display: inline-block;
-  color: #fbfbfb;
+  color: $white;
   text-decoration: none;
   padding: 0 60px;
   text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
