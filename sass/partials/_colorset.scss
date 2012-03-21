@@ -112,6 +112,9 @@ body {
 
 #spilliams .header {
   border-top: 1px solid $brownShadow2;
+  a:hover {
+    color: $white;
+  }
 }
 
 .dev, .eng, .exp {

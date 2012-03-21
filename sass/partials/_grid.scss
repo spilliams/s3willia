@@ -6,7 +6,8 @@
 // vertical grid
 body.one-col {
   .article .body {
-    padding: 32px 0; /* (75px line-height - 12px text-height) / 2 */ }
+    padding: 32px 0; /* (75px line-height - 12px text-height) / 2 */  }
+  #footer .fourth-columns.last { text-align: right; }
   .container {
     @include container;
     .content {
@@ -25,8 +26,8 @@ body.one-col {
       text-align: right;
       @include column(2,true); }
       
-    .two-thirds-columns {
-      @include column(8); }
+    .two-thirds-augmented-columns {
+      @include column(9); }
     .half-columns {
       @include column(10); }
     .half-columns.last {
@@ -34,11 +35,10 @@ body.one-col {
     .third-augmented-columns.last {
       @include column(5, true); }
     .third-columns {
-      @include column(4); }
+      @include column(4);}
     .fourth-columns {
-      @include column(3); }
-    .fourth-columns.last {
-      @include column(3,true); } } }
+      @include column(3);
+      &.last { @include column(3,true); } } } }
 .article .title {
   @include prepend(4); }
 
