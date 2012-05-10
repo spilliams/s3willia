@@ -4,6 +4,7 @@
     <title>spencerenglish.com</title>
     <script type='text/javascript' src='javascripts/jquery-1.7.1.js'></script>
     <script type='text/javascript' src='javascripts/theme.js'></script>
+    <script type='text/javascript' src='javascripts/content.js'></script>
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
     <!--[if lt IE 8]><link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" /><![endif]-->
@@ -71,89 +72,7 @@
         
         <!-- ARTICLES -->
         
-        <div class='dev article'>
-          <div id='fishtank' class='header'><div class='container'>
-            <div class='title'>Fishtank Grid</div>
-            <div class='meta'>9 May 2012</div>
-          </div></div>
-          <div class='body'><div class='container'>
-            <div class='content'>
-              <p><a href='http://github.com/spilliams/fishtank-grid/' target='_blank'>code</a>, <a href='http://spencerenglish.com/demo/fishtank/' target='_blank'>demo</a></p>
-              <p>What's better than just targeting 720p and 1080i/p devices using ugly media queries? Degradable, flexible grids that minimize page overflow. This simple implementation displays many tiles on a screen, and chooses a specific "grade" to display the tile at. The higher grades are bigger, and presumably contain more content. It only requires jQuery 1.1.4+ (untested below 1.7.1)</p>
-            </div>
-          </div></div>
-        </div>
-        
-        <div class='dev article'>
-          <div id='sparrowlike' class='header'><div class='container'>
-            <div class='title'>Panning on a UITableViewCell</div>
-            <div class='meta'>21 Mar 2012</div>
-          </div></div>
-          <div class='body'><div class='container'>
-            <div class='content'>
-              <p><a href='http://github.com/spilliams/sparrowlike/' target='_blank'>code/demo</a></p>
-              <p>This demo is for anyone looking to create a custom pan gesture on a UITableViewCell. I had to stumble through many blind alleys before arriving at a solution and it is my hope that others after me can spend less time following in my misguided footsteps and more time forging ahead.</p>
-            </div>
-          </div></div>
-        </div>
-        
-        <div class='dev article'>
-          <div id='jquery-colorwheel' class='header'><div class='container'>
-            <div class='title'>jQuery ColorWheel</div>
-            <div class='meta'>19 Feb 2012</div>
-          </div></div>
-          <div class='body'><div class='container'>
-            <div class='content'>
-              <p><a href='http://github.com/spilliams/color-wheel/' target='_blank'>code</a>, <a href='http://spencerenglish.com/demo/jquery/color-wheel/index.html' target='_blank'>demo</a></p>
-              <p><img class='thumb' src='images/previews/jquery-colorwheel.png'> This plugin helps you generate your own custom colorwheel and colorpicker. The wheel is fashioned with CSS and very small <code>td</code>s. It's buggy and incomplete and very inefficient.</p>
-            </div>
-          </div></div>
-        </div>
-        
-        <div class='eng article'>
-          <div id='cmu' class='header'><div class='container'>
-            <div class='title'>Bachelor of Science</div>
-            <div class='meta'>22 Dec 2011</div>
-          </div></div>
-          <div class='body'><div class='container'><div class='content'>
-            <p>I graduated December 2011 from the Carnegie Institute of Technology at Carnegie Mellon University with a Bachelor of Science degree in Mechanical Engineering.</p>
-            <p>During my time there I was intrigued by Computer Science and robotics, and I was a member of <a href='http://en.wikipedia.org/wiki/Scotch%27n%27Soda' target='_blank'>Scotch'n'Soda Theatre</a>, the University's student-run theatre company.</p>
-          </div></div></div>
-        </div>
-        
-        <div class='exp article'>
-          <div id='deutschland' class='header'><div class='container'>
-            <div class='title'>Deutschland, Paris, Wien</div>
-            <div class='meta'>Jun 2011</div>
-          </div></div>
-          <div class='body'><div class='container'><div class='content'>
-            <p>In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>.
-            I also visited Paris and Wien during my travels.</p>
-          </div></div></div>
-        </div>
-
-        <div class='dev article'>
-          <div id='ribbrv1' class='header'><div class='container'>
-            <div class='title'>Ribbr v1.0</div>
-            <div class='meta'>15 Jun 2011</div>
-          </div></div>
-          <div class='body'><div class='container'><div class='content'>
-            <p><a href='http://ribbr.com/dev/ribbr v1.0.zip'>source</a>, <a href='http://ribbr.com/dev' target='_blank'>demo</a></p>
-            <p>A simple proof-of-concept for a pure-CSS3 ribbon generator.<br>
-              Version 2.0, a full web-app, is currently in development.</p>
-          </div></div></div>
-        </div>
-        
-        <!--<div class='dev article'>
-          <div id='itunes-search' class='header'><div class='container'>
-            <div class='title'>iTunes Search</div>
-            <div class='meta'>27 Jul 2007</div>
-          </div></div>
-          <div class='body'><div class='container'><div class='content'>
-            <p><a href='http://spencerenglish.com/demo/other/itunes%20search.scpt'>source</a></p>
-            <p>A simple applescript that puts all songs whose title matches the given term into a new playlist.</p>
-          </div></div></div>
-        </div>-->
+        <div id='articles'></div>
         
       </div><!-- /content -->
       

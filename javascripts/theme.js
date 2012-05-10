@@ -1,6 +1,25 @@
 // Regular theme JavaScript goes here
 $(document).ready(function(){
+  // load articles
+  $.each(articles,function(i,e){
+    article = articles[i];
+    links = "";
+    $.each(article.hyperlinks,function(i,e){
+      if (links)
+        links += ", ";
+      links += "<a href='"+e+"' target='_blank'>"+i+"</a>";
+    });
+    if (links)
+      links = "<p>"+links+"</p>";
+    paragraphs = "";
+    $.each(article.paragraphs,function(i,e){
+      paragraphs += "<p>"+e+"</p>";
+    });
+    div = "<div class='"+article.discipline+" article'><div id='"+article.identifier+"' class='header'><div class='container'><div class='title'>"+article.headerTitle+"</div><div class='meta'>"+article.date+"</div></div></div><div class='body'><div class='container'><div class='content'>"+links+paragraphs+"</div></div></div></div>";
+    $("#articles").append($(div));
+  });
   
+  // set up click functions
   $(".preview").click(function(){
     $($(this).attr('rel')).click();
   });
@@ -9,21 +28,27 @@ $(document).ready(function(){
     scrolly($("#footer").offset().top);
   })
   
-  $(".article .header").click(function(){
+  $(".article .header").click(function(event){
+    event.preventDefault();
+    if (typeof body != 'undefined')
+      oldbody = body;
     body = $(this).parent().find(".body");
     if (body.css('display') == "none") {
-      closeAll();
+      if (typeof oldbody != 'undefined')
+        oldbody.slideUp(0);
       body.slideDown('fast');
       if ("#"+$(this)[0].id != jQuery(location).attr('hash'))
-        jQuery(location).attr('hash',$(this)[0].id);
-      scrolly($(this).offset().top);
+        window.location.hash = $(this)[0].id;
+      scrolly($(this).parent().offset().top);
+      openArticle = $(this).parent();
     } else {
       body.slideUp('fast');
+      openArticle = false;
     }
   })
   
   $("#nav a").click(function(){
-    closeAll()
+    $(".article .body").slideUp();
     if ($(this).hasClass('active')) {
       $(this).removeClass('active');
       c = $(this).attr('class');
@@ -36,16 +61,42 @@ $(document).ready(function(){
     }
   })
   
-  h = $(location).attr('hash');
-  if (h) $(h).click();
+  // capture j and k
+  $(document).keydown(function(event){
+    if (event.which == 74) {
+      // j
+      event.preventDefault();
+      previous();
+    } else if (event.which == 75) {
+      // k
+      event.preventDefault();
+      next();
+    }
+  })
   
+  // use url-hashing
+  h = $(location).attr('hash');
+  if (h) {
+    $(h).click();
+  }
 });
+
+var openArticle = false;
 
 // scroll the window to a spot
 function scrolly(i) {
   $("html, body").animate({scrollTop:i+"px"})
 }
-// close all articles
-function closeAll() {
-  $(".article .body").slideUp();
+
+// click the previous article
+function previous() {
+  if (openArticle && openArticle.prev().length) {
+    openArticle.prev().find(".header").click();
+  }
+}
+// click the next article
+function next() {
+  if (openArticle && openArticle.next().length) {
+    openArticle.next().find(".header").click();
+  }
 }
