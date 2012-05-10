@@ -1,8 +1,19 @@
 // Regular theme JavaScript goes here
 $(document).ready(function(){
   // load articles
+  images = {
+    "dev":[],
+    "eng":[],
+    "exp":[]
+  }
   $.each(articles,function(i,e){
+    // assume articles are sorted by date
     article = articles[i];
+    if (!article.published)
+      return;
+    if (article.imageSrc && images[article.discipline].length < 3) {
+      images[article.discipline].push({"identifier":article.identifier,"imageSrc":article.imageSrc});
+    }
     links = "";
     $.each(article.hyperlinks,function(i,e){
       if (links)
@@ -17,6 +28,12 @@ $(document).ready(function(){
     });
     div = "<div class='"+article.discipline+" article'><div id='"+article.identifier+"' class='header'><div class='container'><div class='title'>"+article.headerTitle+"</div><div class='meta'>"+article.date+"</div></div></div><div class='body'><div class='container'><div class='content'>"+links+paragraphs+"</div></div></div></div>";
     $("#articles").append($(div));
+  });
+  $.each(images,function(discipline,arr){
+    $.each(arr,function(i,e){
+      img = "<div class='preview fourth-columns' rel='#"+e.identifier+"'><img src='images/previews/"+e.imageSrc+"'></div>";
+      $("."+discipline+".feature .header .container").append(img);
+    })
   });
   
   // set up click functions
