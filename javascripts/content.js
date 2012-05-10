@@ -110,12 +110,11 @@ var articles = [
     published:true,
     headerTitle:"Deutschland, Paris, Wien",
     date:"Jun 2011",
-    hyperlinks:{
-      "pictures":"",
-    },
+    hyperlinks:{},
     imageSrc:"",
     paragraphs:[
-      "In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>. I also visited Paris and Wien during my travels."
+      "In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>. I also visited Paris and Wien during my travels.",
+      "The experience changed me. When I was a little boy my world extend only to the edge of town. Then as I grew up my world grew with me. I had taken trips abroad before, even to other continents, but none of those trips expanded my world quite as much as this one did."
     ]
   },
   {
