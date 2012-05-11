@@ -63,6 +63,18 @@ var articles = [
     ]
   },
   {
+    discipline:"eng",
+    identifier:"ambilight",
+    published:true,
+    headerTitle:"Ambilight Clone",
+    date:"24 Mar 2012",
+    hyperlinks:{},
+    imageSrc:"ambilight.jpg",
+    paragraphs:[
+      "<img src='images/previews/ambilight.jpg'/> With the help of the folks over at <a href='http://adafruit.com' target='_blank'>Adafruit</a>, I made an Arduino-based LED ambient backlight for my computer monitor. It looks great with movies and games! <img src='images/previews/ambilight2.jpg'/>"
+    ]
+  },
+  {
     discipline:"dev",//eng, exp
     identifier:"sparrowlike",
     published:true,
