@@ -83,11 +83,11 @@ $(document).ready(function(){
     if (event.which == 74) {
       // j
       event.preventDefault();
-      previous();
+      next();
     } else if (event.which == 75) {
       // k
       event.preventDefault();
-      next();
+      previous();
     }
   })
   
