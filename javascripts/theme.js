@@ -56,15 +56,15 @@ $(document).ready(function(){
     event.preventDefault();
     if (typeof body != 'undefined')
       oldbody = body;
-    body = $(this).parent().find(".body");
+    body = $(this).closest(".article").find(".body");
     if (body.css('display') == "none") {
       if (typeof oldbody != 'undefined')
         oldbody.slideUp(0);
       body.slideDown('fast');
       if ("#"+$(this)[0].id != jQuery(location).attr('hash'))
         window.location.hash = $(this)[0].id;
-      scrolly($(this).parent().offset().top);
-      openArticle = $(this).parent();
+      scrolly($(this).closest(".article").offset().top);
+      openArticle = $(this).closest(".article");
     } else {
       body.slideUp('fast');
       openArticle = false;

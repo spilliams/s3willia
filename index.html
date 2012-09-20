@@ -28,20 +28,22 @@
 
   <div id='fork-outside'><a id='fork-inside' href='http://github.com/spilliams/' target='_blank'>Fork me on Github</a></div>
   <div class='wrapper'>
-    <div id='header' class="row">
-      <div class="six columns">
-        my name is
-        <a href='javascript:void(0)' class='banner'>spencer english williams</a>.
-      </div>
-      <div class="six columns text-right">
-        <div id='nav'>
-          i am a
-          <span class='dev'><a href='javascript:void(0)' class='dev active'>developer</a></span>,
-          <span class='eng'><a href='javascript:void(0)' class='eng active'>engineer</a></span> and
-          <span class='exp'><a href='javascript:void(0)' class='exp active'>explorer</a></span>
-        </div><!--#nav-->
-      </div>
-    </div><!--#header.row-->
+    <div id='header'>
+      <div class='row'>
+        <div class="six columns">
+          my name is
+          <a href='javascript:void(0)' class='banner'>spencer english williams</a>.
+        </div><!--.six.columns-->
+        <div class="six columns text-right">
+          <div id='nav'>
+            i am a
+            <span class='dev'><a href='javascript:void(0)' class='dev active'>developer</a></span>,
+            <span class='eng'><a href='javascript:void(0)' class='eng active'>engineer</a></span> and
+            <span class='exp'><a href='javascript:void(0)' class='exp active'>explorer</a></span>
+          </div><!--#nav-->
+        </div><!--.six.columns.text-right-->
+      </div><!--.row-->
+    </div><!--#header-->
     <div id='content'>
         
         
@@ -123,21 +125,29 @@
   
   <script type="text/html" id="article_template">
     <div class="<%= article.discipline %> article">
-      <div id="<%= article.identifier %>" class="header">
-        <div class="container">
-          <div class="title"><%= article.headerTitle %></div>
-          <div class="meta"><%= article.date %>
-        </div><!-- .container -->
-      </div><!-- #identifier.header -->
+      <div class="header">
+        <div class="row">
+          <div class="ten columns centered">
+            <div id="<%= article.identifier %>" class="row">
+              <div class="title eight columns"><%= article.headerTitle %></div>
+              <div class="meta three columns text-right"><%= article.date %></div>
+            </div><!-- #identifier.header.row -->
+          </div><!-- .ten.columns.centered -->
+        </div><!-- .row -->
+      </div><!-- .header -->
       <div class="body">
-        <div class="container">
-          <div class="content">
-            <%= links %>
-            <% article.paragraphs.forEach(function(paragraph){ %>
-              <p><%= paragraph %></p>
-            <% }); %>
-          </div><!-- .content -->
-        </div><!-- .container -->
+        <div class="row">
+          <div class="ten columns centered">
+            <div class="row">
+              <div class="twelve columns">
+                <%= links %>
+                <% article.paragraphs.forEach(function(paragraph){ %>
+                  <p><%= paragraph %></p>
+                <% }); %>
+              </div><!-- .twelve.columns -->
+            </div><!-- .row -->
+          </div><!-- .ten.columns.centered -->
+        </div><!-- .row -->
       </div><!-- .body -->
     </div><!-- .discipline.article -->
   </script>

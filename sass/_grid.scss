@@ -3,24 +3,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-// vertical grid
-body.one-col {
-//  .article .body {
-//    padding: 32px 0; /* (75px line-height - 12px text-height) / 2 */  }
-//  #footer .fourth-columns.last { text-align: right; }
-  .container {
-    .icon {
-      text-align: right; }
-    .social {
-      text-align: center; }
-    .meta {
-      text-align: right;
-    } } }
-//.article .title {
-//  @include prepend(4); }
-
 // horizontal grid
-body.one-col {
+body {
   font-size: 20px;
   line-height: 30px;
   #header {
@@ -44,12 +28,10 @@ img {
   padding: 4px; }
 .preview img {
   float: left;
-//  @include column(2);
   margin: 20px;
   height: 50px; }
 .article .body img.thumb {
   float: left;
-//  @include column(3);
   height: 75px; }
 #footer img {
   height: 140px;

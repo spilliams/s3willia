@@ -5084,7 +5084,7 @@ body {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 /* line 124, ../sass/_colorset.scss */
-.dev.article .header, .dev.article .body, .eng.article .header, .eng.article .body, .exp.article .header, .exp.article .body {
+.dev.article .header, .eng.article .header, .exp.article .header {
   border-style: solid;
 }
 /* line 125, ../sass/_colorset.scss */
@@ -5103,45 +5103,60 @@ body {
   border-color: #670000;
 }
 /* line 135, ../sass/_colorset.scss */
+.dev .header {
+  background: #8f0000;
+  border-color: #670000;
+}
+/* line 138, ../sass/_colorset.scss */
 .dev .body {
   background: #bc4444;
 }
 
-/* line 138, ../sass/_colorset.scss */
+/* line 141, ../sass/_colorset.scss */
 .eng.article {
   border-color: #725417;
 }
-/* line 140, ../sass/_colorset.scss */
+/* line 143, ../sass/_colorset.scss */
 .eng.feature {
   background: #8f5f00;
   border-color: #674500;
 }
-/* line 143, ../sass/_colorset.scss */
+/* line 146, ../sass/_colorset.scss */
+.eng .header {
+  background: #8f5f00;
+  border-color: #674500;
+}
+/* line 149, ../sass/_colorset.scss */
 .eng .body {
   background: #bc9444;
 }
 
-/* line 146, ../sass/_colorset.scss */
+/* line 152, ../sass/_colorset.scss */
 .exp.article {
   border-color: #0e4545;
 }
-/* line 148, ../sass/_colorset.scss */
+/* line 154, ../sass/_colorset.scss */
 .exp.feature {
   background: #005656;
   border-color: #003e3e;
 }
-/* line 151, ../sass/_colorset.scss */
+/* line 157, ../sass/_colorset.scss */
+.exp .header {
+  background: #005656;
+  border-color: #003e3e;
+}
+/* line 160, ../sass/_colorset.scss */
 .exp .body {
   background: #379999;
 }
 
-/* line 156, ../sass/_colorset.scss */
+/* line 165, ../sass/_colorset.scss */
 a {
   color: #eeeeee;
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
-/* line 159, ../sass/_colorset.scss */
+/* line 168, ../sass/_colorset.scss */
 code, pre {
   background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
   -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4), 1px 1px 0 0 rgba(255, 255, 255, 0.1);
@@ -5155,7 +5170,7 @@ code, pre {
   padding: 3px;
 }
 
-/* line 166, ../sass/_colorset.scss */
+/* line 175, ../sass/_colorset.scss */
 img {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
@@ -5192,79 +5207,66 @@ code, pre {
   font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
 }
 
-/* line 12, ../sass/_grid.scss */
-body.one-col .container .icon {
-  text-align: right;
-}
-/* line 14, ../sass/_grid.scss */
-body.one-col .container .social {
-  text-align: center;
-}
-/* line 16, ../sass/_grid.scss */
-body.one-col .container .meta {
-  text-align: right;
-}
-
-/* line 23, ../sass/_grid.scss */
-body.one-col {
+/* line 7, ../sass/_grid.scss */
+body {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 26, ../sass/_grid.scss */
-body.one-col #header {
+/* line 10, ../sass/_grid.scss */
+body #header {
   line-height: 75px;
 }
-/* line 28, ../sass/_grid.scss */
-body.one-col #header a {
+/* line 12, ../sass/_grid.scss */
+body #header a {
   line-height: 50px;
   font-size: 30px;
 }
-/* line 31, ../sass/_grid.scss */
-body.one-col .title {
+/* line 15, ../sass/_grid.scss */
+body .title {
   font-size: 30px;
 }
-/* line 33, ../sass/_grid.scss */
-body.one-col .meta {
+/* line 17, ../sass/_grid.scss */
+body .meta {
   font-size: 14px;
 }
-/* line 35, ../sass/_grid.scss */
-body.one-col .feature .header {
+/* line 19, ../sass/_grid.scss */
+body .feature .header {
   line-height: 100px;
 }
-/* line 37, ../sass/_grid.scss */
-body.one-col .article .header {
+/* line 21, ../sass/_grid.scss */
+body .article .header {
   line-height: 75px;
 }
-/* line 39, ../sass/_grid.scss */
-body.one-col #footer .container div {
+/* line 23, ../sass/_grid.scss */
+body #footer .container div {
   height: 200px;
 }
 
-/* line 43, ../sass/_grid.scss */
+/* line 27, ../sass/_grid.scss */
 img {
   padding: 4px;
 }
 
-/* line 45, ../sass/_grid.scss */
+/* line 29, ../sass/_grid.scss */
 .preview img {
   float: left;
   margin: 20px;
   height: 50px;
 }
 
-/* line 50, ../sass/_grid.scss */
+/* line 33, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   height: 75px;
 }
 
-/* line 54, ../sass/_grid.scss */
+/* line 36, ../sass/_grid.scss */
 #footer img {
   height: 140px;
   margin: 0 20px 0;
 }
 
-/* line 57, ../sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
 #footer .container div {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

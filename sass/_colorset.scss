@@ -121,7 +121,7 @@ body {
   &.article {
     border-bottom: 1px solid $brown;
     @include box-shadow(0px 2px 2px $grey);
-    .header, .body { border-style: solid; }
+    .header { border-style: solid; }
     .header {
       color: $white;
       border-width: 1px 0 0; } } }
@@ -132,6 +132,9 @@ body {
   &.feature {
     background: $red;
     border-color: $redShadow2; }
+  .header {
+    background: $red;
+    border-color: $redShadow2; }
   .body {
     background: $redLight2; } }
 .eng {
@@ -140,12 +143,18 @@ body {
   &.feature {
     background: $yellow;
     border-color: $yellowShadow2; }
+  .header {
+    background: $yellow;
+    border-color: $yellowShadow2; }
   .body {
     background: $yellowLight2; } }
 .exp {
   &.article {
     border-color: $blueShadow1; }
   &.feature {
+    background: $blue;
+    border-color: $blueShadow2; }
+  .header {
     background: $blue;
     border-color: $blueShadow2; }
   .body {
