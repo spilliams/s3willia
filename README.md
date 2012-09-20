@@ -1,14 +1,18 @@
-This is my new website. It uses [Compass](http://compass-style.org/) and [Blueprint](http://blueprintcss.org/).
+This is my new website. It uses [Compass](http://compass-style.org/) and [Foundation](http://foundation.zurb.com/).
 
 Design resources: [Color Scheme Designer](http://colorschemedesigner.com/) and [Subtle Patterns](http://subtlepatterns.com/).
 
 
-###TODO
+###todo
 
 - "top" link
 - favicon
-- HEROIC 4: this site is supposed to showcase my work, and not just by talking about it. This site itself is my work. What does this site do awesomely that commends me as a front-end developer? (ie switch to Foundation)
+- finish responsivize
 - icons!
+- picture of tea-coaster for Designed Decay
+- picture from Duetschland
+- picture from xcbt2012
+- blurb for xcbt2012
 - <strike>more posts...somehow (and their preview images)</strike>
 - <strike>footer content</strike>
 - <strike>put Germany photos on flickr<strike>
@@ -19,10 +23,3 @@ Design resources: [Color Scheme Designer](http://colorschemedesigner.com/) and [
 - <strike>preview images</strike>
 - <strike>link colors on feature header, article body</strike>
 - <strike>make it look more fabulous</strike>
-
-##CONTENT-TODO
-
-- picture of tea-coaster for Designed Decay
-- picture from Duetschland
-- picture from xcbt2012
-- blurb for xcbt2012
