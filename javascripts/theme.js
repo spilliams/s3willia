@@ -2,9 +2,9 @@
 $(document).ready(function(){
   
   function fixStickyFooter () {
-    var footerRowHeight = $(".footer .row")[0].offsetHeight;
+    var footerRowHeight = $(".footer")[0].offsetHeight;
     $(".footer, .push").height(footerRowHeight);
-    $(".wrapper").css({'margin-bottom':(-1 * footerRowHeight - $('#drawer')[0].offsetHeight) +"px"});
+    $(".wrapper").css({'margin-bottom':(-1 * footerRowHeight) +"px"});
   };
   fixStickyFooter();
   $(window).bind('resize', fixStickyFooter);
