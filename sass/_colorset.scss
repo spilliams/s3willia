@@ -1,0 +1,169 @@
+// palette http://colorschemedesigner.com/#0u61TK-hWpBpB
+$red           : #8F0000;
+$redShadow1    : #721717;
+$redShadow2    : #670000;
+$redLight1     : #BC2626;
+$redLight2     : #BC4444;
+$yellow        : #8F5F00;
+$yellowShadow1 : #725417;
+$yellowShadow2 : #674500;
+$yellowLight1  : #BC8A26;
+$yellowLight2  : #BC9444;
+$blue          : #005656;
+$blueShadow1   : #0E4545;
+$blueShadow2   : #003E3E;
+$blueLight1    : #1F9999;
+$blueLight2    : #379999;
+$brown         : #8F4100;
+$brownShadow1  : #724017;
+$brownShadow2  : #672F00;
+$brownLight1   : #BC6A26;
+$brownLight2   : #BC7A44;
+
+$grey          : rgba(0,0,0,0.4);
+$texture       : #575757 url('../images/furley_bg.png');
+$clearWhite    : rgba(255,255,255,0.1);
+$white         : #dddddd;
+$whiter        : #eeeeee;
+$black         : #222222;
+
+@mixin text-glow($color) {
+  text-shadow: 0px 0px 4px $color; }
+@mixin text-inset {
+  text-shadow: 0px -1px 0px $grey, 0px 1px 0px $clearWhite; }
+@mixin box-glow($color) {
+  -webkit-box-shadow: 0px 0px 4px 0px $color;
+  -moz-box-shadow: 0px 0px 4px 0px $color;
+  box-shadow: 0px 0px 4px 0px $color; }
+@mixin box-shadow($s) {
+  -webkit-box-shadow: $s;
+  -moz-box-shadow: $s;
+  box-shadow: $s; }
+@mixin round($r) {
+  -webkit-border-radius: $r;
+  -mox-border-radius: $r;
+  border-radius: $r; }
+
+// high-level layout
+
+body {
+  background: $texture repeat scroll 0 0; }
+#header, #footer {
+  color: $white;
+  @include text-glow($grey); }
+
+#header {
+  @include box-shadow(inset 0px 0px 2px $grey);
+  a {
+    color: $brownLight1;
+    @include text-glow($brownShadow2); }
+  a:hover {
+    color: $brownLight2; }
+  .dev {
+    a {
+      color: $red; }
+    a:hover {
+      color: $redLight2 !important;
+      @include text-glow($redShadow2); }
+    a.active {
+      color: $redLight1;
+      @include text-glow($redShadow2); } }
+  .eng {
+    a {
+      color: $yellow; }
+    a:hover {
+      color: $yellowLight2 !important;
+      @include text-glow($yellowShadow2); }
+    a.active {
+      color: $yellowLight1;
+      @include text-glow($yellowShadow2); } }
+  .exp {
+    a {
+      color: $blue; }
+    a:hover {
+      color: $blueLight2 !important;
+      @include text-glow($blueShadow2); }
+    a.active {
+      color: $blueLight1;
+      @include text-glow($blueShadow2); } } }
+
+// general view
+
+body {
+  color: $black; }
+
+.header .title, .header .meta, .social {
+  @include text-inset; }
+
+.social a {
+  color: $black; }
+
+.feature {
+  color: $white;
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-color: $brownShadow2;
+  @include box-shadow(0px 2px 2px $grey); }
+
+// topic-specific view
+
+#spilliams {
+  color: $black;
+  border-top: 1px solid $brownShadow2;
+  a:hover {
+    color: $white;
+  }
+  background: $brown;
+  border-color: $brownShadow2;
+}
+
+.dev, .eng, .exp {
+  &.article {
+    border-bottom: 1px solid $brown;
+    @include box-shadow(0px 2px 2px $grey);
+    .header, .body { border-style: solid; }
+    .header {
+      color: $white;
+      border-width: 1px 0 0; } } }
+
+.dev {
+  &.article {
+    border-color: $redShadow1; }
+  &.feature {
+    background: $red;
+    border-color: $redShadow2; }
+  .body {
+    background: $redLight2; } }
+.eng {
+  &.article {
+    border-color: $yellowShadow1; }
+  &.feature {
+    background: $yellow;
+    border-color: $yellowShadow2; }
+  .body {
+    background: $yellowLight2; } }
+.exp {
+  &.article {
+    border-color: $blueShadow1; }
+  &.feature {
+    background: $blue;
+    border-color: $blueShadow2; }
+  .body {
+    background: $blueLight2; } }
+
+// article body stuff
+
+a {
+  color: $whiter;
+  @include text-inset; }
+code, pre {
+  background: $texture repeat scroll 0 0;
+  @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
+  @include round(3px);
+  color: $white;
+  @include text-glow($grey);
+  padding: 3px; }
+img {
+  @include box-glow($grey);
+  background: #eee;
+  border: 1px outset $white; }

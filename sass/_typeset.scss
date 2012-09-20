@@ -1,0 +1,34 @@
+// see below for Usage
+// Cantarell, from Google Web Fonts
+
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Cantarell Regular'),
+    local('Cantarell-Regular'),
+    url('http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff') format('woff'); }
+
+// Museo Slab, from My Fonts
+
+@font-face {
+  font-family: 'MuseoSlab-500';
+  src: url('../typefaces/202288_0_0.eot');
+  src:
+    url('../typefaces/202288_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../typefaces/202288_0_0.woff') format('woff'),
+    url('../typefaces/202288_0_0.ttf') format('truetype'); }
+
+// Usage of typefaces
+// serif
+body {
+    font-family: 'MuseoSlab-500'; }
+
+// sans-serif
+#header a, .title {
+  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif; }
+
+// monospace/special
+code, pre {
+  font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace; }
