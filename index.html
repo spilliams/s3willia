@@ -120,7 +120,27 @@
       <a href="http://blog.spencerenglish.com" target="_blank">blog</a>
     </div>
   </div><!-- #footer.footer.row -->
-
+  
+  <script type="text/html" id="article_template">
+    <div class="<%= article.discipline %> article">
+      <div id="<%= article.identifier %>" class="header">
+        <div class="container">
+          <div class="title"><%= article.headerTitle %></div>
+          <div class="meta"><%= article.date %>
+        </div><!-- .container -->
+      </div><!-- #identifier.header -->
+      <div class="body">
+        <div class="container">
+          <div class="content">
+            <%= links %>
+            <% article.paragraphs.forEach(function(paragraph){ %>
+              <p><%= paragraph %></p>
+            <% }); %>
+          </div><!-- .content -->
+        </div><!-- .container -->
+      </div><!-- .body -->
+    </div><!-- .discipline.article -->
+  </script>
   
   <!-- Included JS Files (Uncompressed) -->
   <script src="javascripts/foundation/jquery.js"></script>

@@ -31,12 +31,8 @@ $(document).ready(function(){
     });
     if (links)
       links = "<p>"+links+"</p>";
-    paragraphs = "";
-    $.each(article.paragraphs,function(i,e){
-      paragraphs += "<p>"+e+"</p>";
-    });
-    div = "<div class='"+article.discipline+" article'><div id='"+article.identifier+"' class='header'><div class='container'><div class='title'>"+article.headerTitle+"</div><div class='meta'>"+article.date+"</div></div></div><div class='body'><div class='container'><div class='content'>"+links+paragraphs+"</div></div></div></div>";
-    $("#articles").append($(div));
+    var html = Templater.renderTemplate('article',{article:article,links:links});
+    $("#articles").append(html);
   });
   $.each(images,function(discipline,arr){
     $.each(arr,function(i,e){
@@ -129,3 +125,71 @@ function next() {
     openArticle.next().find(".header").click();
   }
 }
+
+// Templater
+/*global document */
+(function (ctx) {
+  // Simple JavaScript Templating
+  // John Resig - http://ejohn.org/ - MIT Licensed
+  (function(){
+    var cache = {};
+
+    function tmpl(str, data){
+      // Figure out if we're getting a template, or if we need to
+      // load the template - and be sure to cache the result.
+      var fn = !/\W/.test(str) ?
+        cache[str] = cache[str] ||
+          tmpl(document.getElementById(str).innerHTML) :
+
+        // Generate a reusable function that will serve as a template
+        // generator (and which will be cached).
+        new Function("obj",
+          "var p=[],print=function(){p.push.apply(p,arguments);};" +
+
+          // Introduce the data as local variables using with(){}
+          "with(obj){p.push('" +
+
+          // Convert the template into pure JavaScript
+          str.replace(/[\r\t\n]/g, " ")
+            .replace(/'(?=[^%]*%>)/g,"\t")
+            .split("'").join("\\'")
+            .split("\t").join("'")
+            .replace(/<%=(.+?)%>/g, "',$1,'")
+            .split("<%").join("');")
+            .split("%>").join("p.push('")
+          + "');}return p.join('');");
+
+      // Provide some basic currying to the user
+      return data ? fn( data ) : fn;
+    }
+
+    function renderCollection (str, collection) {
+      var rendered = '';
+      for (var i = 0; i < collection.length; i++)
+        rendered += tmpl(str, collection[i]);
+      return rendered;
+    }
+
+    /**
+        Render a template that is fetched from a DOM ID
+        @param {string} id - DOM Id of the template
+     */
+    function renderTemplate (id, data) {
+      return tmpl(fromId(id), data || {});
+    }
+
+    function fromId (id) {
+      var templateId = (id || '').replace(/_template$/, '') + '_template';
+      return document.getElementById(templateId).innerHTML;
+    }
+
+    ctx.Templater = {
+      render: tmpl,
+      renderCollection: renderCollection,
+      renderTemplate: renderTemplate,
+      fromId: fromId
+    };
+
+  })();
+  
+}(this));
