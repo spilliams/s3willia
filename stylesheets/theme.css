@@ -236,66 +236,77 @@ code, pre {
   font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
 }
 
-/* line 7, ../sass/_grid.scss */
+/* line 36, ../sass/_typeset.scss */
+.header, #spilliams {
+  font-weight: bold;
+}
+
+/* line 6, ../sass/_grid.scss */
 body {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 10, ../sass/_grid.scss */
+/* line 9, ../sass/_grid.scss */
 body #header {
   line-height: 75px;
 }
-/* line 12, ../sass/_grid.scss */
+/* line 11, ../sass/_grid.scss */
 body #header a {
   line-height: 50px;
   font-size: 30px;
 }
-/* line 15, ../sass/_grid.scss */
+/* line 14, ../sass/_grid.scss */
 body .title {
   font-size: 30px;
 }
-/* line 17, ../sass/_grid.scss */
+/* line 16, ../sass/_grid.scss */
 body .meta {
   font-size: 14px;
 }
-/* line 19, ../sass/_grid.scss */
+/* line 18, ../sass/_grid.scss */
 body .feature .header {
   line-height: 100px;
 }
-/* line 21, ../sass/_grid.scss */
+/* line 20, ../sass/_grid.scss */
 body .article .header {
   line-height: 75px;
 }
-/* line 23, ../sass/_grid.scss */
+/* line 22, ../sass/_grid.scss */
 body #footer .container div {
   height: 200px;
 }
 
-/* line 27, ../sass/_grid.scss */
+/* line 25, ../sass/_grid.scss */
+#spilliams {
+  height: 100px;
+  line-height: 100px;
+}
+
+/* line 30, ../sass/_grid.scss */
 img {
   padding: 4px;
 }
 
-/* line 29, ../sass/_grid.scss */
+/* line 32, ../sass/_grid.scss */
 .preview img {
   float: left;
-  margin: 20px;
-  height: 50px;
+  margin: 20px 15px;
+  height: 60px;
 }
 
-/* line 33, ../sass/_grid.scss */
+/* line 36, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   height: 75px;
 }
 
-/* line 36, ../sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
 #footer img {
   height: 140px;
   margin: 0 20px 0;
 }
 
-/* line 39, ../sass/_grid.scss */
+/* line 42, ../sass/_grid.scss */
 #footer .container div {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
