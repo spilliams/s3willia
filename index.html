@@ -31,18 +31,18 @@
   <div class='wrapper'>
     <div id='header'>
       <div class='row'>
-        <div class="six columns">
+        <div class="ten columns">
           my name is
           <a href='javascript:void(0)' class='banner'>spencer english williams</a>.
-        </div><!--.six.columns-->
-        <div class="six columns text-right">
+        </div><!--.ten.columns-->
+        <div class="ten columns text-right">
           <div id='nav'>
             i am a
             <span class='dev'><a href='javascript:void(0)' class='dev active'>developer</a></span>,
             <span class='eng'><a href='javascript:void(0)' class='eng active'>engineer</a></span> and
             <span class='exp'><a href='javascript:void(0)' class='exp active'>explorer</a></span>
           </div><!--#nav-->
-        </div><!--.six.columns.text-right-->
+        </div><!--.ten.columns.text-right-->
       </div><!--.row-->
     </div><!--#header-->
     <div id='content'>
@@ -52,52 +52,36 @@
         
         
       <div class="dev feature">
-        <div class="row">
-          <div class='ten columns centered'>
-            <div class='header row'>
-              <div class='icon two columns'>icon</div>
-              <div class='title four columns end'>developer</div>
-              <!-- previews will be inserted here -->
-            </div><!-- .header.row -->
-          </div><!-- .ten.columns.centered -->
-        </div><!-- .row -->
+        <div class='header row'>
+          <div class='icon two columns text-center offset-by-two'>icon</div>
+          <div class='title three columns end'>developer</div>
+          <!-- previews will be inserted here -->
+        </div><!-- .header.row -->
       </div><!-- .dev.feature -->
         
       <div class='eng feature'>
-        <div class="row">
-          <div class='ten columns centered'>
-            <div class='header row'>
-              <div class='icon two columns'>icon</div>
-              <div class='title four columns end'>engineer</div>
-              <!-- previews will be inserted here -->
-            </div><!-- .header.row -->
-          </div><!-- .ten.columns.centered -->
-        </div><!-- .row -->
+        <div class='header row'>
+          <div class='icon two columns text-center offset-by-two'>icon</div>
+          <div class='title three columns end'>engineer</div>
+          <!-- previews will be inserted here -->
+        </div><!-- .header.row -->
       </div><!-- .eng.feature -->
         
       <div class='exp feature'>
-        <div class="row">
-          <div class="ten columns centered">
-            <div class='header row'>
-              <div class='icon two columns'>icon</div>
-              <div class='title four columns end'>explorer</div>
-              <!-- previews will be inserted here -->
-            </div><!-- .header.row -->
-          </div><!-- .ten.columns.centered -->
-        </div><!-- .row -->
+        <div class='header row'>
+          <div class='icon two columns text-center offset-by-two'>icon</div>
+          <div class='title three columns end'>explorer</div>
+          <!-- previews will be inserted here -->
+        </div><!-- .header.row -->
       </div><!-- .exp.feature -->
         
       <div id='spilliams' class='feature'>
         <div class="row">
-          <div class="ten columns centered">
-            <div class="row">
-              <div class='icon two columns'>icon</div>
-              <div class='title four columns'>spilliams</div>
-              <div class='social two columns'><a href='http://twitter.com/spilliams' target='_blank'>twitter</a></div>
-              <div class='social two columns'><a href='http://github.com/spilliams' target='_blank'>github</a></div>
-              <div class='social two columns last'><a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a></div>
-            </div><!-- .row -->
-          </div><!-- .ten.columns.centered -->
+          <div class='icon two columns text-center offset-by-two'>icon</div>
+          <div class='title three columns'>spilliams</div>
+          <div class='social three columns text-center'><a href='http://twitter.com/spilliams' target='_blank'>twitter</a></div>
+          <div class='social three columns text-center'><a href='http://github.com/spilliams' target='_blank'>github</a></div>
+          <div class='social three columns text-center end'><a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a></div>
         </div><!-- .row -->
       </div><!-- #spilliams.feature -->
         
@@ -113,9 +97,9 @@
     <div class='push'></div>
   </div><!-- /wrapper -->
   <div id='footer' class='footer row'>
-    <div class='three columns'><img src='images/me.jpg'></div>
-    <div class='six columns'>Spencer has recently graduated from Carnegie Mellon University and has relocated to Portland, Oregon.<br>He is now a front-end and iOS developer and interface engineer at <a href='http://upstartlabs.com' target='_blank'>Upstart Labs</a>.</div>
-    <div class='three columns'>
+    <div class='four columns'><img src='images/me.jpg'></div>
+    <div class='nine columns'>Spencer has recently graduated from Carnegie Mellon University and has relocated to Portland, Oregon.<br>He is now a front-end and iOS developer and interface engineer at <a href='http://upstartlabs.com' target='_blank'>Upstart Labs</a>.</div>
+    <div class='three columns end text-right'>
       <a href='http://twitter.com/spilliams' target='_blank'>twitter</a><br>
       <a href='http://github.com/spilliams' target='_blank'>github</a><br>
       <a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a><br>
@@ -127,27 +111,19 @@
   <script type="text/html" id="article_template">
     <div class="<%= article.discipline %> article">
       <div class="header">
-        <div class="row">
-          <div class="ten columns centered">
-            <div id="<%= article.identifier %>" class="row">
-              <div class="title eight columns"><%= article.headerTitle %></div>
-              <div class="meta three columns text-right"><%= article.date %></div>
-            </div><!-- #identifier.header.row -->
-          </div><!-- .ten.columns.centered -->
-        </div><!-- .row -->
+        <div id="<%= article.identifier %>" class="row">
+          <div class="title nine columns offset-by-four"><%= article.headerTitle %></div>
+          <div class="meta three columns text-right end"><%= article.date %></div>
+        </div><!-- #identifier.header.row -->
       </div><!-- .header -->
       <div class="body">
         <div class="row">
-          <div class="ten columns centered">
-            <div class="row">
-              <div class="twelve columns">
-                <%= links %>
-                <% article.paragraphs.forEach(function(paragraph){ %>
-                  <p><%= paragraph %></p>
-                <% }); %>
-              </div><!-- .twelve.columns -->
-            </div><!-- .row -->
-          </div><!-- .ten.columns.centered -->
+          <div class="twelve columns end offset-by-four">
+            <%= links %>
+            <% article.paragraphs.forEach(function(paragraph){ %>
+              <p><%= paragraph %></p>
+            <% }); %>
+          </div><!-- .eighteen.columns.offset-by-two -->
         </div><!-- .row -->
       </div><!-- .body -->
     </div><!-- .discipline.article -->

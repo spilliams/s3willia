@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
   $.each(images,function(discipline,arr){
     $.each(arr,function(i,e){
-      img = "<div class='preview two columns end' rel='#"+e.identifier+"'><img src='images/previews/"+e.imageSrc+"'></div>";
+      img = "<div class='preview three columns end' rel='#"+e.identifier+"'><img src='images/previews/"+e.imageSrc+"'></div>";
       $("."+discipline+".feature .header").append(img);
     })
   });
