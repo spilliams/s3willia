@@ -3,7 +3,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-// horizontal grid
 body {
   font-size: 20px;
   line-height: 30px;
@@ -23,13 +22,17 @@ body {
   #footer .container div {
     height: 200px; } }
 
+#spilliams {
+  height: 100px;
+  line-height: 100px; }
+
 // images
 img {
   padding: 4px; }
 .preview img {
   float: left;
-  margin: 20px;
-  height: 50px; }
+  margin: 20px 15px;
+  height: 60px; }
 .article .body img.thumb {
   float: left;
   height: 75px; }
