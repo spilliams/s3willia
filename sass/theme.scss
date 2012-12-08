@@ -16,6 +16,9 @@
 body { overflow-y: scroll; }
 a { text-decoration: none; }
 
+// responsive!
+@import "_mobile";
+
 // for the fancy js stuff
 
 .article .body {

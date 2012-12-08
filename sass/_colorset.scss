@@ -56,7 +56,8 @@ body {
   @include box-shadow(inset 0px 0px 2px $grey);
   a {
     color: $brownLight1;
-    @include text-glow($brownShadow2); }
+    @include text-glow($brownShadow2);
+    @include text-inset; }
   a:hover {
     color: $brownLight2; }
   .dev {
@@ -81,11 +82,39 @@ body {
     a {
       color: $blue; }
     a:hover {
-      color: $blueLight2 !important;
+      color: $blueLight2;
       @include text-glow($blueShadow2); }
     a.active {
       color: $blueLight1;
       @include text-glow($blueShadow2); } } }
+
+a {
+  color: $white;
+  @include text-glow($grey);
+  @include text-inset; }
+a:hover {
+  color: $black; }
+.dev {
+  a:hover {
+    color: $red;
+    @include text-glow($redShadow1); }
+  a.active {
+    color: $redLight1;
+    @include text-glow($redShadow1); } }
+.eng {
+  a:hover {
+    color: $yellow;
+    @include text-glow($yellowShadow1); }
+  a.active {
+    color: $yellowLight1;
+    @include text-glow($yellowShadow1); } }
+.exp {
+  a:hover {
+    color: $blue;
+    @include text-glow($blueShadow1); }
+  a.active {
+    color: $blueLight1;
+    @include text-glow($blueShadow1); } }
 
 // general view
 
@@ -97,6 +126,8 @@ body {
 
 .social a {
   color: $black; }
+.social a:hover {
+  color: $white; }
 
 .feature {
   color: $white;
@@ -110,9 +141,6 @@ body {
 #spilliams {
   color: $black;
   border-top: 1px solid $brownShadow2;
-  a:hover {
-    color: $white;
-  }
   background: $brown;
   border-color: $brownShadow2;
 }
@@ -162,9 +190,6 @@ body {
 
 // article body stuff
 
-a {
-  color: $whiter;
-  @include text-inset; }
 code, pre {
   background: $texture repeat scroll 0 0;
   @include box-shadow(#{inset 0px 2px 2px $grey, 1px 1px 0 0 $clearWhite});
@@ -176,3 +201,10 @@ img {
   @include box-glow($grey);
   background: #eee;
   border: 1px outset $white; }
+.icon img {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+  border: 0 none transparent;
+  }

@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="stylesheets/app.css">
   <link rel="stylesheet" href="stylesheets/theme.css">
 
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
   <script src="javascripts/foundation/modernizr.foundation.js"></script>
 
   <!-- IE Fix for HTML5 Tags -->
@@ -32,10 +34,10 @@
     <div id='header'>
       <div class='row'>
         <div class="ten columns">
-          my name is
-          <a href='javascript:void(0)' class='banner'>spencer english williams</a>.
+          my name is<br class='show-for-small' />
+          <a href='javascript:void(0)' class='banner'>spencer english williams</a>
         </div><!--.ten.columns-->
-        <div class="ten columns text-right">
+        <div class="ten columns text-right hide-for-small">
           <div id='nav'>
             i am a
             <span class='dev'><a href='javascript:void(0)' class='dev active'>developer</a></span>,
@@ -53,35 +55,43 @@
         
       <div class="dev feature">
         <div class='header row'>
-          <div class='icon two columns text-center offset-by-two'>icon</div>
-          <div class='title three columns end'>developer</div>
+          <div class='icon two mobile-one columns text-center offset-by-two'>
+            <img src='images/developer.png' />
+          </div>
+          <div class='title three mobile-three columns end'>developer</div>
           <!-- previews will be inserted here -->
         </div><!-- .header.row -->
       </div><!-- .dev.feature -->
         
       <div class='eng feature'>
         <div class='header row'>
-          <div class='icon two columns text-center offset-by-two'>icon</div>
-          <div class='title three columns end'>engineer</div>
+          <div class='icon two mobile-one columns text-center offset-by-two'>
+            <img src='images/engineer.png' />
+          </div>
+          <div class='title three mobile-three columns end'>engineer</div>
           <!-- previews will be inserted here -->
         </div><!-- .header.row -->
       </div><!-- .eng.feature -->
         
       <div class='exp feature'>
         <div class='header row'>
-          <div class='icon two columns text-center offset-by-two'>icon</div>
-          <div class='title three columns end'>explorer</div>
+          <div class='icon two mobile-one columns text-center offset-by-two'>
+            <img src='images/explorer.png' />
+          </div>
+          <div class='title three mobile-three columns end'>explorer</div>
           <!-- previews will be inserted here -->
         </div><!-- .header.row -->
       </div><!-- .exp.feature -->
         
       <div id='spilliams' class='feature'>
         <div class="row">
-          <div class='icon two columns text-center offset-by-two'>icon</div>
-          <div class='title three columns'>spilliams</div>
-          <div class='social three columns text-center'><a href='http://twitter.com/spilliams' target='_blank'>twitter</a></div>
-          <div class='social three columns text-center'><a href='http://github.com/spilliams' target='_blank'>github</a></div>
-          <div class='social three columns text-center end'><a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a></div>
+          <div class='icon two mobile-one columns text-center offset-by-two'>
+            <img src='images/spilliams.png' />
+          </div>
+          <div class='title three mobile-three columns'>spilliams</div>
+          <div class='social three columns hide-for-small text-center'><a href='http://twitter.com/spilliams' target='_blank'>twitter</a></div>
+          <div class='social three columns hide-for-small text-center'><a href='http://github.com/spilliams' target='_blank'>github</a></div>
+          <div class='social three columns hide-for-small text-center end'><a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a></div>
         </div><!-- .row -->
       </div><!-- #spilliams.feature -->
         
@@ -97,13 +107,20 @@
     <div class='push'></div>
   </div><!-- /wrapper -->
   <div id='footer' class='footer row'>
-    <div class='four columns'><img src='images/me.jpg'></div>
-    <div class='nine columns'>Spencer has recently graduated from Carnegie Mellon University and has relocated to Portland, Oregon.<br>He is now a front-end and iOS developer and interface engineer at <a href='http://upstartlabs.com' target='_blank'>Upstart Labs</a>.</div>
-    <div class='three columns end text-right'>
+    <div class='four columns hide-for-small text-right'><img src='images/me.jpg'></div>
+    <div class='eleven columns'><p>Spencer recently graduated from Carnegie Mellon University and relocated to Portland, Oregon.</p><p>He is now a front-end developer and interface engineer at <a href='http://upstartlabs.com' target='_blank'>Upstart Labs</a>.</p></div>
+    <div class='three columns end hide-for-small text-right'>
       <a href='http://twitter.com/spilliams' target='_blank'>twitter</a><br>
       <a href='http://github.com/spilliams' target='_blank'>github</a><br>
       <a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a><br>
       <a href="mailto://s@spencerenglish.com">email</a><br>
+      <a href="http://blog.spencerenglish.com" target="_blank">blog</a>
+    </div>
+    <div class='mobile-four columns show-for-small'>
+      <a href='http://twitter.com/spilliams' target='_blank'>twitter</a>
+      <a href='http://github.com/spilliams' target='_blank'>github</a>
+      <a href='http://linkedin.com/in/spencerenglish' target='_blank'>linkedin</a>
+      <a href="mailto://s@spencerenglish.com">email</a>
       <a href="http://blog.spencerenglish.com" target="_blank">blog</a>
     </div>
   </div><!-- #footer.footer.row -->
@@ -112,7 +129,7 @@
     <div class="<%= article.discipline %> article">
       <div class="header">
         <div id="<%= article.identifier %>" class="row">
-          <div class="title nine columns offset-by-four"><%= article.headerTitle %></div>
+          <div class="title eleven columns offset-by-four"><%= article.headerTitle %></div>
           <div class="meta three columns text-right end"><%= article.date %></div>
         </div><!-- #identifier.header.row -->
       </div><!-- .header -->

@@ -3,6 +3,10 @@
 /* humanstxt.org */
 
 /* SITE */
-  Standards: HTML5, CSS3
+  Standards: HTML, CSS3
   Components: jQuery, Orbit, Reveal
   Software: Coda, Textmate, Git
+
+/* HUMANS */
+  Spencer Williams <s@spencerenglish.com>
+  

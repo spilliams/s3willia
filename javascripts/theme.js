@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
   $.each(images,function(discipline,arr){
     $.each(arr,function(i,e){
-      img = "<div class='preview three columns end' rel='#"+e.identifier+"'><img src='images/previews/"+e.imageSrc+"'></div>";
+      img = "<div class='preview three columns hide-for-small end' rel='#"+e.identifier+"'><img src='images/previews/"+e.imageSrc+"'></div>";
       $("."+discipline+".feature .header").append(img);
     })
   });
@@ -74,30 +74,36 @@ $(document).ready(function(){
   // click on filters, filter content
   $("#nav a").click(function(){
     $(".article .body").slideUp();
+    
+    // deactivate posts
     if ($(this).hasClass('active')) {
       $(this).removeClass('active');
       c = $(this).attr('class');
       
       $("."+c+".article, ."+c+".feature").slideUp();
     } else {
+      // activate posts!
       c = $(this).attr('class');
-      $("."+c+".article, ."+c+".feature").slideDown();
+      $("."+c+".article, ."+c+".feature").slideDown(function(){
+        // weird artifact of overflow:hidden messes with articles with long names
+        $("."+c+".article, ."+c+".feature").attr("style","");
+      });
       $(this).addClass('active');
     }
   })
   
   // capture j and k
-  $(document).keydown(function(event){
-    if (event.which == 74) {
-      // j
-      event.preventDefault();
-      next();
-    } else if (event.which == 75) {
-      // k
-      event.preventDefault();
-      previous();
-    }
-  })
+  // $(document).keydown(function(event){
+  //   if (event.which == 74) {
+  //     // j
+  //     event.preventDefault();
+  //     next();
+  //   } else if (event.which == 75) {
+  //     // k
+  //     event.preventDefault();
+  //     previous();
+  //   }
+  // })
   
   // use url-hashing
   h = $(location).attr('hash');

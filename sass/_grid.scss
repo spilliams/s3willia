@@ -27,8 +27,14 @@ body {
   line-height: 100px; }
 
 // images
+.icon {
+  max-height: 100px;}
 img {
   padding: 4px; }
+.icon img {
+  height: 85px;
+  width: 85px;
+  margin-top: 7px; }
 .preview img {
   float: left;
   margin: 20px 15px;
@@ -36,6 +42,8 @@ img {
 .article .body img.thumb {
   float: left;
   height: 75px; }
+.article .body, #footer {
+  padding-top: 17px; }
 #footer img {
   height: 140px;
   margin: 0 20px 0; }
