@@ -335,50 +335,57 @@ body #footer .container div {
 #spilliams {
   height: 100px;
   line-height: 100px;
+  margin-bottom: 50px;
 }
 
-/* line 30, ../sass/_grid.scss */
+/* line 31, ../sass/_grid.scss */
 .icon {
   max-height: 100px;
 }
 
-/* line 32, ../sass/_grid.scss */
+/* line 33, ../sass/_grid.scss */
 img {
   padding: 4px;
 }
 
-/* line 34, ../sass/_grid.scss */
+/* line 35, ../sass/_grid.scss */
 .icon img {
   height: 85px;
   width: 85px;
   margin-top: 7px;
 }
 
-/* line 38, ../sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
+.preview {
+  text-align: center;
+}
+
+/* line 41, ../sass/_grid.scss */
 .preview img {
   float: left;
-  margin: 20px 15px;
+  margin: 20px 30px;
   height: 60px;
 }
 
-/* line 42, ../sass/_grid.scss */
+/* line 45, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
+  margin: 0 10px 10px 0;
   height: 75px;
 }
 
-/* line 45, ../sass/_grid.scss */
+/* line 49, ../sass/_grid.scss */
 .article .body, #footer {
   padding-top: 17px;
 }
 
-/* line 47, ../sass/_grid.scss */
+/* line 51, ../sass/_grid.scss */
 #footer img {
   height: 140px;
   margin: 0 20px 0;
 }
 
-/* line 50, ../sass/_grid.scss */
+/* line 54, ../sass/_grid.scss */
 #footer .container div {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

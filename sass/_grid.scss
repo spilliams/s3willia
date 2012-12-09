@@ -24,7 +24,8 @@ body {
 
 #spilliams {
   height: 100px;
-  line-height: 100px; }
+  line-height: 100px;
+  margin-bottom: 50px; }
 
 // images
 .icon {
@@ -35,12 +36,15 @@ img {
   height: 85px;
   width: 85px;
   margin-top: 7px; }
+.preview {
+  text-align: center; }
 .preview img {
   float: left;
-  margin: 20px 15px;
+  margin: 20px 30px;
   height: 60px; }
 .article .body img.thumb {
   float: left;
+  margin: 0 10px 10px 0;
   height: 75px; }
 .article .body, #footer {
   padding-top: 17px; }
