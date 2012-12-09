@@ -31,7 +31,7 @@ var articles = [
       "Keep It Simple, Stupid. The story of this website.",
       "I wanted something to show off my work, something that could give a prospective employer a glance into my personality and attitude, not to mention my mad skillz. It's not a blog. Yes, I say \"I\" a lot, and I write in my speaking voice, but don't be fooled: I do that with everybody. My blog is now <a href='http://blog.spencerenglish.com' target='_blank'>over here</a>, and it's undergoing data loss therapy. Let's hope that's the last time I forget to back up a database before migration.",
       "Anyway, this site is super simple. One page. No searching. Doesn't look shitty on a phone.",
-      "It uses <a href='http://compass-style.org/' target='_blank'>Compass</a> and <a href='http://foundation.zurb.com/' target='_blank'>Foundation</a>. Color inspiration came from <a href='http://colorschemedesigner.com/' target='_blank'>Color Scheme Designer</a> and the background from <a href='http://subtlepatterns.com/' target='_blank'>Subtle Patterns</a>. Iconography by the talented <a href='http://jasminerae.me/' target='_blank'>Jasmine Friedrich</a> and are now available at <a href='http://thenounproject.com/' target='_blank'>The Noun Project</a>.",
+      "It uses <a href='http://compass-style.org/' target='_blank'>Compass</a> and <a href='http://foundation.zurb.com/' target='_blank'>Foundation</a>. Color inspiration came from <a href='http://colorschemedesigner.com/' target='_blank'>Color Scheme Designer</a> and the background from <a href='http://subtlepatterns.com/' target='_blank'>Subtle Patterns</a>. Iconography by the talented <a href='http://jasminerae.me/' target='_blank'>Jasmine Friedrich</a>, available at <a href='http://thenounproject.com/' target='_blank'>The Noun Project</a>.",
       "Opinions expressed here are my own. Work displayed here is mine, unless otherwise stated."
     ]
   },
@@ -47,7 +47,7 @@ var articles = [
       "So I had an extra laptop lying around. I used to use it as a home media server, but then ther Internet got better and now all my media lives in the cloud.",
       "Then I saw what some friends of mine did with theirs: they reversed the display and hung it on the wall. After plugging in a wireless keyboard and mouse it works as a tv or picture frame or recipe book.",
       "So I got creative with my 2009 13\" Macbook. The process was not simple, required some soldering, lots of Dremel-ing and some finger-crossing. Here's the result:",
-      "<img src='images/articles/tablaptop.jpg'/> (If you can't tell, it's running Ubuntu)",
+      "<img data-src='images/articles/tablaptop.jpg'/> (If you can't tell, it's running Ubuntu)",
       "Since building it, the tablaptop has sat on the hobby table. After finishing it I was struck with \"well, now what?\", and the answer was \"fashion brackets to afix it to a wall, possibly in any location/orientation, get a wireless keyboard and mouse, make sure power is available (the laptop's battery died years ago)\". Too much, for what gain? So the project is stalled."
     ]
   },
@@ -61,13 +61,13 @@ var articles = [
     imageSrc:"xcbt.jpg",
     paragraphs:[
       "In August and September of 2012 I attempted to bike across the United States of America, without companions and carrying everything I needed with me. TL;DR: I did not succeed. That is, I did not meet that goal. I did however succeed in many other ways.",
-      "<img src='images/articles/xcbt4.jpg' /> I made it from Portland, Maine to Hannibal, Missouri (I stopped biking around Jacksonville, IL though...but who's counting?). It took me 4 weeks. In all I had I think 7 rest days, most of which were spent in Pittsburgh.",
+      "<img data-src='images/articles/xcbt4.jpg' /> I made it from Portland, Maine to Hannibal, Missouri (I stopped biking around Jacksonville, IL though...but who's counting?). It took me 4 weeks. In all I had I think 7 rest days, most of which were spent in Pittsburgh.",
       "Along the way I met quite a few interesting people. I carried a tent and sleeping bag with me, and I camped out for a few nights (mostly between DC and Pittsburgh). The moajority of evenings I spent with host families from <a href='http://warmshowers.org/' target='_blank'>Warmshowers.org</a>: a network of cycling enthusiasts. It's like Couch Surfing but only for cycling tourists.",
-      "<img src='images/articles/xcbt2.jpg' />My bike was a Surly Cross-Check, which I had purchased after my previous bike&mdash;a 70s (I won't call it \"vintage\") Peugeot&mdash;was totalled in a collision. Coincidentally, the Peugot was red, and the car that hit me was a Taurus...anyway. The panniers were lovingly hand-made by my brother, the man behind <a href='http://northstbags.com' target='_blank'>North St Bags</a>. The saddle is a Brooks B17 Standard, and after it broke in around the 800-mile mark it was a joy to ride on.",
-      "<img src='images/articles/xcbt3.jpg' /> So why did the tour end early? It comes down to lifestyles. I knew from the beginning that a tour of this scale would be less of an athletic feat than a lifestyle change, and I was not wrong. Think about your life like a bunch of content. Working a 9-5 in an office building with the same people, the work is all the same, the content is all the same. You know ahead of time how to go about your day, and what you'll experience. On a tour, only the former is true. One of your crutches has been removed. One of your eyes has been opened. You know that you'll spend the day biking, but you have absolutely no idea what's going to happen.",
+      "<img data-src='images/articles/xcbt2.jpg' />My bike was a Surly Cross-Check, which I had purchased after my previous bike&mdash;a 70s (I won't call it \"vintage\") Peugeot&mdash;was totalled in a collision. Coincidentally, the Peugot was red, and the car that hit me was a Taurus...anyway. The panniers were lovingly hand-made by my brother, the man behind <a href='http://northstbags.com' target='_blank'>North St Bags</a>. The saddle is a Brooks B17 Standard, and after it broke in around the 800-mile mark it was a joy to ride on.",
+      "<img data-src='images/articles/xcbt3.jpg' /> So why did the tour end early? It comes down to lifestyles. I knew from the beginning that a tour of this scale would be less of an athletic feat than a lifestyle change, and I was not wrong. Think about your life like a bunch of content. Working a 9-5 in an office building with the same people, the work is all the same, the content is all the same. You know ahead of time how to go about your day, and what you'll experience. On a tour, only the former is true. One of your crutches has been removed. One of your eyes has been opened. You know that you'll spend the day biking, but you have absolutely no idea what's going to happen.",
       "I also knew from the start that the tour was going to happen in two distinct halves. The first half (between Portland, Maine and Hannibal, Missouri) was filled with family and friends and reunions and parties. The second half...well I don't know <b>anybody</b> between the Hannibal/Madison longitude and the West Coast. I have family connections, and my friends have family connections, but there was nobody I knew personally. So I had to figure out a meaningful path to take. I decided on the Lewis &amp; Clark trail. It would extend the length of the trip by a third, but in the end I would be a happy biker.",
       "Long story short, when I got to Hannibal I realized (a) I wouldn't make it back home before my leave time was used up, and (b) the transition between the two attitudes of the tour would take more than just teeth-gritting. So instead I relaxed for a weekend, had some fun in Columbia and Hannibal and packed up my gear.",
-      "<img src='images/articles/xcbt1.jpg' /> Plans are underway for continuing the tour next summer&mdash;this time with a partner."
+      "<img data-src='images/articles/xcbt1.jpg' /> Plans are underway for continuing the tour next summer&mdash;this time with a partner."
     ]
   },
   {
@@ -125,7 +125,7 @@ var articles = [
       "I've been thinking about designed decay. Like when you break in a shoe and its performance becomes better as it wears out. Where the object is designed to decay, where the decay is built into its function or form.",
       "I think it's a really cool idea to make things that mutate as they age such that the mutations are designed.",
       "I made a few coasters out of a bit of untreated white birch plywood. Really nice stuff. Every time I drink tea I'll leave the teabag sitting on it. When the stain dries it gets darker and takes shape. Subsequent teabag-stains overwrite the previous ones, and splashing water on the coaster will wipe them all out.",
-      "<img src='images/articles/tea.JPG'/>This is the kind of \"decay\" I'm referring to. No, the coaster isn't structurally compromised, but its original form is not being preserved either. One thing I noticed about the coaster's mutation is that when I get a really dark or interesting stain on it, my interaction with the coaster becomes different. I don't put teabags on it as willingly, or I do so in a way I hope will augment the stain rather than wipe it out. The mutation of the item's form has also affected its function.",
+      "<img data-src='images/articles/tea.JPG'/>This is the kind of \"decay\" I'm referring to. No, the coaster isn't structurally compromised, but its original form is not being preserved either. One thing I noticed about the coaster's mutation is that when I get a really dark or interesting stain on it, my interaction with the coaster becomes different. I don't put teabags on it as willingly, or I do so in a way I hope will augment the stain rather than wipe it out. The mutation of the item's form has also affected its function.",
       "The line between \"Designed Decay\" and \"Ages Well\" is a fine one, but I think it's an important distinction. It will be fun applying this to my life and work."
     ]
   },
@@ -138,8 +138,8 @@ var articles = [
     hyperlinks:{},
     imageSrc:"ambilight.jpg",
     paragraphs:[
-      "<img src='images/articles/ambilight.jpg'/> With the help of the folks over at <a href='http://adafruit.com' target='_blank'>Adafruit</a>, I made an Arduino-based LED ambient backlight for my computer monitor. It looks great with movies and games!",
-      "<img src='images/articles/ambilight2.jpg'/>"
+      "<img data-src='images/articles/ambilight.jpg'/> With the help of the folks over at <a href='http://adafruit.com' target='_blank'>Adafruit</a>, I made an Arduino-based LED ambient backlight for my computer monitor. It looks great with movies and games!",
+      "<img data-src='images/articles/ambilight2.jpg'/>"
     ]
   },
   {
@@ -168,7 +168,7 @@ var articles = [
     },
     imageSrc:"jquery-colorwheel.png",
     paragraphs:[
-      "<img class='thumb' src='images/articles/jquery-colorwheel.png'> This plugin helps you generate your own custom colorwheel and colorpicker. The wheel is fashioned with CSS and very small <code>td</code>s. It's buggy and incomplete and very inefficient (not least because the color wheel is just a bunch of 1x1 spans with inline styling for the color...)."
+      "<img class='thumb' data-src='images/articles/jquery-colorwheel.png'> This plugin helps you generate your own custom colorwheel and colorpicker. The wheel is fashioned with CSS and very small <code>td</code>s. It's buggy and incomplete and very inefficient (not least because the color wheel is just a bunch of 1x1 spans with inline styling for the color...)."
     ]
   },
   {
@@ -193,10 +193,10 @@ var articles = [
     hyperlinks:{},
     imageSrc:"deutschland.jpg",
     paragraphs:[
-      "<img src='images/articles/freiburg1.jpg' />In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>. I also visited Paris and Wien during my travels.",
-      "<img src='images/articles/freiburg2.jpg' />At first there was a shock&mdash;similar to the one I experienced upon moving to Pittsburgh (or Portland). Everything is strange and wonderful. I slowly got over that and started exploring.",
-      "<img src='images/articles/paris2.jpg' />The experience changed me. When I was a little boy my world extended only to the edge of town. Then as I grew up my world grew with me. It grew to include New England, and the Eastern Seaboard, and the whole of the United States. I took trips abroad with family and the Boy Scouts, even to other continents, but none of those trips expanded my world quite as much as this one did.",
-      "<img src='images/articles/paris1.jpg' />"
+      "<img data-src='images/articles/freiburg1.jpg' />In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>. I also visited Paris and Wien during my travels.",
+      "<img data-src='images/articles/freiburg2.jpg' />At first there was a shock&mdash;similar to the one I experienced upon moving to Pittsburgh (or Portland). Everything is strange and wonderful. I slowly got over that and started exploring.",
+      "<img data-src='images/articles/paris2.jpg' />The experience changed me. When I was a little boy my world extended only to the edge of town. Then as I grew up my world grew with me. It grew to include New England, and the Eastern Seaboard, and the whole of the United States. I took trips abroad with family and the Boy Scouts, even to other continents, but none of those trips expanded my world quite as much as this one did.",
+      "<img data-src='images/articles/paris1.jpg' />"
     ]
   },
   {
