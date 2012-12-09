@@ -63,8 +63,8 @@ $(document).ready(function(){
       if (typeof oldbody != 'undefined')
         oldbody.slideUp(0);
       body.slideDown('fast');
-      if ("#"+$(this)[0].id != jQuery(location).attr('hash'))
-        window.location.hash = $(this)[0].id;
+      if ("#"+$(this).find(".row")[0].id != jQuery(location).attr('hash'))
+        window.location.hash = $(this).find(".row")[0].id;
       // scroll to article
       scrolly($(this).closest(".article").offset().top);
       openArticle = $(this).closest(".article");
