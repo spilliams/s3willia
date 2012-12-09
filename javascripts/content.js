@@ -44,11 +44,12 @@ var articles = [
     hyperlinks:{},
     imageSrc:"tablaptop.jpg",
     paragraphs:[
-      "So I had an extra laptop lying around. I used to use it as a home media server, but then ther Internet got better and now all my media lives in the cloud.",
+      "So I had an extra laptop lying around. I used to use it as a home media server, but then the Internet got better and now all my media lives in the cloud.",
       "Then I saw what some friends of mine did with theirs: they reversed the display and hung it on the wall. After plugging in a wireless keyboard and mouse it works as a tv or picture frame or recipe book.",
       "So I got creative with my 2009 13\" Macbook. The process was not simple, required some soldering, lots of Dremel-ing and some finger-crossing. Here's the result:",
       "<img data-src='images/articles/tablaptop.jpg'/> (If you can't tell, it's running Ubuntu)",
-      "Since building it, the tablaptop has sat on the hobby table. After finishing it I was struck with \"well, now what?\", and the answer was \"fashion brackets to afix it to a wall, possibly in any location/orientation, get a wireless keyboard and mouse, make sure power is available (the laptop's battery died years ago)\". Too much, for what gain? So the project is stalled."
+      "Since building it, the tablaptop has sat on the hobby table. After finishing it I was struck with \"well, now what?\", and the answer was \"fashion brackets to afix it to a wall, possibly in any location/orientation, get a wireless keyboard and mouse, make sure power is available (the laptop's battery died years ago)\". Too much, for what gain? So the project stalled.",
+      "I did have fun working on it, and I like to think it helped my soldering skills, but the truth is that a real tablet is far and away better at being a kitchen device than a junky old laptop. Sorry, Rorqual."
     ]
   },
   {
@@ -63,10 +64,10 @@ var articles = [
       "In August and September of 2012 I attempted to bike across the United States of America, without companions and carrying everything I needed with me. TL;DR: I did not succeed. That is, I did not meet that goal. I did however succeed in many other ways.",
       "<img data-src='images/articles/xcbt4.jpg' /> I made it from Portland, Maine to Hannibal, Missouri (I stopped biking around Jacksonville, IL though...but who's counting?). It took me 4 weeks. In all I had I think 7 rest days, most of which were spent in Pittsburgh.",
       "Along the way I met quite a few interesting people. I carried a tent and sleeping bag with me, and I camped out for a few nights (mostly between DC and Pittsburgh). The majority of evenings I spent with host families from <a href='http://warmshowers.org/' target='_blank'>Warmshowers.org</a>: a network of cycling enthusiasts. It's like Couch Surfing but only for cycling tourists.",
-      "<img data-src='images/articles/xcbt2.jpg' />My bike was a Surly Cross-Check, which I had purchased after my previous bike&mdash;a 70s (I won't call it \"vintage\") Peugeot&mdash;was totalled in a collision. Coincidentally, the Peugot was red, and the car that hit me was a Taurus...anyway. The panniers were lovingly hand-made by my brother, the man behind <a href='http://northstbags.com' target='_blank'>North St Bags</a>. The saddle is a Brooks B17 Standard, and after it broke in around the 800-mile mark it was a joy to ride on.",
-      "<img data-src='images/articles/xcbt3.jpg' /> So why did the tour end early? It comes down to lifestyles. I knew from the beginning that a tour of this scale would be less of an athletic feat than a lifestyle change, and I was not wrong. Think about your life like a bunch of content. Working a 9-5 in an office building with the same people, the work is all the same, the content is all the same. You know ahead of time how to go about your day, and what you'll experience. On a tour, only the former is true. One of your crutches has been removed. One of your eyes has been opened. You know that you'll spend the day biking, but you have absolutely no idea what's going to happen.",
+      "<img data-src='images/articles/xcbt2.jpg' />My bike was a Surly Cross-Check, which I had purchased after my previous bike&mdash;a 70s (I won't call it \"vintage\") Peugeot&mdash;was totalled in a collision. Coincidentally, the Peugeot was red, and the car that hit me was a Taurus...anyway. The panniers were lovingly hand-made by my brother, the man behind <a href='http://northstbags.com' target='_blank'>North St Bags</a>. The saddle is a Brooks B17 Standard, and after it broke in around the 800-mile mark it was a joy to ride on.",
+      "<img data-src='images/articles/xcbt3.jpg' /> So why did the tour end early? It comes down to lifestyles. I knew from the beginning that a tour of this scale would be less of an athletic feat than a lifestyle change, and I was not wrong. Working a 9-5 in an office building with the same people, the work is all the same, the content is all the same. You know ahead of time how to go about your day, and what you'll experience. On a tour, only the former is true. One of your crutches has been removed. One of your eyes has been opened. You know that you'll spend the day biking, but you have absolutely no idea what's going to happen.",
       "I also knew from the start that the tour was going to happen in two distinct halves. The first half (between Portland, Maine and Hannibal, Missouri) was filled with family and friends and reunions and parties. The second half...well I don't know <b>anybody</b> between the Hannibal/Madison longitude and the West Coast. I have family connections, and my friends have family connections, but there was nobody I knew personally. So I had to figure out a meaningful path to take. I decided on the Lewis &amp; Clark trail. It would extend the length of the trip by a third, but in the end I would be a happy biker.",
-      "Long story short, when I got to Hannibal I realized (a) I wouldn't make it back home before my leave time was used up, and (b) the transition between the two attitudes of the tour would take more than just teeth-gritting. So instead I relaxed for a weekend, had some fun in Columbia and Hannibal and packed up my gear.",
+      "Long story short, when I got to Hannibal I realized (a) I wouldn't make it back home before my leave time was used up, and (b) the transition between the two attitudes of the tour&mdash;visiting with people versus visiting with the ghosts of frontiersmen&mdash;would take more than just teeth-gritting. So instead I relaxed for a weekend, had some fun in Columbia and Hannibal and packed up my gear.",
       "<img data-src='images/articles/xcbt1.jpg' /> Plans are underway for continuing the tour next summer&mdash;this time with a partner."
     ]
   },
@@ -168,7 +169,7 @@ var articles = [
     },
     imageSrc:"jquery-colorwheel.png",
     paragraphs:[
-      "<img class='thumb' data-src='images/articles/jquery-colorwheel.png'> This plugin helps you generate your own custom colorwheel and colorpicker. The wheel is fashioned with CSS and very small <code>td</code>s. It's buggy and incomplete and very inefficient (not least because the color wheel is just a bunch of 1x1 spans with inline styling for the color...)."
+      "<img class='thumb' data-src='images/articles/jquery-colorwheel.png'> This plugin helps you generate your own custom colorwheel and colorpicker. The wheel is fashioned with CSS and very small <code>td</code>s. It's buggy and incomplete and very inefficient."
     ]
   },
   {
@@ -194,7 +195,7 @@ var articles = [
     imageSrc:"deutschland.jpg",
     paragraphs:[
       "<img data-src='images/articles/freiburg1.jpg' />In the summer of 2011 I traveled to <a href='http://en.wikipedia.org/wiki/Freiburg_im_Breisgau' target='_blank'>Freiburg im Brei&szlig;gau, Baden-W&uuml;rttemberg, Deutschland</a> to study the German language at the <a href='http://www.goethe.de/enindex.htm' target='_blank'>Goethe-Institut</a>. I also visited Paris and Wien during my travels.",
-      "<img data-src='images/articles/freiburg2.jpg' />At first there was a shock&mdash;similar to the one I experienced upon moving to Pittsburgh (or Portland). Everything is strange and wonderful. I slowly got over that and started exploring.",
+      "<img data-src='images/articles/freiburg2.jpg' />At first there was a shock&mdash;similar to the one I experienced upon moving to Pittsburgh (or Portland). Everything is alien and backwards, like the dream where things that should look familiar are the wrong color, or in the wrong place. I slowly got over that and started exploring.",
       "<img data-src='images/articles/paris2.jpg' />The experience changed me. When I was a little boy my world extended only to the edge of town. Then as I grew up my world grew with me. It grew to include New England, and the Eastern Seaboard, and the whole of the United States. I took trips abroad with family and the Boy Scouts, even to other continents, but none of those trips expanded my world quite as much as this one did.",
       "<img data-src='images/articles/paris1.jpg' />"
     ]
