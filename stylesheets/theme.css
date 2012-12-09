@@ -352,40 +352,42 @@ img {
 .icon img {
   height: 85px;
   width: 85px;
+  float: left;
+  max-width: 85px;
   margin-top: 7px;
 }
 
-/* line 39, ../sass/_grid.scss */
+/* line 41, ../sass/_grid.scss */
 .preview {
   text-align: center;
 }
 
-/* line 41, ../sass/_grid.scss */
+/* line 43, ../sass/_grid.scss */
 .preview img {
   float: left;
   margin: 20px 30px;
   height: 60px;
 }
 
-/* line 45, ../sass/_grid.scss */
+/* line 47, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   margin: 0 10px 10px 0;
   height: 75px;
 }
 
-/* line 49, ../sass/_grid.scss */
+/* line 51, ../sass/_grid.scss */
 .article .body, #footer {
   padding-top: 17px;
 }
 
-/* line 51, ../sass/_grid.scss */
+/* line 53, ../sass/_grid.scss */
 #footer img {
   height: 140px;
   margin: 0 20px 0;
 }
 
-/* line 54, ../sass/_grid.scss */
+/* line 56, ../sass/_grid.scss */
 #footer .container div {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -494,6 +496,11 @@ a {
   /* line 9, ../sass/_mobile.scss */
   body .article .header .meta {
     text-align: center;
+  }
+
+  /* line 11, ../sass/_mobile.scss */
+  .feature .title {
+    text-align: right;
   }
 }
 /* line 24, ../sass/theme.scss */

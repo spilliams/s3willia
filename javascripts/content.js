@@ -1,24 +1,40 @@
 /* Schema to copy-paste
-{
-  discipline:"dev",//eng, exp
-  identifier:"",
-  published:true,
-  headerTitle:"",
-  date:"",
-  hyperlinks:{
-    "code":"http://github.com/spilliams/",
-    "demo":"http://spencerenglish.com/demo/"
+  {
+    discipline:"dev",//eng, exp
+    identifier:"",
+    published:true,
+    headerTitle:"",
+    date:"",
+    hyperlinks:{
+      "code":"http://github.com/spilliams/",
+      "demo":"http://spencerenglish.com/demo/"
+    },
+    imageSrc:"foo.png",
+    paragraphs:[
+      "",
+      ""
+    ]
   },
-  imageSrc:"foo.png",
-  paragraphs:[
-    "",
-    ""
-  ]
-}
 */
 // Keep these in chronological order, most recent at the top
 
 var articles = [
+  {
+    discipline:"dev",//eng, exp
+    identifier:"kiss",
+    published:true,
+    headerTitle:"KISS",
+    date:"8 Dec 2012",
+    hyperlinks:{},
+    imageSrc:"",
+    paragraphs:[
+      "Keep It Simple, Stupid. The story of this website.",
+      "I wanted something to show off my work, something that could give a prospective employer a glance into my personality and attitude, not to mention my mad skillz. It's not a blog. Yes, I say \"I\" a lot, and I write in my speaking voice, but don't be fooled: I do that with everybody. My blog is now <a href='http://blog.spencerenglish.com' target='_blank'>over here</a>, and it's undergoing data loss therapy. Let's hope that's the last time I forget to back up a database before migration.",
+      "Anyway, this site is super simple. One page. No searching. Doesn't look shitty on a phone.",
+      "It uses <a href='http://compass-style.org/' target='_blank'>Compass</a> and <a href='http://foundation.zurb.com/' target='_blank'>Foundation</a>. Color inspiration came from <a href='http://colorschemedesigner.com/' target='_blank'>Color Scheme Designer</a> and the background from <a href='http://subtlepatterns.com/' target='_blank'>Subtle Patterns</a>. Iconography by the talented <a href='http://jasminerae.me/' target='_blank'>Jasmine Freidrich</a>.",
+      "Opinions expressed here are my own. Work displayed here is mine, unless otherwise stated."
+    ]
+  },
   {
     discipline:"eng",
     identifier:"tablaptop",
