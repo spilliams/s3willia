@@ -58,7 +58,11 @@ var articles = [
     published:true,
     headerTitle:"Personal Growth and Killer Calves",
     date:"Aug 2012",
-    hyperlinks:{},
+    hyperlinks:{
+      "photos":"https://www.facebook.com/media/set/?set=a.4988463595772.2198941.1425030030&type=1&l=364ac6498d",
+      "videos":"http://www.youtube.com/playlist?list=PLJ9rBKWG7TZ_6twwQPIhbvvr9bQcyHQ7S",
+      "blogs":"http://blog.spencerenglish.com/category/xc-tour/"
+    },
     imageSrc:"xcbt.jpg",
     paragraphs:[
       "In August and September of 2012 I attempted to bike across the United States of America, without companions and carrying everything I needed with me. TL;DR: I did not succeed. That is, I did not meet that goal. I did however succeed in many other ways.",
