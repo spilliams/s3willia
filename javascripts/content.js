@@ -20,6 +20,28 @@
 
 var articles = [
   {
+    discipline:"eng",
+    identifier:"woodworking2013",
+    published:true,
+    headerTitle:"Hibernation '13",
+    date:"March 2013",
+    hyperlinks:{
+      "bed frame process photos":"https://www.facebook.com/media/set/?set=a.10200702431389573.2207303.1425030030&type=1&l=ee5c90176b",
+      "tv table process photos":"https://www.facebook.com/media/set/?set=a.10200879808543891.1073741825.1425030030&type=1&l=5efd309b0d"
+    },
+    imageSrc:"woodworking13.jpg",
+    paragraphs:[
+      "In the winter of 2012-2013 I got bored with my free time stuck at home during the rain, and I was sick of sleeping on the floor. So I did something about it. I embarked on two woodworking projects over a couple of months, with abounding success.",
+      "The first and more successful project was a bed frame. The design was based on an <a href='http://www.instructables.com/id/Nail-less-glue-less-almost-screw-less-fire-finish/' target='_blank'>instructable</a> I found. The main idea here was for easy assembly.",
+      "<img data-src='images/articles/bed.jpg'/> The outer rails are clear cedar 1x8s, the inner frame is std 2x6, and the corner posts are std 6x6. The sheet (not pictured) is 5/8\" rough ply.",
+      "The bed frame in all took me almost a month, maybe $200 in materials, and I had a lot of fun!",
+      "The next project I undertook was a table for my TV and various living room media devices. At the time my TV was sitting on a side table, and I wanted my side table back. So I built a tv table.",
+      "<img data-src='images/articles/tv.jpg'/> The whole thing is built with 1/2\" birch ply, high-grade stuff.",
+      "I'm not exactly proud of it, but I don't consider it a failure. I definitely learned a lot about process and furniture ideals. For instance: furniture looks much nicer with several coats of poly (which this project did not use). And sand, sand, sand, sand. Then, sand.",
+      "My next woodworking project will be to make some coat hooks in the style of Workerman's <a href='http://workerman.storenvy.com/products/6087-muchroom-wall-hook-rosewood' target='_blank'>Muchroom Wall Hook</a>, then matching towel racks. But this hobby phase has run its course for now and I'll get back into it in a few months."
+    ]
+  },
+  {
     discipline:"dev",//eng, exp
     identifier:"kiss",
     published:true,
