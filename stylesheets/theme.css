@@ -381,9 +381,10 @@ img {
   float: left;
   margin: 0 10px 10px 0;
   height: 75px;
+  width: auto;
 }
 
-/* line 64, ../sass/_grid.scss */
+/* line 66, ../sass/_grid.scss */
 .article .body, #footer {
   padding-top: 17px;
 }
