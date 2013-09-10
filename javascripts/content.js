@@ -28,7 +28,7 @@ var articles = [
     hyperlinks:{
       "process photos":"https://www.facebook.com/media/set/?set=a.10201033342942155.1073741826.1425030030&type=1&l=2b37e042ab"
     },
-    imageSrc:"hooks.png",
+    imageSrc:"hooks.jpg",
     paragraphs:[
       "This apartment has needed decent coat hooks ever since I moved in 11 months ago. When I set about my decorating research on Pinterest the hooks were near the top of the list. I even found some I liked on the Internet, but since they were no longer for sale I was forced to recreate them myself.",
       "<img data-src='images/articles/hooks/finished1.jpg'/>",

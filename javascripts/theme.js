@@ -1,14 +1,6 @@
 // Regular theme JavaScript goes here
 $(document).ready(function(){
   
-  function fixStickyFooter () {
-    var footerRowHeight = $(".footer")[0].offsetHeight;
-    $(".footer, .push").height(footerRowHeight);
-    $(".wrapper").css({'margin-bottom':(-1 * footerRowHeight) +"px"});
-  };
-  fixStickyFooter();
-  $(window).bind('resize', fixStickyFooter);
-  
   // load articles
   images = {
     "dev":[],
@@ -36,7 +28,7 @@ $(document).ready(function(){
   });
   $.each(images,function(discipline,arr){
     $.each(arr,function(i,e){
-      img = "<div class='preview three columns hide-for-small end' rel='#"+e.identifier+"'><img data-src='images/previews/"+e.imageSrc+"'></div>";
+      img = "<div class='preview large-2 columns text-center hide-for-small end' rel='#"+e.identifier+"'><img data-src='images/previews/"+e.imageSrc+"'></div>";
       $("."+discipline+".feature .header").append(img);
     })
   });

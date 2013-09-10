@@ -33,15 +33,13 @@ body {
 img {
   padding: 4px; }
 .icon img {
-  height: 85px;
   width: 85px;
-  float: left;
-  max-width: 85px;
-  margin-top: 7px; }
+  margin-top: 7px;
+  padding: 0;
+  }
 .preview {
   text-align: center; }
 .preview img {
-  float: left;
   margin: 20px 30px;
   height: 60px; }
 .article .body img.thumb {
