@@ -20,6 +20,34 @@
 
 var articles = [
   {
+    discipline:"eng",//eng, exp
+    identifier:"coathooks",
+    published:true,
+    headerTitle:"Coat Hook Build",
+    date:"9 Sept 2013",
+    hyperlinks:{
+      "process photos":"https://www.facebook.com/media/set/?set=a.10201033342942155.1073741826.1425030030&type=1&l=2b37e042ab"
+    },
+    imageSrc:"hooks.png",
+    paragraphs:[
+      "This apartment has needed decent coat hooks ever since I moved in 11 months ago. When I set about my decorating research on Pinterest the hooks were near the top of the list. I even found some I liked on the Internet, but since they were no longer for sale I was forced to recreate them myself.",
+      "<img data-src='images/articles/hooks/finished1.jpg'/>",
+      "These coat hooks are based on the <a href='http://cargocollective.com/workerman/Muchroom' target='_blank'>MUCHroom</a>, by Adam Brackney. I'm not sure what process he used, but my ideals for this project were<br /><ul><li>clean, sharp lines and corners</li><li>invisible fasteners</li><li>Easy installation</li><li>Bonus points: reusability</li><li>Bonus points: made from recycled material</li></ul>",
+      "<img data-src='images/articles/hooks/sketches.jpg'/>",
+      "I started with some scrap plywood pieces leftover from my last endeavor. They were mostly 1/2&quot; x 1/2&quot;, and 10-12&quot; long. I started by gluing 6 together in a 2x3 grid, alternating the grains for Style! Then I cut the end at a 45&deg; angle and chiseled out a small cavity.",
+      "<img data-src='images/articles/hooks/cavity.jpg'/>",
+      "The cavity allowed me to embed a drywall-screw into the coat hook. When I glued another 1x3 grid of plywood on top, it appeared as if the screw comes from nowhere!",
+      "<img data-src='images/articles/hooks/clamp.jpg'/>",
+      "A little light sanding with 80-grit paper, 2 coats of Dark Walnut stain, 2 coats of polyurethane and voilà! Once I finished one hook without killing myself or ruining any of my coats, I started the other two.",
+      "<img data-src='images/articles/hooks/progress.jpg'/>",
+      "Now I have a place to put dripping raincoats and scarves I never wear!",
+      "<img data-src='images/articles/hooks/finished2.jpg'/>",
+      "For anyone who wants to recreate my success, my materials/expendables list:",
+      "<ul><li>scrap plywood (1/2&quot; x 1/2&quot; x 12&quot;, qty 18)</li><li>drywall screws (2 1/8&quot;, qty 3)</li><li>drywall anchors (<a href='https://www.google.com/search?hl=en&q=nylon+zip-it&gbv=2&biw=1361&bih=607&sei=U58uUofuJcPMiQLqzYGQDQ&tbm=isch#gbv=2&hl=en&q=nylon+zip-it+drywall+anchor&safe=active&tbm=isch' target='_blank'>nylon ZIP-IT</a>, qty 3)</li><li>wood glue</li><li>wood putty</li><li>80-grit sandpaper</li><li>Dark Walnut stain</li><li>clear satin polyurethane</li></ul>",
+      "And my tools list:<ul><li>hand saw</li><li>screw-gun (1/4&quot; bit and quick-change drywall bit)</li><li>chisel (1/2&quot;)</li><li>quick-clamps (6)</li><li>hand screwdriver</li><li>putty knife</li><li>random orbital sander</li></ul>"
+    ]
+  },
+  {
     discipline:"eng",
     identifier:"woodworking2013",
     published:true,
