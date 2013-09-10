@@ -3,6 +3,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+
+
+p, li { font-size: 18px; }
+
 body {
   font-size: 20px;
   line-height: 30px;
@@ -19,8 +23,15 @@ body {
     line-height: 100px; }
   .article .header {
     line-height: 75px; }
-  #footer .container div {
-    height: 200px; } }
+  #footer { 
+    a {
+      font-size: 14px;
+    }
+    p a {
+      font-size: 18px;
+    }
+  }
+}
 
 #spilliams {
   height: 100px;
@@ -52,9 +63,3 @@ img {
   height: 75px; }
 .article .body, #footer {
   padding-top: 17px; }
-#footer img {
-  height: 140px;
-  margin: 0 20px 0; }
-#footer .container div {
-  @include border-box;
-  padding-top: 30px; }
