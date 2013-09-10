@@ -43,6 +43,24 @@ $(document).ready(function(){
     scrolly($("#footer").offset().top);
   })
   
+  var $scrollNav = $("#scrollNav");
+  var scrollNavIsOpen = false;
+  function scrollNavOn() {
+    
+    
+    scrollNavIsOpen = true;
+  };
+  function scrollNavOff() {
+    
+    scrollNavIsOpen = false;
+  };
+  // determines if scrollNav needs to open or close
+  function scrollNav() {
+    
+  };
+  $(window).bind('resize', scrollNav);
+  $(window).bind('scroll', scrollNav)
+  
   // click on article header, slide open or closed
   $(".article .header").click(function(event){
     event.preventDefault();

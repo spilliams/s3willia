@@ -51,6 +51,25 @@ body {
 #header, #footer {
   color: $white;
   @include text-glow($grey); }
+#scroll-nav {
+  @include box-glow($grey);
+  img {
+    background: transparent;
+    @include box-glow(none);
+    padding: 0;
+    width: 85px;
+    height: 85px;
+  }
+  .dev {
+    background: $red;
+  }
+  .eng {
+    background: $yellow;
+  }
+  .exp {
+    background: $blue;
+  }
+}
 
 #header {
   @include box-shadow(inset 0px 0px 2px $grey);
