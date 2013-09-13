@@ -81,22 +81,11 @@ $(document).ready(function(){
   $("#nav a").click(function(){
     $(".article .body").slideUp();
     
-    // deactivate posts
-    if ($(this).hasClass('active')) {
-      $(this).removeClass('active');
-      c = $(this).attr('class');
-      
-      $("."+c+".article, ."+c+".feature").slideUp();
-    } else {
-      // activate posts!
-      c = $(this).attr('class');
-      $("."+c+".article, ."+c+".feature").slideDown(function(){
-        // weird artifact of overflow:hidden messes with articles with long names
-        $("."+c+".article, ."+c+".feature").attr("style","");
-      });
-      $(this).addClass('active');
-    }
-  })
+    var c = $(this).attr('class').split(" ")[0];
+    
+    filter(c);
+    
+  });
   
   // capture j and k
   // $(document).keydown(function(event){
@@ -127,6 +116,43 @@ $(document).ready(function(){
 });
 
 var openArticle = false;
+var activeFilter = "";
+function filter(c) {
+  console.log("filtering to '"+c+"'. active filter '"+activeFilter+"'");
+
+  var allSel = ".dev.article, .dev.feature, .eng.article, .eng.feature, .exp.article, .exp.feature";
+  var articleSel = function(c){
+    return "."+c+".article, ."+c+".feature";
+  }
+  
+  if (activeFilter == c || (typeof c == "undefined" || c === "")) {
+    
+    // disable filter, show all articles
+    $("#nav span a").addClass("active");
+    $(allSel).slideDown(function(){
+      $(allSel).attr("style");
+    });
+    activeFilter = "";
+    
+    return;
+    
+  } else if (activeFilter != "") {
+    
+    $("#nav span."+activeFilter+" a").removeClass("active");
+    $(articleSel(activeFilter)).slideUp();
+    
+  }
+  // we also happen to know that c has a value, so we want to show those articles
+  // whether or not there was an active filter
+  $("#nav span a").removeClass("active");
+  $("#nav span."+c+" a").addClass("active");
+  $(allSel).slideUp(function(){
+    $(articleSel(c)).slideDown(function(){
+      $(articleSel(c)).attr("style","");
+    });
+  });
+  activeFilter = c;
+}
 
 // scroll the window to a spot
 function scrolly(i) {
