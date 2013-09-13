@@ -20,6 +20,21 @@
 
 var articles = [
   {
+    discipline:"exp",//eng, exp
+    identifier:"wmcsd",
+    published:false,
+    headerTitle:"The Corps of Self-Discovery",
+    date:"23 Aug 2013",
+    hyperlinks:{
+      "blog post":"http://www.williamsandmeyer.co/day-78-done/"
+    },
+    imageSrc:"foo.png",
+    paragraphs:[
+      "",
+      ""
+    ]
+  },
+  {
     discipline:"eng",//eng, exp
     identifier:"coathooks",
     published:true,
