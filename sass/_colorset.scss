@@ -46,8 +46,8 @@ $black         : #222222;
 
 // high-level layout
 
-body {
-  background: $texture repeat scroll 0 0; }
+html, body {
+  background: $texture repeat scroll 0 0 !important; }
 #header, #footer {
   color: $white;
   @include text-glow($grey); }

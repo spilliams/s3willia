@@ -1,6 +1,6 @@
 /* line 49, ../sass/_colorset.scss */
-body {
-  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0;
+html, body {
+  background: #575757 url("../images/furley_bg.png") repeat scroll 0 0 !important;
 }
 
 /* line 51, ../sass/_colorset.scss */

@@ -191,10 +191,9 @@ function filter(c) {
   // whether or not there was an active filter
   $("#nav span a").removeClass("active");
   $("#nav span."+c+" a").addClass("active");
-  $(allSel).slideUp(function(){
-    $(articleSel(c)).slideDown(function(){
-      $(articleSel(c)).attr("style","");
-    });
+  $(allSel).slideUp();
+  $(articleSel(c)).slideDown(function(){
+    $(articleSel(c)).attr("style","");
   });
   activeFilter = c;
 }
