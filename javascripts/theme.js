@@ -43,6 +43,61 @@ $(document).ready(function(){
     scrolly($("#footer").offset().top);
   })
   
+  var $scrollNav = $("#scroll-nav");
+  var scrollNavIsOpen = false;
+  function scrollNavOn() {
+    var offsetLeft = $(".feature .header .icon").offset().left;
+    var imgSize = $(".feature .header .icon img").width();
+    var iconSize = $(".feature .header .icon").height();
+    $("#scroll-nav img").width(imgSize);
+    $("#scroll-nav img").height(imgSize);
+    $("#scroll-nav .icon").width(iconSize);
+    $("#scroll-nav .icon").height(iconSize);
+    $scrollNav.css({"left":offsetLeft});
+    
+    $scrollNav.show();
+    scrollNavIsOpen = true;
+  };
+  function scrollNavOff() {
+    $scrollNav.hide();
+    scrollNavIsOpen = false;
+  };
+  // determines if scrollNav needs to open or close
+  function scrollNav() {
+    var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    var threshold = $("#content").offset().top;//$("#articles").offset().top;
+    if (scrollTop > threshold) {
+      if (!scrollNavIsOpen) {
+        scrollNavOn();
+      }
+    } else {
+      if (scrollNavIsOpen) {
+        scrollNavOff();
+      }
+    }
+  };
+  scrollNav();
+  $(window).bind('resize', scrollNav);
+  $(window).bind('scroll', scrollNav);
+  
+  // click on scrollnav item, filter content, scroll to top of content
+  $("#scroll-nav .icon").click(function(e){
+    e.preventDefault();
+    
+    var filter = ["dev", "env", "exp"];
+    var classes = $(this).attr('class').split(' ');
+    for (var i=0; i<classes.length; i++) {
+      var foundIndex = filter.indexOf(classes[i]);
+      if (foundIndex != -1) {
+        filter.splice(foundIndex,1);
+      }
+    }
+    for (var i=0; i<filter.length; i++) {
+      $("#nav a."+filter).click();
+    }
+    scrolly($("#articles").offset().top);
+  });
+  
   // click on article header, slide open or closed
   $(".article .header").click(function(event){
     event.preventDefault();
