@@ -84,18 +84,8 @@ $(document).ready(function(){
   $("#scroll-nav .icon").click(function(e){
     e.preventDefault();
     
-    var filter = ["dev", "env", "exp"];
-    var classes = $(this).attr('class').split(' ');
-    for (var i=0; i<classes.length; i++) {
-      var foundIndex = filter.indexOf(classes[i]);
-      if (foundIndex != -1) {
-        filter.splice(foundIndex,1);
-      }
-    }
-    for (var i=0; i<filter.length; i++) {
-      $("#nav a."+filter).click();
-    }
-    scrolly($("#articles").offset().top);
+    filter($(this).attr("class").split(" ")[0]);
+    // scrolly($("#articles").offset().top);
   });
   
   // click on article header, slide open or closed

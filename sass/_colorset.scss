@@ -59,15 +59,23 @@ body {
     padding: 0;
     width: 85px;
     height: 85px;
+    margin-top: 13px;
   }
-  .dev {
-    background: $red;
-  }
-  .eng {
-    background: $yellow;
-  }
-  .exp {
-    background: $blue;
+  .icon {
+    border-top-width: 1px;
+    border-top-style: solid;
+    &.dev {
+      background: $red;
+      border-top-color: $redShadow2;
+    }
+    &.eng {
+      background: $yellow;
+      border-top-color: $yellowShadow2;
+    }
+    &.exp {
+      background: $blue;
+      border-top-color: $blueShadow2;
+    }
   }
 }
 
