@@ -163,8 +163,7 @@ $(document).ready(function(){
 var openArticle = false;
 var activeFilter = "";
 function filter(c) {
-  console.log("filtering to '"+c+"'. active filter '"+activeFilter+"'");
-
+  
   var allSel = ".dev.article, .dev.feature, .eng.article, .eng.feature, .exp.article, .exp.feature";
   var articleSel = function(c){
     return "."+c+".article, ."+c+".feature";
