@@ -296,32 +296,45 @@ img {
   border: 0 none transparent;
 }
 
-/* line 9, ../sass/_typeset.scss */
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cantarell Regular"), local("Cantarell-Regular"), url("http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'MuseoSlab-500';
+  src: url("../typefaces/202288_0_0.eot");
+  src: url("../typefaces/202288_0_0.eot?#iefix") format("embedded-opentype"), url("../typefaces/202288_0_0.woff") format("woff"), url("../typefaces/202288_0_0.ttf") format("truetype");
+}
+
+/* line 30, ../sass/_typeset.scss */
 body, .serif {
-  font-family: "Archer SSm A", "Archer SSm B";
+  font-family: "Archer SSm A", "Archer SSm B", "MuseoSlab-500", serif;
 }
 
-/* line 13, ../sass/_typeset.scss */
+/* line 34, ../sass/_typeset.scss */
 #header a, .title, .sans {
-  font-family: "Verlag A", "Verlag B";
+  font-family: "Verlag A", "Verlag B", "Cantarell", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-/* line 17, ../sass/_typeset.scss */
+/* line 38, ../sass/_typeset.scss */
 code, pre, .monospace {
   font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
 }
 
-/* line 8, ../sass/_grid.scss */
+/* line 9, ../sass/_grid.scss */
 p, li {
   font-size: 18px;
 }
 
-/* line 10, ../sass/_grid.scss */
+/* line 11, ../sass/_grid.scss */
 body {
   font-size: 20px;
   line-height: 30px;
 }
-/* line 13, ../sass/_grid.scss */
+/* line 14, ../sass/_grid.scss */
 body #scroll-nav {
   position: fixed;
   top: 0;
@@ -330,87 +343,92 @@ body #scroll-nav {
   text-align: center;
   cursor: pointer;
 }
-/* line 21, ../sass/_grid.scss */
+/* line 22, ../sass/_grid.scss */
 body #header {
   line-height: 75px;
 }
-/* line 23, ../sass/_grid.scss */
+/* line 24, ../sass/_grid.scss */
 body #header a {
   line-height: 50px;
   font-size: 30px;
 }
-/* line 26, ../sass/_grid.scss */
+/* line 27, ../sass/_grid.scss */
 body .title {
   font-size: 30px;
 }
-/* line 28, ../sass/_grid.scss */
+/* line 29, ../sass/_grid.scss */
 body .meta {
   font-size: 14px;
 }
-/* line 30, ../sass/_grid.scss */
+/* line 31, ../sass/_grid.scss */
 body .feature .header {
   line-height: 100px;
 }
-/* line 32, ../sass/_grid.scss */
+/* line 33, ../sass/_grid.scss */
 body .article .header {
   line-height: 75px;
 }
-/* line 35, ../sass/_grid.scss */
+/* line 36, ../sass/_grid.scss */
 body #footer a {
   font-size: 14px;
 }
-/* line 38, ../sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
 body #footer p a {
   font-size: 18px;
 }
 
-/* line 44, ../sass/_grid.scss */
+/* line 45, ../sass/_grid.scss */
 #spilliams {
   height: 100px;
   line-height: 100px;
   margin-bottom: 50px;
 }
 
-/* line 50, ../sass/_grid.scss */
+/* line 51, ../sass/_grid.scss */
 .icon {
   max-height: 100px;
 }
 
-/* line 52, ../sass/_grid.scss */
+/* line 53, ../sass/_grid.scss */
 img {
   padding: 4px;
 }
 
-/* line 54, ../sass/_grid.scss */
+/* line 55, ../sass/_grid.scss */
 .icon img {
   width: 85px;
   margin-top: 7px;
   padding: 0;
 }
 
-/* line 59, ../sass/_grid.scss */
+/* line 60, ../sass/_grid.scss */
 #scroll-nav img {
   border-width: 0;
 }
 
-/* line 62, ../sass/_grid.scss */
+/* line 63, ../sass/_grid.scss */
 .preview {
   text-align: center;
 }
 
-/* line 64, ../sass/_grid.scss */
+/* line 65, ../sass/_grid.scss */
 .preview img {
   margin: 20px 30px;
   height: 60px;
 }
 
-/* line 67, ../sass/_grid.scss */
+/* line 68, ../sass/_grid.scss */
 .article img {
   width: 100%;
   display: block;
 }
 
-/* line 71, ../sass/_grid.scss */
+/* line 72, ../sass/_grid.scss */
+.article .body {
+  padding-bottom: 75px;
+}
+
+/* line 75, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   margin: 0 10px 10px 0;
@@ -418,7 +436,7 @@ img {
   width: auto;
 }
 
-/* line 77, ../sass/_grid.scss */
+/* line 81, ../sass/_grid.scss */
 .article .body, #footer {
   padding-top: 17px;
 }

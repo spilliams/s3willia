@@ -65,16 +65,35 @@ var articles = [
   {
     discipline:"exp",//eng, exp
     identifier:"wmcsd",
-    published:false,
+    published:true,
     headerTitle:"The Corps of Self-Discovery",
     date:"23 Aug 2013",
     hyperlinks:{
-      "blog post":"http://www.williamsandmeyer.co/day-78-done/"
+      "blog":"http://www.williamsandmeyer.co/",
+      "twitter photos":"https://twitter.com/surlylewis/media/grid",
+      "photosynths":"http://photosynth.net/userprofilepage.aspx?user=spilliams&content=Synths",
+      "route":"http://www.spencersbigadventure.com/tours/5"
     },
-    imageSrc:"",
+    imageSrc:"wmcsd.png",
     paragraphs:[
-      "",
-      ""
+      "In the summer of 2013 I undertook a quest to finish my cross-country cycling tour. This time I was with my good friend Grace, whom I had met in college 4 years previous.",
+      "<img data-src='images/articles/wmcsd/0.jpg'/>",
+      "We started in St Louis MO where Grace lived and about where I left off at the end of last year's tour. We kicked everything off with a big barbecue party with Grace's friends and family, then hit the Katy trail. At first it was slow going because we weren't in shape yet, besides which the Missouri was flooding and there was some tornado damage to cut through.",
+      "<img data-src='images/articles/wmcsd/1.jpg'/>",
+      "For the most part we stayed in public campgrounds. We each brought a tent&mdash;until one fateful stormy night in South Dakota, when we discovered how not-waterproof Grace's tent was. Sometimes we stayed with hosts from the WarmShowers network (which is like Couch Surfing but only for cyclists) and a handful of times we splurged on a hotel. I was really happy to camp though. I have a lot of good childhood memories in campgrounds, and I was disappointed last year that I didn't camp more.",
+      "<img data-src='images/articles/wmcsd/2.jpg'/>",
+      "Our route followed the Lewis &amp; Clark trail up the Missouri River, and we would have continued north some more but we heard some pretty terrifying stories of the hydrofracking in North Dakota. We decided to detour West, and we were not sorry. Advantages of the detour were places like the Badlands, the Black Hills, the Bighorn mountains and Yellowstone National Park.",
+      "<img data-src='images/articles/wmcsd/3.jpg'/>",
+      "<img data-src='images/articles/wmcsd/4.jpg'/>",
+      "There was never a day we didn't get on a bike. We would plan a &quot;rest day&quot; every 4 or 5 riding days, but those ended up being more about laundry and chores than actual resting. But we did some sightseeing too. In the Black Hills we took a day off to bike up the first half of the Needles Highway, to Sylvan Lake. There we took a relaxing swim before hiking up Harney Peak&mdash;the tallest US mountain East of the Rockies. This photo was taken during the Needles ride.",
+      "<img data-src='images/articles/wmcsd/5.jpg'/>",
+      "We had a lot of fun riding through Yellowstone, and once we were in Montana my mother caught up to us in her car and supported us through the Rockies. We drove for parts of that, because not doing so would mean we wouldn't get to see Glacier National Park, which is something I'd wanted to see for a long time.",
+      "Once we were on the Columbia river it wasn't long before we hit the Gorge and its unceasing Easterly winds. That last week of riding was the toughest I can remember, and entailed a couple of late night rides, a couple of early morning rides (before sunrise), and not a few tears of frustration. Here we are just after the 3000-mile mark near Umatilla WA.",
+      "<img data-src='images/articles/wmcsd/7.jpg'/>",
+      "After taking a few days' vacation in Portland, we took to the bikes again to finish the last leg: to the Pacific! We were joined by my brother and Grace's father. We rode out to a primitive USFS campground that Saturday night and the next morning, after stopping for breakfast in Astoria, we made it to Seaside and the welcoming (bronze) arms of Captains Meriwether Lewis and William Clark. Grace's mother and grandmother were there at the finish line too! We all drove back to Portland and enjoyed a celebratory dinner.",
+      "<img data-src='images/articles/wmcsd/8.jpg'/>",
+      "In all, we biked over 3300 miles in 11 weeks. This map shows the route we took, next to last year's for contrast.",
+      "<img data-src='images/articles/wmcsd/route.jpg'/>",
     ]
   },
   {
@@ -145,7 +164,8 @@ var articles = [
     hyperlinks:{
       "photos":"https://www.facebook.com/media/set/?set=a.4988463595772.2198941.1425030030&type=1&l=364ac6498d",
       "videos":"http://www.youtube.com/playlist?list=PLJ9rBKWG7TZ_6twwQPIhbvvr9bQcyHQ7S",
-      "blogs":"http://blog.spencerenglish.com/category/xc-tour/"
+      "blogs":"http://blog.spencerenglish.com/category/xc-tour/",
+      "route":"http://www.spencersbigadventure.com/tours/3"
     },
     imageSrc:"xcbt.jpg",
     paragraphs:[

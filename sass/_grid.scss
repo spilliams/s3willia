@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+$rowHeight: 75px;
 
 
 p, li { font-size: 18px; }
@@ -19,7 +20,7 @@ body {
     cursor: pointer;
   }
   #header {
-    line-height: 75px;
+    line-height: $rowHeight;
     a {
       line-height: 50px;
       font-size: 30px; } }
@@ -30,7 +31,7 @@ body {
   .feature .header {
     line-height: 100px; }
   .article .header {
-    line-height: 75px; }
+    line-height: $rowHeight; }
   #footer { 
     a {
       font-size: 14px;
@@ -67,6 +68,9 @@ img {
 .article img {
   width: 100%;
   display: block;
+}
+.article .body {
+  padding-bottom: $rowHeight;
 }
 .article .body img.thumb {
   float: left;
