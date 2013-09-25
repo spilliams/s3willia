@@ -296,37 +296,19 @@ img {
   border: 0 none transparent;
 }
 
-@font-face {
-  font-family: 'Cantarell';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Cantarell Regular"), local("Cantarell-Regular"), url("http://themes.googleusercontent.com/static/fonts/cantarell/v2/V86VyqXbc09Sss3BPsMj17O3LdcAZYWl9Si6vvxL-qU.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'MuseoSlab-500';
-  src: url("../typefaces/202288_0_0.eot");
-  src: url("../typefaces/202288_0_0.eot?#iefix") format("embedded-opentype"), url("../typefaces/202288_0_0.woff") format("woff"), url("../typefaces/202288_0_0.ttf") format("truetype");
-}
-
-/* line 25, ../sass/_typeset.scss */
+/* line 9, ../sass/_typeset.scss */
 body {
-  font-family: 'MuseoSlab-500';
+  font-family: "Archer SSm A", "Archer SSm B";
 }
 
-/* line 29, ../sass/_typeset.scss */
+/* line 13, ../sass/_typeset.scss */
 #header a, .title {
-  font-family: 'Cantarell', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Verlag A", "Verlag B";
 }
 
-/* line 33, ../sass/_typeset.scss */
+/* line 17, ../sass/_typeset.scss */
 code, pre {
   font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
-}
-
-/* line 36, ../sass/_typeset.scss */
-.header, #spilliams {
-  font-weight: bold;
 }
 
 /* line 8, ../sass/_grid.scss */
