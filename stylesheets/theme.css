@@ -297,17 +297,17 @@ img {
 }
 
 /* line 9, ../sass/_typeset.scss */
-body {
+body, .serif {
   font-family: "Archer SSm A", "Archer SSm B";
 }
 
 /* line 13, ../sass/_typeset.scss */
-#header a, .title {
+#header a, .title, .sans {
   font-family: "Verlag A", "Verlag B";
 }
 
 /* line 17, ../sass/_typeset.scss */
-code, pre {
+code, pre, .monospace {
   font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
 }
 

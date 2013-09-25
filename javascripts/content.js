@@ -20,18 +20,18 @@
 
 var articles = [
   {
-    discipline:"exp",//eng, exp
-    identifier:"wmcsd",
+    discipline:"dev",//eng, exp
+    identifier:"upstart",
     published:false,
-    headerTitle:"The Corps of Self-Discovery",
-    date:"23 Aug 2013",
-    hyperlinks:{
-      "blog post":"http://www.williamsandmeyer.co/day-78-done/"
-    },
-    imageSrc:"foo.png",
+    headerTitle:"Upstart Labs",
+    date:"10/31/2013",
+    hyperlinks:{},
+    imageSrc:"upstart.png",
     paragraphs:[
-      "",
-      ""
+      "My first job out of college was amazing. I had the good fortune to have been snapped up by startup accelerator Upstart Labs in January 2012. I was their first junior developer and I stayed with them for 22 months before they closed doors.",
+      "While I was there I led development on at least 9 major projects, both as a web developer and an iOS developer. In fact, Upstart paid me to learn iOS and&mdash;briefly&mdash;Android.",
+      "My responsibilities were to take initiative during development and to work closely with other team roles including manager, designer, client, test user and back-end developer. In some cases I pair-programmed with another front-end developer, but for the most part I did my work by myself. For some projects we tested out management tools like Lighthouse, Asana, Github Issues or Trello. I didn't write many automated test cases because the team was focused on developing prototypes. Making sure that features worked for 90% of users 90% of the time was more important than buttoning down every edge case.",
+      "The community at Upstart was very supportive. We went to conferences, hosted presentations and brown-bag lunches, threw launch parties for our clients, even played hookie sometimes to make frambois floats on the roof."
     ]
   },
   {
@@ -63,6 +63,21 @@ var articles = [
     ]
   },
   {
+    discipline:"exp",//eng, exp
+    identifier:"wmcsd",
+    published:false,
+    headerTitle:"The Corps of Self-Discovery",
+    date:"23 Aug 2013",
+    hyperlinks:{
+      "blog post":"http://www.williamsandmeyer.co/day-78-done/"
+    },
+    imageSrc:"",
+    paragraphs:[
+      "",
+      ""
+    ]
+  },
+  {
     discipline:"eng",
     identifier:"woodworking2013",
     published:true,
@@ -83,7 +98,9 @@ var articles = [
       "<img data-src='images/articles/tv.jpg'/>",
       "The whole thing is built with 1/2\" birch ply, high-grade stuff.",
       "I'm not exactly proud of it, but I don't consider it a failure. I definitely learned a lot about process and furniture ideals. For instance: furniture looks much nicer with several coats of poly (which this project did not use). And sand, sand, sand, sand. Then, sand.",
-      "My next woodworking project will be to make some coat hooks in the style of Workerman's <a href='http://workerman.storenvy.com/products/6087-muchroom-wall-hook-rosewood' target='_blank'>Muchroom Wall Hook</a>, then matching towel racks. But this hobby phase has run its course for now and I'll get back into it in a few months."
+      "My next woodworking project will be to make some coat hooks in the style of Workerman's <a href='http://workerman.storenvy.com/products/6087-muchroom-wall-hook-rosewood' target='_blank'>Muchroom Wall Hook</a>, then matching towel racks. But this hobby phase has run its course for now and I'll get back into it in a few months.",
+      "<span class='sans'>Update 9/2/2013:</span> I have upgraded the media console in my living room. I had bought a new speaker system and AV receiver, which it turns out is a standard width and too wide for the existing shelf. So I cut the wall out, inserted a support and a new shelf. Then, because I was tired of how much it didn't shine, I applied two coats of satin-finish polyurethane. Oh, and I put real feet on the thing too. Here's the result:",
+      "<img data-src='images/articles/tv2.jpg'/>"
     ]
   },
   {

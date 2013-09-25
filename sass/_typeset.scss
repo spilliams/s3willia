@@ -6,13 +6,13 @@ $monospaceFontFamily : "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
 
 // Usage of typefaces
 // serif
-body {
+body, .serif {
     font-family: $serifFontFamily; }
 
 // sans-serif
-#header a, .title {
+#header a, .title, .sans {
   font-family: $sansSerifFontFamily; }
 
 // monospace/special
-code, pre {
+code, pre, .monospace {
   font-family: $monospaceFontFamily; }

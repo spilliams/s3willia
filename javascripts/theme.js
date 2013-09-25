@@ -76,9 +76,10 @@ $(document).ready(function(){
       }
     }
   };
-  scrollNav();
-  $(window).bind('resize', scrollNav);
-  $(window).bind('scroll', scrollNav);
+  // scrollNav is disabled for now because I kinda don't like it any more. It's too distracting.
+  // scrollNav();
+  // $(window).bind('resize', scrollNav);
+  // $(window).bind('scroll', scrollNav);
   
   // click on scrollnav item, filter content, scroll to top of content
   $("#scroll-nav .icon").click(function(e){
