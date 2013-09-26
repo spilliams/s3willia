@@ -374,51 +374,52 @@ img {
 /* line 44, ../sass/_grid.scss */
 #footer {
   padding-top: 17px;
+  padding-bottom: 75px;
 }
-/* line 46, ../sass/_grid.scss */
+/* line 47, ../sass/_grid.scss */
 #footer a {
   font-size: 14px;
 }
-/* line 49, ../sass/_grid.scss */
+/* line 50, ../sass/_grid.scss */
 #footer p a {
   font-size: 18px;
 }
 
-/* line 55, ../sass/_grid.scss */
+/* line 56, ../sass/_grid.scss */
 .title {
   font-size: 30px;
 }
 
-/* line 58, ../sass/_grid.scss */
+/* line 59, ../sass/_grid.scss */
 .meta {
   font-size: 14px;
 }
 
-/* line 61, ../sass/_grid.scss */
+/* line 62, ../sass/_grid.scss */
 .feature .header {
   line-height: 100px;
 }
 
-/* line 65, ../sass/_grid.scss */
+/* line 66, ../sass/_grid.scss */
 .article img {
   width: 100%;
   display: block;
 }
-/* line 70, ../sass/_grid.scss */
+/* line 71, ../sass/_grid.scss */
 .article .header .title, .article .header .meta {
   margin-top: 22px;
   margin-bottom: 22px;
 }
-/* line 74, ../sass/_grid.scss */
+/* line 75, ../sass/_grid.scss */
 .article .header .meta {
   white-space: nowrap;
 }
-/* line 78, ../sass/_grid.scss */
+/* line 79, ../sass/_grid.scss */
 .article .body {
   padding-top: 17px;
   padding-bottom: 75px;
 }
-/* line 81, ../sass/_grid.scss */
+/* line 82, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   margin: 0 10px 10px 0;
@@ -426,22 +427,22 @@ img {
   width: auto;
 }
 
-/* line 89, ../sass/_grid.scss */
+/* line 90, ../sass/_grid.scss */
 .icon {
   max-height: 100px;
 }
-/* line 91, ../sass/_grid.scss */
+/* line 92, ../sass/_grid.scss */
 .icon img {
   width: 85px;
   margin-top: 7px;
   padding: 0;
 }
 
-/* line 97, ../sass/_grid.scss */
+/* line 98, ../sass/_grid.scss */
 .preview {
   text-align: center;
 }
-/* line 99, ../sass/_grid.scss */
+/* line 100, ../sass/_grid.scss */
 .preview img {
   margin: 20px 30px;
   height: 60px;
