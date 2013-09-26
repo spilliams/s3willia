@@ -1,15 +1,15 @@
 /* Schema to copy-paste
   {
-    discipline:"dev",//eng, exp
-    identifier:"",
+    discipline:"dev",//or eng, exp, required
+    identifier:"", // required
     published:true,
     headerTitle:"",
-    date:"",
+    date:"", // Will appear as plain text
     hyperlinks:{
       "code":"http://github.com/spilliams/",
       "demo":"http://spencerenglish.com/demo/"
     },
-    imageSrc:"foo.png",
+    imageSrc:"foo.png", // or empty string
     paragraphs:[
       "",
       ""
@@ -24,14 +24,17 @@ var articles = [
     identifier:"upstart",
     published:false,
     headerTitle:"Upstart Labs",
-    date:"10/31/2013",
-    hyperlinks:{},
+    date:"October 2013",
+    hyperlinks:{
+      "Upstart's website":"http://www.upstartlabs.com/"
+    },
     imageSrc:"upstart.png",
     paragraphs:[
       "My first job out of college was amazing. I had the good fortune to have been snapped up by startup accelerator Upstart Labs in January 2012. I was their first junior developer and I stayed with them for 22 months before they closed doors.",
       "While I was there I led development on at least 9 major projects, both as a web developer and an iOS developer. In fact, Upstart paid me to learn iOS and&mdash;briefly&mdash;Android.",
       "My responsibilities were to take initiative during development and to work closely with other team roles including manager, designer, client, test user and back-end developer. In some cases I pair-programmed with another front-end developer, but for the most part I did my work by myself. For some projects we tested out management tools like Lighthouse, Asana, Github Issues or Trello. I didn't write many automated test cases because the team was focused on developing prototypes. Making sure that features worked for 90% of users 90% of the time was more important than buttoning down every edge case.",
-      "The community at Upstart was very supportive. We went to conferences, hosted presentations and brown-bag lunches, threw launch parties for our clients, even played hookie sometimes to make frambois floats on the roof."
+      "The community at Upstart was very supportive. We went to conferences, hosted presentations and brown-bag lunches, threw launch parties for our clients, even played hookie sometimes to make frambois floats on the roof.",
+      "I value highly my experiences at Upstart Labs and I don't think I could have found a better entry level position to start my career."
     ]
   },
   {
@@ -39,7 +42,7 @@ var articles = [
     identifier:"coathooks",
     published:true,
     headerTitle:"Coat Hook Build",
-    date:"9 Sept 2013",
+    date:"9 September 2013",
     hyperlinks:{
       "process photos":"https://www.facebook.com/media/set/?set=a.10201033342942155.1073741826.1425030030&type=1&l=2b37e042ab"
     },
@@ -67,7 +70,7 @@ var articles = [
     identifier:"wmcsd",
     published:true,
     headerTitle:"The Corps of Self-Discovery",
-    date:"23 Aug 2013",
+    date:"23 August 2013",
     hyperlinks:{
       "blog":"http://www.williamsandmeyer.co/",
       "twitter photos":"https://twitter.com/surlylewis/media/grid",
@@ -131,7 +134,7 @@ var articles = [
     identifier:"kiss",
     published:true,
     headerTitle:"KISS",
-    date:"8 Dec 2012",
+    date:"8 December 2012",
     hyperlinks:{},
     imageSrc:"",
     paragraphs:[
@@ -147,7 +150,7 @@ var articles = [
     identifier:"tablaptop",
     published:true,
     headerTitle:"DIY Tablaptop",
-    date:"12 Oct 2012",
+    date:"12 October 2012",
     hyperlinks:{},
     imageSrc:"tablaptop.jpg",
     paragraphs:[
@@ -164,7 +167,7 @@ var articles = [
     identifier:"xcbt2012",
     published:true,
     headerTitle:"Personal Growth and Killer Calves",
-    date:"Aug 2012",
+    date:"August 2012",
     hyperlinks:{
       "photos":"https://www.facebook.com/media/set/?set=a.4988463595772.2198941.1425030030&type=1&l=364ac6498d",
       "videos":"http://www.youtube.com/playlist?list=PLJ9rBKWG7TZ_6twwQPIhbvvr9bQcyHQ7S",
@@ -192,7 +195,7 @@ var articles = [
     identifier:"sba",
     published:true,
     headerTitle:"Big Adventure v1.0",
-    date:"Aug 2012",
+    date:"August 2012",
     hyperlinks:{
       "demo":"http://spencersbigadventure.herokuapp.com/"
     },
@@ -252,7 +255,7 @@ var articles = [
     identifier:"ambilight",
     published:true,
     headerTitle:"Ambilight Clone",
-    date:"24 Mar 2012",
+    date:"24 March 2012",
     hyperlinks:{},
     imageSrc:"ambilight.jpg",
     paragraphs:[
@@ -266,7 +269,7 @@ var articles = [
     identifier:"sparrowlike",
     published:true,
     headerTitle:"Panning on a UITableViewCell",
-    date:"21 Mar 2012",
+    date:"21 March 2012",
     hyperlinks:{
       "code/demo":"http://github.com/spilliams/sparrowlike"
     },
@@ -280,7 +283,7 @@ var articles = [
     identifier:"jquery-colorwheel",
     published:true,
     headerTitle:"jQuery ColorWheel",
-    date:"19 Feb 2012",
+    date:"19 February 2012",
     hyperlinks:{
       "code":"http://github.com/spilliams/color-wheel/",
       "demo":"http://spencerenglish.com/demo/jquery/color-wheel/"
@@ -295,7 +298,7 @@ var articles = [
     identifier:"cmu",
     published:true,
     headerTitle:"Bachelor of Science",
-    date:"22 Dec 2011",
+    date:"22 December 2011",
     hyperlinks:{},
     imageSrc:"cmu.png",
     paragraphs:[
@@ -308,7 +311,7 @@ var articles = [
     identifier:"deutschland",
     published:true,
     headerTitle:"Deutschland, Paris, Wien",
-    date:"Jun 2011",
+    date:"June 2011",
     hyperlinks:{},
     imageSrc:"deutschland.jpg",
     paragraphs:[
@@ -326,7 +329,7 @@ var articles = [
     identifier:"ribbrv1",
     published:true,
     headerTitle:"Ribbr v1.0",
-    date:"15 Jun 2011",
+    date:"15 June 2011",
     hyperlinks:{
       "source":"http://ribbr.com/dev/ribbr v1.0.zip",
       "demo":"http://ribbr.com/dev"
@@ -341,7 +344,7 @@ var articles = [
     identifier:"itunes-search",
     published:false,
     headerTitle:"iTunes Search",
-    date:"27 Jul 2007",
+    date:"27 July 2007",
     hyperlinks:{
       "source":"http://spencerenglish.com/demo/other/itunes%20search.scpt"
     },
