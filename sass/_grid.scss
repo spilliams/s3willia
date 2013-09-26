@@ -6,77 +6,98 @@
 $rowHeight: 75px;
 
 
-p, li { font-size: 18px; }
-
 body {
   font-size: 20px;
   line-height: 30px;
-  #scroll-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    text-align: center;
-    cursor: pointer;
-  }
-  #header {
-    line-height: $rowHeight;
-    a {
-      line-height: 50px;
-      font-size: 30px; } }
-  .title {
-    font-size: 30px; }
-  .meta {
-    font-size: 14px; }
-  .feature .header {
-    line-height: 100px; }
-  .article .header {
-    line-height: $rowHeight; }
-  #footer { 
-    a {
-      font-size: 14px;
-    }
-    p a {
-      font-size: 18px;
-    }
-  }
 }
 
+p, li { font-size: 18px; }
+
+img {
+  padding: 4px;
+}
+
+
+#scroll-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  cursor: pointer;
+  img {
+    border-width: 0;
+  }
+}
+#header {
+  line-height: $rowHeight;
+  a {
+    line-height: 50px;
+    font-size: 30px;
+  }
+}
 #spilliams {
   height: 100px;
   line-height: 100px;
-  margin-bottom: 50px; }
-
-// images
-.icon {
-  max-height: 100px;}
-img {
-  padding: 4px; }
-.icon img {
-  width: 85px;
-  margin-top: 7px;
-  padding: 0;
+  margin-bottom: 50px;
+}
+#footer {
+  padding-top: 17px;
+  a {
+    font-size: 14px;
   }
-#scroll-nav img {
-  border-width: 0;
+  p a {
+    font-size: 18px;
+  }
+}
+
+
+.title {
+  font-size: 30px;
+}
+.meta {
+  font-size: 14px;
+}
+.feature .header {
+  line-height: 100px;
+}
+.article {
+  img {
+    width: 100%;
+    display: block;
+  }
+  .header {
+    .title, .meta {
+      margin-top: 22px;
+      margin-bottom: 22px;
+    }
+    .meta {
+      white-space: nowrap;
+    }
+  }
+  .body {
+    padding-top: 17px;
+    padding-bottom: $rowHeight;
+    img.thumb {
+      float: left;
+      margin: 0 10px 10px 0;
+      height: 75px;
+      width: auto;
+    }
+  }
+}
+.icon {
+  max-height: 100px;
+  img {
+    width: 85px;
+    margin-top: 7px;
+    padding: 0;
+  }
 }
 .preview {
-  text-align: center; }
-.preview img {
-  margin: 20px 30px;
-  height: 60px; }
-.article img {
-  width: 100%;
-  display: block;
-}
-.article .body {
-  padding-bottom: $rowHeight;
-}
-.article .body img.thumb {
-  float: left;
-  margin: 0 10px 10px 0;
-  height: 75px;
-  width: auto;
+  text-align: center;
+  img {
+    margin: 20px 30px;
+    height: 60px;
   }
-.article .body, #footer {
-  padding-top: 17px; }
+}

@@ -325,17 +325,23 @@ code, pre, .monospace {
 }
 
 /* line 9, ../sass/_grid.scss */
-p, li {
-  font-size: 18px;
-}
-
-/* line 11, ../sass/_grid.scss */
 body {
   font-size: 20px;
   line-height: 30px;
 }
+
 /* line 14, ../sass/_grid.scss */
-body #scroll-nav {
+p, li {
+  font-size: 18px;
+}
+
+/* line 16, ../sass/_grid.scss */
+img {
+  padding: 4px;
+}
+
+/* line 21, ../sass/_grid.scss */
+#scroll-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -343,92 +349,76 @@ body #scroll-nav {
   text-align: center;
   cursor: pointer;
 }
-/* line 22, ../sass/_grid.scss */
-body #header {
+/* line 28, ../sass/_grid.scss */
+#scroll-nav img {
+  border-width: 0;
+}
+
+/* line 32, ../sass/_grid.scss */
+#header {
   line-height: 75px;
 }
-/* line 24, ../sass/_grid.scss */
-body #header a {
+/* line 34, ../sass/_grid.scss */
+#header a {
   line-height: 50px;
   font-size: 30px;
 }
-/* line 27, ../sass/_grid.scss */
-body .title {
-  font-size: 30px;
-}
-/* line 29, ../sass/_grid.scss */
-body .meta {
-  font-size: 14px;
-}
-/* line 31, ../sass/_grid.scss */
-body .feature .header {
-  line-height: 100px;
-}
-/* line 33, ../sass/_grid.scss */
-body .article .header {
-  line-height: 75px;
-}
-/* line 36, ../sass/_grid.scss */
-body #footer a {
-  font-size: 14px;
-}
-/* line 39, ../sass/_grid.scss */
-body #footer p a {
-  font-size: 18px;
-}
 
-/* line 45, ../sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
 #spilliams {
   height: 100px;
   line-height: 100px;
   margin-bottom: 50px;
 }
 
-/* line 51, ../sass/_grid.scss */
-.icon {
-  max-height: 100px;
+/* line 44, ../sass/_grid.scss */
+#footer {
+  padding-top: 17px;
 }
-
-/* line 53, ../sass/_grid.scss */
-img {
-  padding: 4px;
+/* line 46, ../sass/_grid.scss */
+#footer a {
+  font-size: 14px;
+}
+/* line 49, ../sass/_grid.scss */
+#footer p a {
+  font-size: 18px;
 }
 
 /* line 55, ../sass/_grid.scss */
-.icon img {
-  width: 85px;
-  margin-top: 7px;
-  padding: 0;
+.title {
+  font-size: 30px;
 }
 
-/* line 60, ../sass/_grid.scss */
-#scroll-nav img {
-  border-width: 0;
+/* line 58, ../sass/_grid.scss */
+.meta {
+  font-size: 14px;
 }
 
-/* line 63, ../sass/_grid.scss */
-.preview {
-  text-align: center;
+/* line 61, ../sass/_grid.scss */
+.feature .header {
+  line-height: 100px;
 }
 
 /* line 65, ../sass/_grid.scss */
-.preview img {
-  margin: 20px 30px;
-  height: 60px;
-}
-
-/* line 68, ../sass/_grid.scss */
 .article img {
   width: 100%;
   display: block;
 }
-
-/* line 72, ../sass/_grid.scss */
+/* line 70, ../sass/_grid.scss */
+.article .header .title, .article .header .meta {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+/* line 74, ../sass/_grid.scss */
+.article .header .meta {
+  white-space: nowrap;
+}
+/* line 78, ../sass/_grid.scss */
 .article .body {
+  padding-top: 17px;
   padding-bottom: 75px;
 }
-
-/* line 75, ../sass/_grid.scss */
+/* line 81, ../sass/_grid.scss */
 .article .body img.thumb {
   float: left;
   margin: 0 10px 10px 0;
@@ -436,9 +426,25 @@ img {
   width: auto;
 }
 
-/* line 81, ../sass/_grid.scss */
-.article .body, #footer {
-  padding-top: 17px;
+/* line 89, ../sass/_grid.scss */
+.icon {
+  max-height: 100px;
+}
+/* line 91, ../sass/_grid.scss */
+.icon img {
+  width: 85px;
+  margin-top: 7px;
+  padding: 0;
+}
+
+/* line 97, ../sass/_grid.scss */
+.preview {
+  text-align: center;
+}
+/* line 99, ../sass/_grid.scss */
+.preview img {
+  margin: 20px 30px;
+  height: 60px;
 }
 
 /* line 15, ../sass/theme.scss */
