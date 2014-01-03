@@ -43,7 +43,7 @@ var articles = [
       "<img data-src='images/articles/oakdesk/mouse.jpg'/>Embedded inductive charger.",
       "<img data-src='images/articles/oakdesk/bookend1.jpg'/>Woodburned design onto oak panels...",
       "<img data-src='images/articles/oakdesk/bookend2.jpg'/>...then cut and bent steel to provide structure.",
-      "Unfortunately these projects have all fallen by the wayside, as I recently started a new job with a smaller desk. That means I have no room to put the mousepad or bookends, and little need for the pen box (since I have no room to put the wacom tablet). I did make a new laptop stand though, to fit the space I'm in better:",
+      "Unfortunately these projects have all fallen by the wayside, as I recently started a new job with a smaller desk. That means I have no room to put the mousepad or bookends, and little need for the pen box (since I have no room to put the wacom tablet). I did make a new laptop stand though, to better fit my new space:",
       "<img data-src='images/articles/oakdesk/laptop3.jpg'/>Cedar plank on 4&quot; Capita legs from Ikea. Increased my desk real estate by 33%!"
     ]
   },
