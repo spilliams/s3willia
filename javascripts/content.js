@@ -48,6 +48,85 @@ var articles = [
     ]
   },
   {
+    discipline:"eng",
+    identifier:"cedar",
+    published:true,
+    headerTitle:"You Can Cedar Improvement!",
+    date:"December 2013",
+    hyperlinks:{
+      "table process":"https://www.facebook.com/media/set/?set=a.10202906612772730.1073741839.1425030030&type=1&l=680824688b",
+      "knife rack process":"https://www.facebook.com/media/set/?set=a.10202405876654640.1073741831.1425030030&type=1&l=e3ce05e678",
+      "bath rack process":"https://www.facebook.com/media/set/?set=a.10202361779672243.1073741829.1425030030&type=1&l=fd793e87e7"
+    },
+    imageSrc:"",
+    paragraphs:[
+      "This fall I did some home improvement. None of these projects were big or important enough to warrant their own article, but they lump together quite nicely!",
+      "Anyone who has recently talked to me about woodworking or wood knows that Red Cedar is my favorite wood (and it has been as long as I can remember). The smell brings me back to sunny summer days spent at my family's camp in the Adirondacks. The grain is distinct and carries a texture that invites touching. Plus, the wood wards away moths. What's not to like?",
+      "When my previous employer closed doors they sold off all of their furniture. I ended up with an Ikea Docksta table at a very reasonable price. Bad news: the 41&quot; diameter top didn't really fit anywhere in my apartment. So until the day I move into a bigger house, or it stops raining enough to put the table out on the patio, I've built a new tabletop out of cedar!",
+      "<img data-src='images/articles/cedar/docksta1.jpg'/>",
+      "First I glued some planks together. Then I cut out a circle. Then I planed and sanded it smooth. After applying a coat of Natural stain and a couple coats of Polyurethane, I cut a groove into the back, so the top would settle nicely into the lip of the table stand's bracket.",
+      "<img data-src='images/articles/cedar/docksta2.jpg'/>Perfect for mail, keys, hats and gloves!",
+      "Another cedar project, this time for the kitchen, was a magnetic knife rack. I'd seen a similar rack on Pinterest and wanted one of my own, but the one I saw looked dangerous: the knife blades were accessible, meaning that one slip and I could cut myself. Since the kitchen is also a place where I sometimes drink alcohol, I thought that maybe concealing the knife blades would be smart.",
+      "<img data-src='images/articles/cedar/knife1.jpg'/>",
+      "I started by cutting and sanding a small plank. I traced the knife outlines and carved the indentations. Flipping it over, I drilled channels to hold some strong neodymium magnets. Then I installed some hardware so that the rack would fit on the wall. After two or three coats of Tung oil, it was ready to mount!",
+      "<img data-src='images/articles/cedar/knife2.jpg'/>",
+      "Here's a short action clip:",
+      "<iframe width='420' height='315' src='//www.youtube.com/embed/-rsTxgcdaiw' frameborder='0' allowfullscreen></iframe>",
+      "Ok so this one's not made of cedar but it is home improvement and it wouldn't get posted on its own: I was tired of my bathroom towel rack. First of all, it's located on the inside of the bathroom door, which is terrible if the door is always open, because the towel never dries and thus becomes moldy. Secondly, it's one of the normal hardware-store towel racks that looks, feels and even sounds cheap. So I built one out of oak and steel dowel that only looks cheap.",
+      "<img data-src='images/articles/cedar/bath1.jpg'/>It's even wide enough for two towels (bunched-up a little).",
+      "Then, thinking that it's a little weird to use someone else's shower towel to dry your hands, I made a hand-towel ring in the same style.",
+      "<img data-src='images/articles/cedar/bath2.jpg'/>Hand-bending that ring was tricky.",
+      "A good season for improving my home!"
+    ]
+  },
+  {
+    discipline:"eng",
+    identifier:"manzanita",
+    published:true,
+    headerTitle:"¡Manzanita!",
+    date:"7 December 2013",
+    hyperlinks:{
+      "process photos":"https://www.facebook.com/media/set/?set=a.10202685010352808.1073741837.1425030030&type=1&l=7a9668ef4a"
+    },
+    imageSrc:"",
+    paragraphs:[
+      "Some friends of mine have a steadily-flowing supply of homebrew in their apartment, and they've set up a home bar. Only thing is, they needed tap handles. Hooray, another commission!",
+      "My original idea was to find some gnarly roots and pretty them up to become tap handles. My friends like the idea of a natural look and suggested Manzanita driftwood, which I immediately took to. I contacted a guy in California who sells the stuff and he picked out a great sampling for me.",
+      "<img data-src='images/articles/manzanita/1.jpg'/>",
+      "After cutting them to the right size and orientation, I applied stain according to the color of beer that the handle would be for. Then two coats of poly sealed up the outside.",
+      "<img data-src='images/articles/manzanita/2.jpg'/>",
+      "In order to be used as a tap handle, a piece must include a tap handle insert, which is simply a length of threaded metal. Common (American) taps use a 3/8&quot-16 (UNC) thread, so inserting them is very easy with a 3/8&quot; bolt and locknut assembly.",
+      "<img data-src='images/articles/manzanita/3.jpg'/>",
+      "Because Manzanita is such a hard wood I bored a hole slightly larger than the inserts, so that the outer threads wouldn't have to cut through so much wood. Parts of this project were aggravating but once I figured out a good tooling it went quite smoothly!",
+      "<img data-src='images/articles/manzanita/4.jpg'/>",
+      "Because I know my friends can be quite industrious I included my leftover inserts and the insert tool with the finished handles."
+    ]
+  },
+  {
+    discipline:"eng",
+    identifier:"blantons",
+    published:true,
+    headerTitle:"Blanton's Horse",
+    date:"6 December 2013",
+    hyperlinks:{
+      "process photos":"https://www.facebook.com/media/set/?set=a.10202613677369528.1073741836.1425030030&type=1&l=6a7e92ca6f"
+    },
+    imageSrc:"",
+    paragraphs:[
+      "Some friends of mine are working their way towards a complete collection of Blanton's Bourbon corks. If you haven't seen them, they're sort of fantastic.",
+      "<img data-src='images/articles/blantons/0.jpg'/>",
+      "Each of the 8 collectible corks features a horse in some semblance of movement, as well as a letter ('B', 'L', 'A', etc). As the letters progress, the horse goes from a walking stance to a galloping stance.",
+      "In order to show off this collection most admirably, I chose my materials to be long and thin, so the horses would all line up. As for which material, there was only ever one contender: a used bourbon barrel stave straight from Jim Beam's personal cellar [citation needed].",
+      "<img data-src='images/articles/blantons/1.jpg'/>",
+      "Cutting and carving on the rounded surfaces was not the easiest thing in the world. I used the medium-width stave for the actual display, and the wider stave for the stand's feet.",
+      "<img data-src='images/articles/blantons/2.jpg'/>",
+      "<img data-src='images/articles/blantons/3.jpg'/>",
+      "<img data-src='images/articles/blantons/4.jpg'/>",
+      "The joinery at the feet is still very shoddy. I'm not even close to mastering it. But it doesn't look half-bad, I think.",
+      "<img data-src='images/articles/blantons/5.jpg'/>",
+    ]
+  },
+  {
     discipline:"dev",//eng, exp
     identifier:"upstart",
     published:true,
