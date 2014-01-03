@@ -22,7 +22,7 @@ var articles = [
   {
     discipline:"dev",//eng, exp
     identifier:"upstart",
-    published:false,
+    published:true,
     headerTitle:"Upstart Labs",
     date:"October 2013",
     hyperlinks:{
@@ -243,7 +243,7 @@ var articles = [
     imageSrc:"tea.jpg",
     paragraphs:[
       "I've been thinking about designed decay. Like when you break in a shoe and its performance becomes better as it wears out. Where the object is designed to decay, where the decay is built into its function or form.",
-      "I think it's a really cool idea to make things that mutate as they age such that the mutations are designed.",
+      "I think it's a really cool idea to make things that mutate as they age, and to have those mutations be expected and even desired.",
       "I made a few coasters out of a bit of untreated white birch plywood. Really nice stuff. Every time I drink tea I'll leave the teabag sitting on it. When the stain dries it gets darker and takes shape. Subsequent teabag-stains overwrite the previous ones, and splashing water on the coaster will wipe them all out.",
       "<img data-src='images/articles/tea.JPG'/>",
       "This is the kind of \"decay\" I'm referring to. No, the coaster isn't structurally compromised, but its original form is not being preserved either. One thing I noticed about the coaster's mutation is that when I get a really dark or interesting stain on it, my interaction with the coaster becomes different. I don't put teabags on it as willingly, or I do so in a way I hope will augment the stain rather than wipe it out. The mutation of the item's form has also affected its function.",
