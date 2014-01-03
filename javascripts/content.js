@@ -20,6 +20,34 @@
 
 var articles = [
   {
+    discipline:"eng",
+    identifier:"deskset",
+    published:true,
+    headerTitle:"Oak Desk Set",
+    date:"December 2013",
+    hyperlinks:{
+      "laptop stand photos":"https://www.facebook.com/media/set/?set=a.10202198386507516.1073741828.1425030030&type=1&l=b0cb4867a2",
+      "pen holder / box photos":"https://www.facebook.com/media/set/?set=a.10202441536226107.1073741834.1425030030&type=1&l=1e57026c47",
+      "mouse pad photos":"https://www.facebook.com/media/set/?set=a.10202443404152804.1073741835.1425030030&type=1&l=0ef805859a",
+      "bookend photos":"https://www.facebook.com/media/set/?set=a.10202361782592316.1073741830.1425030030&type=1&l=59eacb72c7"
+    },
+    imageSrc:"oakdesk.jpg",
+    paragraphs:[
+      "Sometime this past spring I decided to do some renovating at my desk at work. I had a messy stack of books, cables were everywhere, and the desk space was generally used inefficiently. Various upgrades were planned in order to achieve a healthier workplace:",
+      "<ul><li>I upgraded my mouse and keyboard with <a href='http://www.mobeetechnology.com/' target='_blank'>Mobee Technology's</a> inductive charging solutions for keyboard and mouse</li><li>I built a laptop stand to hold my laptop above the work surface, freeing up a little bit of real estate but mostly providing the aesthetic benefit of aligning the monitors more closely</li><li>I build a pen holder and box to hold my various writing tools. Around this time I had also started using a Wacom tablet as an input method. I enjoyed the novelty, but in the end it hurt my hand to work all day with it, plus it was slower than a conventional mouse.</li><li>I started to build a mousepad with Mobee's inductive charging pad embedded so that the mouse would charge 'magically'.</li><li>I built a pair of bookends to keep my programming books upright and tidy-looking.</li></ul>",
+      "Each of the things I built were of solid red oak, with the exception of the bookends, which also used steel (for weight and aesthetic).",
+      "<img data-src='images/articles/oakdesk/laptop1.jpg'/>Fastened entirely with glue. The platform is the perfect size for a Macbook Air 11&quot;, and if used with an iPad the notch becomes available to contain a stylus.",
+      "<img data-src='images/articles/oakdesk/laptop2.jpg'/>Pretty good height!",
+      "<img data-src='images/articles/oakdesk/pen1.jpg'/>Marking the bottom of the box for carving.",
+      "<img data-src='images/articles/oakdesk/pen2.jpg'/>The holes were drilled to fit specific implements. The box is meant to contain spare nibs, lead, etc.",
+      "<img data-src='images/articles/oakdesk/mouse.jpg'/>Embedded inductive charger.",
+      "<img data-src='images/articles/oakdesk/bookend1.jpg'/>Woodburned design onto oak panels...",
+      "<img data-src='images/articles/oakdesk/bookend2.jpg'/>...then cut and bent steel to provide structure.",
+      "Unfortunately these projects have all fallen by the wayside, as I recently started a new job with a smaller desk. That means I have no room to put the mousepad or bookends, and little need for the pen box (since I have no room to put the wacom tablet). I did make a new laptop stand though, to fit the space I'm in better:",
+      "<img data-src='images/articles/oakdesk/laptop3.jpg'/>Cedar plank on 4&quot; Capita legs from Ikea. Increased my desk real estate by 33%!"
+    ]
+  },
+  {
     discipline:"dev",//eng, exp
     identifier:"upstart",
     published:true,
